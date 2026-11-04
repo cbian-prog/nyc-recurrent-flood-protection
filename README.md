@@ -1,6 +1,6 @@
-# Flood protection built for rare losses misses the floods that recur
+# Recurrent flooding beyond the reach of flood protection in New York City
 
-Code and data for Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Flood protection built for rare losses misses the floods that recur* (submitted to *Nature Cities*, 2026).
+Code and data for Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood protection in New York City* (submitted to *Nature Cities*, 2026).
 
 The study places New York City's flood sources (coastal surge, rainfall and tide), the assets they reach (buildings, basement homes and subway stations) and three protection instruments (the FEMA flood map, the sewer design standard and the National Flood Insurance Program) on one frequency axis. Every input is a public dataset.
 

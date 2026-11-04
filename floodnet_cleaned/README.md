@@ -1,6 +1,6 @@
 # Cleaned FloodNet street-flood record, New York City (Paper A)
 
-This package holds the street-flood record used in *Flood protection built for rare losses misses the floods that recur*
+This package holds the street-flood record used in *Recurrent flooding beyond the reach of flood protection in New York City*
 (Nature Cities, submitted). It keeps every event in the source table and states, for each one, whether it passes the
 checks and why not if it does not. Usable floods are in `floods_clean.csv`; removed events, each with a reason code, are in
 `excluded_events.csv`; `events_flagged.csv` holds all events with every flag.
