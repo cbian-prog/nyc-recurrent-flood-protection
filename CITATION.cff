@@ -16,7 +16,7 @@ authors:
   - family-names: Zheng
     given-names: Tian
     affiliation: "Department of Statistics, Columbia University"
-repository-code: "[GITHUB_URL]"
+repository-code: "https://github.com/cbian-prog/nyc-recurrent-flood-protection"
 keywords: [flood risk, New York City, storm surge, pluvial flooding, tidal flooding, flood insurance, FloodNet]
 preferred-citation:
   type: article
