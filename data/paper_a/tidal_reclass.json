@@ -1,0 +1,20 @@
+{
+ "Q-beach-59th-st-beach-channel-dr-1zbc0d": {
+  "name": "Q - Beach Chn Dr/ Beach 59th St",
+  "to_water_m": 78,
+  "dry_floods": 4,
+  "dry_at_high_tide": 4
+ },
+ "SI-haven-ave-adam-ave-1qijg0": {
+  "name": "SI - Haven Ave/ Adam Ave",
+  "to_water_m": 470,
+  "dry_floods": 4,
+  "dry_at_high_tide": 3
+ },
+ "BK-neptune-ave-w-35th-st-1xvfk0": {
+  "name": "BK - Neptune Ave W 35th St",
+  "to_water_m": 443,
+  "dry_floods": 6,
+  "dry_at_high_tide": 5
+ }
+}

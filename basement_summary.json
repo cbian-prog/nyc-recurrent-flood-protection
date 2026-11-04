@@ -1,0 +1,70 @@
+{
+ "footprints": {
+  "DEP moderate (1-in-18 yr)": {
+   "lots": 2596,
+   "units": 7084,
+   "informal": 622.2778330477313
+  },
+  "DEP moderate (1-in-18 yr) \u2014 deep \u22651 ft": {
+   "lots": 1292,
+   "units": 3777,
+   "informal": 307.51666498665486
+  },
+  "DEP extreme (1-in-458 yr)": {
+   "lots": 20996,
+   "units": 51136,
+   "informal": 5055.414093692067
+  },
+  "DEP extreme (1-in-458 yr) \u2014 deep \u22651 ft": {
+   "lots": 11976,
+   "units": 29406,
+   "informal": 2885.060896775692
+  },
+  "SLOSH Cat1 surge": {
+   "lots": 36541,
+   "units": 123641,
+   "informal": 8696.901035617711
+  },
+  "SLOSH Cat3 surge": {
+   "lots": 95618,
+   "units": 340785,
+   "informal": 22379.519049142535
+  },
+  "311 / FloodNet observed within 200 m": {
+   "lots": 314736,
+   "units": 1079537,
+   "informal": 72973.87946864878
+  }
+ },
+ "by_boro": {
+  "basement lots": {
+   "Bronx": 29734,
+   "Brooklyn": 131665,
+   "Manhattan": 16307,
+   "Queens": 226896,
+   "Staten Is.": 82004
+  },
+  "informal units (alloc.)": {
+   "Bronx": 7073.0,
+   "Brooklyn": 30060.0,
+   "Manhattan": 897.0,
+   "Queens": 55579.0,
+   "Staten Is.": 20391.0
+  },
+  "in DEP extreme": {
+   "Bronx": 343.0,
+   "Brooklyn": 1397.0,
+   "Manhattan": 12.0,
+   "Queens": 2868.0,
+   "Staten Is.": 436.0
+  },
+  "in Cat3 surge": {
+   "Bronx": 1102.0,
+   "Brooklyn": 11547.0,
+   "Manhattan": 242.0,
+   "Queens": 7528.0,
+   "Staten Is.": 1961.0
+  }
+ },
+ "informal_total": 114000
+}

@@ -1,0 +1,163 @@
+{
+ "footprints": {
+  "surge Cat1": {
+   "stations": 47,
+   "underground": 15,
+   "entrances_underground": 69,
+   "track_km": 49.775,
+   "underground_km": 14.74
+  },
+  "surge Cat2": {
+   "stations": 73,
+   "underground": 33,
+   "entrances_underground": 152,
+   "track_km": 71.885,
+   "underground_km": 28.545
+  },
+  "surge Cat3": {
+   "stations": 111,
+   "underground": 56,
+   "entrances_underground": 276,
+   "track_km": 100.705,
+   "underground_km": 45.375
+  },
+  "pluvial extreme": {
+   "stations": 71,
+   "underground": 40,
+   "entrances_underground": 223,
+   "track_km": 48.73,
+   "underground_km": 26.235
+  },
+  "pluvial deep \u22651 ft": {
+   "stations": 26,
+   "underground": 20,
+   "entrances_underground": 79,
+   "track_km": 18.48,
+   "underground_km": 10.175
+  },
+  "Sandy 2012 observed": {
+   "stations": 30,
+   "underground": 5,
+   "entrances_underground": 23,
+   "track_km": 37.95,
+   "underground_km": 8.415000000000001
+  }
+ },
+ "per_line": {
+  "1": {
+   "ug_stations": 30,
+   "in_cat1": 7,
+   "in_pluvial_deep": 2
+  },
+  "W": {
+   "ug_stations": 16,
+   "in_cat1": 3,
+   "in_pluvial_deep": 1
+  },
+  "R": {
+   "ug_stations": 45,
+   "in_cat1": 3,
+   "in_pluvial_deep": 2
+  },
+  "C": {
+   "ug_stations": 40,
+   "in_cat1": 3,
+   "in_pluvial_deep": 2
+  },
+  "B": {
+   "ug_stations": 31,
+   "in_cat1": 2,
+   "in_pluvial_deep": 1
+  },
+  "Q": {
+   "ug_stations": 12,
+   "in_cat1": 2,
+   "in_pluvial_deep": 1
+  },
+  "J": {
+   "ug_stations": 8,
+   "in_cat1": 2,
+   "in_pluvial_deep": 1
+  },
+  "G": {
+   "ug_stations": 19,
+   "in_cat1": 2,
+   "in_pluvial_deep": 2
+  },
+  "Z": {
+   "ug_stations": 8,
+   "in_cat1": 2,
+   "in_pluvial_deep": 1
+  },
+  "A": {
+   "ug_stations": 24,
+   "in_cat1": 2,
+   "in_pluvial_deep": 2
+  },
+  "6": {
+   "ug_stations": 27,
+   "in_cat1": 2,
+   "in_pluvial_deep": 3
+  },
+  "3": {
+   "ug_stations": 27,
+   "in_cat1": 2,
+   "in_pluvial_deep": 1
+  },
+  "D": {
+   "ug_stations": 23,
+   "in_cat1": 1,
+   "in_pluvial_deep": 1
+  },
+  "2": {
+   "ug_stations": 31,
+   "in_cat1": 1,
+   "in_pluvial_deep": 2
+  },
+  "N": {
+   "ug_stations": 11,
+   "in_cat1": 1,
+   "in_pluvial_deep": 1
+  },
+  "E": {
+   "ug_stations": 22,
+   "in_cat1": 1,
+   "in_pluvial_deep": 4
+  },
+  "F": {
+   "ug_stations": 31,
+   "in_cat1": 0,
+   "in_pluvial_deep": 4
+  },
+  "7": {
+   "ug_stations": 7,
+   "in_cat1": 0,
+   "in_pluvial_deep": 0
+  },
+  "L": {
+   "ug_stations": 17,
+   "in_cat1": 0,
+   "in_pluvial_deep": 0
+  },
+  "M": {
+   "ug_stations": 24,
+   "in_cat1": 0,
+   "in_pluvial_deep": 2
+  },
+  "5": {
+   "ug_stations": 23,
+   "in_cat1": 0,
+   "in_pluvial_deep": 2
+  },
+  "4": {
+   "ug_stations": 16,
+   "in_cat1": 0,
+   "in_pluvial_deep": 0
+  },
+  "S": {
+   "ug_stations": 2,
+   "in_cat1": 0,
+   "in_pluvial_deep": 0
+  }
+ }
+}

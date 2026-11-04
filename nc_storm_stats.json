@@ -1,0 +1,67 @@
+{
+ "years": 5.801505817932923,
+ "storm_days": 484,
+ "storm_days_per_year": 83.42661632845682,
+ "flood_storm_days": 72,
+ "flood_storm_days_per_year": 12.410571024067956,
+ "storm_days_1ft": 8,
+ "flood_sensor_days": 311,
+ "flood_sensor_days_1ft": 54,
+ "by_citywide_max": {
+  "classes": [
+   "<0.5",
+   "0.5-1",
+   "1-1.75",
+   ">=1.75"
+  ],
+  "per_year": [
+   67.91,
+   11.2,
+   2.59,
+   1.72
+  ],
+  "share_with_flood": [
+   0.079,
+   0.369,
+   0.667,
+   0.7
+  ],
+  "flood_sensor_days": [
+   68,
+   52,
+   85,
+   106
+  ]
+ },
+ "share_flood_days_top10_storms": 0.6302250803858521,
+ "share_flood_dates_with_1_2_sensors": 0.6388888888888888,
+ "sensors_with_flood": 135,
+ "sensors": 407,
+ "share_flood_days_top10pct_sensors": 0.3954983922829582,
+ "share_flood_days_light_rain": 0.38263665594855306,
+ "share_light_rain_flood_days_top5_sensors": 0.48739495798319327,
+ "below_design": 0.932475884244373,
+ "below_design_ci95": [
+  0.8810087864647242,
+  0.9803969160479725
+ ],
+ "below_design_1ft": 0.7037037037037037,
+ "below_design_1ft_ci95": [
+  0.4374320652173913,
+  0.8615624999999999
+ ],
+ "fixed_network": {
+  "min_active": 100,
+  "first": "2024-11-28",
+  "last": "2026-08-20",
+  "storm_days": 137,
+  "flood_storm_days": 49,
+  "share_top5": 0.5648248603726652,
+  "share_top10": 0.6840344167944955
+ },
+ "spearman_flood_rate_vs_low_point_height": {
+  "rho": -0.14385470383512028,
+  "p": 0.003675137872543695,
+  "n": 406
+ }
+}

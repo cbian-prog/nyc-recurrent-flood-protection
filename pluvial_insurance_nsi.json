@@ -1,0 +1,102 @@
+{
+ "Moderate, current SL": {
+  "all": {
+   "loss_bn": 0.3485602902011522,
+   "upper_bn": 0.15998504178128128,
+   "upper_pct": 45.898814718381956,
+   "expected_bn": 0.01274406190964593,
+   "expected_pct": 3.656200166201205,
+   "bgs": 744,
+   "bgs_nopolicy": 239,
+   "contracts_in_bgs": 11499,
+   "loss_share_pct": 100.0,
+   "contract_share_pct": 31.11117123454452
+  },
+  "surge-side BGs": {
+   "loss_bn": 0.06110562156135118,
+   "upper_bn": 0.04164991448355146,
+   "upper_pct": 68.16052831036858,
+   "expected_bn": 0.008428811981612602,
+   "expected_pct": 13.793840511302088,
+   "bgs": 111,
+   "bgs_nopolicy": 8,
+   "contracts_in_bgs": 8736,
+   "loss_share_pct": 17.530861454724942,
+   "contract_share_pct": 23.635724141662834
+  },
+  "pluvial-only BGs": {
+   "loss_bn": 0.2528125674403557,
+   "upper_bn": 0.08936797808822915,
+   "upper_pct": 35.34949982631426,
+   "expected_bn": 0.002799616102893032,
+   "expected_pct": 1.107388027121526,
+   "bgs": 529,
+   "bgs_nopolicy": 224,
+   "contracts_in_bgs": 1194,
+   "loss_share_pct": 72.53051324190112,
+   "contract_share_pct": 3.2304320770541923
+  },
+  "outside surge domain BGs": {
+   "loss_bn": 0.034642101199445316,
+   "upper_bn": 0.02896714920950068,
+   "upper_pct": 83.61833782173842,
+   "expected_bn": 0.0015156338251402942,
+   "expected_pct": 4.375120944351269,
+   "bgs": 104,
+   "bgs_nopolicy": 7,
+   "contracts_in_bgs": 1569,
+   "loss_share_pct": 9.93862530337393,
+   "contract_share_pct": 4.2450150158274935
+  }
+ },
+ "Extreme, 2080 SL": {
+  "all": {
+   "loss_bn": 3.2284589937258454,
+   "upper_bn": 1.0137995223905178,
+   "upper_pct": 31.401963734423315,
+   "expected_bn": 0.08663731267670467,
+   "expected_pct": 2.6835500418334184,
+   "bgs": 3000,
+   "bgs_nopolicy": 1193,
+   "contracts_in_bgs": 24323,
+   "loss_share_pct": 100.0,
+   "contract_share_pct": 65.80720218608803
+  },
+  "surge-side BGs": {
+   "loss_bn": 0.5925111031101367,
+   "upper_bn": 0.38091901815479384,
+   "upper_pct": 64.28892490880263,
+   "expected_bn": 0.0626007429938265,
+   "expected_pct": 10.565328255492657,
+   "bgs": 408,
+   "bgs_nopolicy": 30,
+   "contracts_in_bgs": 17195,
+   "loss_share_pct": 18.35275294688942,
+   "contract_share_pct": 46.52200968588512
+  },
+  "pluvial-only BGs": {
+   "loss_bn": 2.47553689179286,
+   "upper_bn": 0.5253257414258927,
+   "upper_pct": 21.220679165295557,
+   "expected_bn": 0.019401798162550426,
+   "expected_pct": 0.783741023083645,
+   "bgs": 2403,
+   "bgs_nopolicy": 1144,
+   "contracts_in_bgs": 5088,
+   "loss_share_pct": 76.67859175550296,
+   "contract_share_pct": 13.765861313276156
+  },
+  "outside surge domain BGs": {
+   "loss_bn": 0.16041099882284884,
+   "upper_bn": 0.10755476280983133,
+   "upper_pct": 67.04949386208253,
+   "expected_bn": 0.004634771520327749,
+   "expected_pct": 2.8893103056145137,
+   "bgs": 189,
+   "bgs_nopolicy": 19,
+   "contracts_in_bgs": 2040,
+   "loss_share_pct": 4.9686552976076195,
+   "contract_share_pct": 5.5193311869267605
+  }
+ }
+}

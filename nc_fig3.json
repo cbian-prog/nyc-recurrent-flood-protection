@@ -1,0 +1,74 @@
+{
+ "rows": [
+  [
+   "Extreme-rain flooded area",
+   92.64214780557339,
+   "65 km\u00b2",
+   86.89512412234728
+  ],
+  [
+   "Rain-exposed basement lots",
+   96.81415140578353,
+   "21,728 / 22,443",
+   90.46112786042603
+  ],
+  [
+   "Rain-exposed underground stations",
+   95.65217391304348,
+   "44 / 46",
+   93.47826086956522
+  ],
+  [
+   "Flood days below the standard, hourly rain",
+   93.2475884244373,
+   "290 / 311",
+   null
+  ],
+  [
+   "Same, 30-min peak (estimated)",
+   61.41479099678456,
+   "15-min peak: 42%",
+   null
+  ],
+  [
+   "Rain-side building loss (expected)",
+   99.21625897691635,
+   "USD 2.5 bn",
+   null
+  ],
+  [
+   "Basement apartments (policy terms)",
+   100.0,
+   "\u226550,000 informal units",
+   null
+  ],
+  [
+   "Tidal flood days (flood map)",
+   0.700190961171232,
+   "56 of 67 tidal sensors inside",
+   2.546148949713556
+  ],
+  [
+   "Surge-side 1-in-100-yr loss (insurance, expected)",
+   80.58677411112392,
+   "USD 8.2 bn",
+   null
+  ]
+ ],
+ "policies_rain": 13.765861313276156,
+ "policies_surge": 46.52200968588512,
+ "policies_outside": 34.19279781391195,
+ "policies_outside_domain": 5.5193311869267605,
+ "loss_rain": 76.67859175550296,
+ "loss_surge": 18.35275294688942,
+ "loss_outside_domain": 4.9686552976076195,
+ "insurable_rain": [
+  0.783741023083645,
+  21.220679165295557
+ ],
+ "insurable_surge": [
+  10.565328255492657,
+  64.28892490880263
+ ],
+ "rain_bgs_nopolicy": 0.4760715771951727
+}

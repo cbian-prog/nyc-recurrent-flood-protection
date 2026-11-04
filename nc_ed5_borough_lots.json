@@ -1,0 +1,16 @@
+{
+ "1-in-100-yr surge": {
+  "Queens": 8850,
+  "Brooklyn": 8090,
+  "Staten Is.": 2934,
+  "Bronx": 233,
+  "Manhattan": 71
+ },
+ "Extreme rain": {
+  "Queens": 11810,
+  "Brooklyn": 5591,
+  "Staten Is.": 3623,
+  "Bronx": 1372,
+  "Manhattan": 47
+ }
+}

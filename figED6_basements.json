@@ -1,0 +1,80 @@
+{
+ "informal_by_allocation": {
+  "Surge 10-yr": {
+   "Uniform": 606.2899641938353,
+   "LMI-weighted": 571.4428345986262,
+   "LMI above 30% only": 544.115305038388
+  },
+  "Surge 100-yr": {
+   "Uniform": 5040.675277092381,
+   "LMI-weighted": 4693.701792663336,
+   "LMI above 30% only": 4288.507558770838
+  },
+  "Surge 1000-yr": {
+   "Uniform": 10636.679186406805,
+   "LMI-weighted": 9943.405201002755,
+   "LMI above 30% only": 8974.554857776675
+  },
+  "DEP moderate": {
+   "Uniform": 731.1951896148973,
+   "LMI-weighted": 738.4702615850351,
+   "LMI above 30% only": 739.1714085453143
+  },
+  "DEP extreme": {
+   "Uniform": 5606.4959482497925,
+   "LMI-weighted": 5639.93798290766,
+   "LMI above 30% only": 5645.387705529055
+  }
+ },
+ "lots": {
+  "Surge 10-yr": 2427,
+  "Surge 100-yr": 20178,
+  "Surge 1000-yr": 42579,
+  "DEP moderate": 2927,
+  "DEP extreme": 22443
+ },
+ "by_boro_uniform": {
+  "Surge 100-yr": {
+   "Queens": 2210.822489952799,
+   "Brooklyn": 2020.9665473127845,
+   "Staten Is.": 732.9438627707923,
+   "Bronx": 58.20583504621493,
+   "Manhattan": 17.736542009790817
+  },
+  "DEP extreme": {
+   "Queens": 2950.261424445486,
+   "Brooklyn": 1396.6902306583163,
+   "Staten Is.": 905.0632634010159,
+   "Bronx": 342.73993855539436,
+   "Manhattan": 11.741091189579835
+  }
+ },
+ "below_first_floor_share_aai": 0.08389964462000869,
+ "depth_classes": {
+  "Surge 10-yr": [
+   1412,
+   938,
+   77
+  ],
+  "Surge 100-yr": [
+   4705,
+   10359,
+   5114
+  ],
+  "Surge 1000-yr": [
+   3838,
+   10558,
+   28183
+  ],
+  "DEP moderate": [
+   1556,
+   1371,
+   0
+  ],
+  "DEP extreme": [
+   9881,
+   12562,
+   0
+  ]
+ }
+}

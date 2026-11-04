@@ -1,0 +1,24 @@
+{
+ "city_land_km2": 778.165283,
+ "rain_km2_city": 64.96287105289166,
+ "rain_share_of_city_land": 0.08348209881896217,
+ "rain_outside_sfha_city": 0.9264214780557338,
+ "rain_share_in_domain": 0.888289284120912,
+ "city_share_in_domain": 0.8110616285334421,
+ "domain_rain_km2": 57.59765681003013,
+ "domain_rain_outside_sfha": 0.9268457760770019,
+ "domain_rain_outside_s100": 0.8688411022006604,
+ "domain_rain_outside_s1000": 0.7213784537708521,
+ "domain_sfha_land_km2": 69.09048600686734,
+ "domain_s100_land_km2": 99.43771206702415,
+ "domain_sfha_inside_s100": 0.825698828737627,
+ "sensors_n": 479,
+ "sensors_inside": 0.6764091858037579,
+ "sensor_enrichment": 8.1024458581307,
+ "complaints_inside": 0.40846526048762155,
+ "slr_new_land_km2_nyc": {
+  "1": 5.1,
+  "3": 15.6,
+  "6": 68.7
+ }
+}

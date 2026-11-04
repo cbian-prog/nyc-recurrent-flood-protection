@@ -1,0 +1,106 @@
+{
+ "aai": {
+  "loss": 485075771.42943144,
+  "upper": 256968200.52896398,
+  "neutral": 86091204.36198442,
+  "nopolicy": 348754376.81579983,
+  "cap": 50230190.25164704,
+  "full_local": 234923898.42472285,
+  "full_stat": 279919060.16994333
+ },
+ "aai_by_lmi": {
+  "<35%": {
+   "loss": 230884353.0262628,
+   "upper": 108197374.13093291,
+   "neutral": 30318223.93462083,
+   "nopolicy": 176778126.9173931,
+   "cap": 23788002.174248837,
+   "full_local": 89729954.38214444,
+   "full_stat": 98127099.2699383
+  },
+  "35\u201351%": {
+   "loss": 114777543.5348473,
+   "upper": 64899934.9532258,
+   "neutral": 26796399.5521996,
+   "nopolicy": 78890282.61008264,
+   "cap": 9090861.372565042,
+   "full_local": 69206249.47780561,
+   "full_stat": 83028094.2327129
+  },
+  "51\u201370%": {
+   "loss": 79801588.09577714,
+   "upper": 40352759.77942357,
+   "neutral": 13604538.60035778,
+   "nopolicy": 58248296.119936414,
+   "cap": 7948753.37548296,
+   "full_local": 41082564.051682524,
+   "full_stat": 52796028.02465147
+  },
+  "\u226570%": {
+   "loss": 58420107.42083879,
+   "upper": 42749311.596436396,
+   "neutral": 15313089.505504686,
+   "nopolicy": 33707435.457219124,
+   "cap": 9399582.458114991,
+   "full_local": 34113873.08407606,
+   "full_stat": 44935771.34224599
+  }
+ },
+ "events": {
+  "10": {
+   "loss": 662761340.3568854,
+   "upper": 450126013.19218326,
+   "neutral": 153061180.2380012,
+   "nopolicy": 446064152.5024861,
+   "cap": 63636007.61639805,
+   "full_local": 351179293.5893095,
+   "full_stat": 388044300.59165907
+  },
+  "45": {
+   "loss": 3836560067.279818,
+   "upper": 2600583668.4271183,
+   "neutral": 911106177.9500389,
+   "nopolicy": 2463257644.6574717,
+   "cap": 462196244.67230886,
+   "full_local": 2185353653.8145986,
+   "full_stat": 2462327307.520242
+  },
+  "100": {
+   "loss": 8217916812.636489,
+   "upper": 4525468679.138221,
+   "neutral": 1595362754.1970475,
+   "nopolicy": 5637574507.401533,
+   "cap": 984979551.0379044,
+   "full_local": 4502261299.367623,
+   "full_stat": 5225241818.546552
+  },
+  "400": {
+   "loss": 21749284991.999023,
+   "upper": 7881025408.959282,
+   "neutral": 3044667928.007581,
+   "nopolicy": 16214375405.049883,
+   "cap": 2490241658.9415603,
+   "full_local": 10556054685.518217,
+   "full_stat": 13361703000.063606
+  },
+  "1000": {
+   "loss": 32870858220.45327,
+   "upper": 9329090286.009336,
+   "neutral": 3954902617.38027,
+   "nopolicy": 25216343770.0227,
+   "cap": 3699611833.0502944,
+   "full_local": 14842898126.213182,
+   "full_stat": 19771258365.241707
+  }
+ },
+ "takeup_100yr_by_lmi": {
+  "<35%": 0.33266729667688977,
+  "35\u201351%": 0.3523918173522785,
+  "51\u201370%": 0.28079669991327816,
+  "\u226570%": 0.4909666517920161
+ },
+ "contracts": 36961,
+ "policy_units": 70179,
+ "building_cover_bn": 17.017488,
+ "definitions": "Paper A core surge model: NSI exposure x USACE generic depth-damage x NACCS water-level hazard curve.\n\nExposure   : USACE National Structure Inventory (val_struct, num_story, occtype, found_type, found_ht) for the 5 boroughs.\nVulnerability (main) : USACE generic curves EGM 01-03 (no basement) / EGM 04-01 (with basement), depth relative to first floor\n             (ground depth - found_ht). Buildings taller than 3 storeys: curve applies to the lowest-3-storey share of value (3/N).\n             No free parameter; Sandy is a validation, not a calibration.\nVulnerability (alt)  : this project's storey-fraction curve k*min(1,d/2)*min(1,ceil(d/3)/N), k recalibrated on Sandy with NSI values.\nHazard     : NACCS SP 7672 water-level curve (MSL -> NAVD88 -0.063 m), connected bathtub on the 20 m DEM.\nOutputs    : data/paper_a/depths.npz (per-structure depth by water level), paper_a_core.json.\n"
+}

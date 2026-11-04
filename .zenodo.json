@@ -1,0 +1,13 @@
+{
+  "title": "Code and data for: Flood protection built for rare losses misses the floods that recur",
+  "upload_type": "software",
+  "description": "Analysis and figure code, results, the cleaned FloodNet street-flood record and intermediate products for a study of New York City's flood sources, exposure and protection on one frequency axis (submitted to Nature Cities). Large public inputs are archived separately; see README.",
+  "creators": [
+    {"name": "Bian, Ce", "affiliation": "Columbia University"},
+    {"name": "Horton, Radley", "affiliation": "Columbia University"},
+    {"name": "Bresch, David N.", "affiliation": "ETH Zurich; MeteoSwiss"},
+    {"name": "Zheng, Tian", "affiliation": "Columbia University"}
+  ],
+  "license": "MIT",
+  "keywords": ["flood risk", "New York City", "storm surge", "pluvial flooding", "tidal flooding", "flood insurance", "FloodNet"]
+}

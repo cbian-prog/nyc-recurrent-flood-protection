@@ -1,0 +1,45 @@
+{
+ "rp_design_by_duration": {
+  "15-min": 1.0,
+  "30-min": 1.1235572539520151,
+  "60-min": 7.169882579252792
+ },
+ "n_flood_days": 311,
+ "n_with_gauge_ratio": 77,
+ "ratio_median": {
+  "r15": 2.9444444444444455,
+  "r30": 1.8363636363636366
+ },
+ "ratio_iqr": {
+  "r15": [
+   2.3333333333333375,
+   4.0
+  ],
+  "r30": [
+   1.68421052631579,
+   2.142857142857144
+  ]
+ },
+ "below_design_any": {
+  "n": 311,
+  "hourly_mrms": 0.932475884244373,
+  "est_30min": 0.6141479099678456,
+  "est_15min": 0.42443729903536975,
+  "worst_case_15min": 0.3504823151125402,
+  "near_gauge_n": 1,
+  "near_gauge_60c": 1.0,
+  "near_gauge_30": 1.0,
+  "near_gauge_15": 1.0
+ },
+ "below_design_12in": {
+  "n": 54,
+  "hourly_mrms": 0.7037037037037037,
+  "est_30min": 0.1111111111111111,
+  "est_15min": 0.018518518518518517,
+  "worst_case_15min": 0.0,
+  "near_gauge_n": 0,
+  "near_gauge_60c": null,
+  "near_gauge_30": null,
+  "near_gauge_15": null
+ }
+}

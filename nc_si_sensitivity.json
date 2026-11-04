@@ -1,0 +1,209 @@
+{
+ "coverage": {
+  "extreme (2080 sea level, used)": {
+   "area_km2": 64.86698851555013,
+   "outside_1000yr_reach": 0.7215161203668101,
+   "Effective FIRM (used)": {
+    "area_out": 0.9260973938252147,
+    "lots_out": 21728,
+    "lots": 22443,
+    "stations_out": 44,
+    "stations": 46
+   },
+   "2015 preliminary FIRM": {
+    "area_out": 0.8591457595095928,
+    "lots_out": 20415,
+    "lots": 22443,
+    "stations_out": 44,
+    "stations": 46
+   },
+   "Either map": {
+    "area_out": 0.8538892895771979,
+    "lots_out": 20349,
+    "lots": 22443,
+    "stations_out": 44,
+    "stations": 46
+   },
+   "Modelled 1-in-100-yr reach": {
+    "area_out": 0.8689512412234729,
+    "lots_out": 18303,
+    "lots": 20233,
+    "stations_out": 43,
+    "stations": 46
+   }
+  },
+  "moderate (current sea level)": {
+   "area_km2": 10.960432334998844,
+   "outside_1000yr_reach": 0.6469328001142612,
+   "Effective FIRM (used)": {
+    "area_out": 0.8442014747258306,
+    "lots_out": 2659,
+    "lots": 2927,
+    "stations_out": 12,
+    "stations": 12
+   },
+   "2015 preliminary FIRM": {
+    "area_out": 0.7850122725021442,
+    "lots_out": 2487,
+    "lots": 2927,
+    "stations_out": 12,
+    "stations": 12
+   },
+   "Either map": {
+    "area_out": 0.7771206810019363,
+    "lots_out": 2481,
+    "lots": 2927,
+    "stations_out": 12,
+    "stations": 12
+   },
+   "Modelled 1-in-100-yr reach": {
+    "area_out": 0.797400557023495,
+    "lots_out": 2127,
+    "lots": 2493,
+    "stations_out": 12,
+    "stations": 12
+   }
+  }
+ },
+ "below_design_ci": {
+  "any": [
+   0.8810087864647242,
+   0.9803969160479725
+  ],
+  "ge12in": [
+   0.4374320652173913,
+   0.8615624999999999
+  ]
+ },
+ "split": {
+  "extreme (2080 sea level, used)|100|0.25": {
+   "loss_rain_pct": 87.77359080752174,
+   "contracts_rain_pct": 18.324720651497525,
+   "contracts_surge_pct": 41.963150347663756,
+   "exp_rain_pct": 1.3841779026451042,
+   "exp_surge_pct": 18.256991669141556,
+   "up_rain_pct": 24.593883085704544,
+   "up_surge_pct": 89.33302639100873,
+   "nopolicy_rain_bgs_pct": 45.14882102821801
+  },
+  "extreme (2080 sea level, used)|100|0.5": {
+   "loss_rain_pct": 89.82225481154528,
+   "contracts_rain_pct": 24.125429506777415,
+   "contracts_surge_pct": 36.16244149238386,
+   "exp_rain_pct": 1.6666716950501959,
+   "exp_surge_pct": 20.02169471680375,
+   "up_rain_pct": 25.95672611206695,
+   "up_surge_pct": 91.29404437551031,
+   "nopolicy_rain_bgs_pct": 44.37286851079955
+  },
+  "extreme (2080 sea level, used)|100|0.75": {
+   "loss_rain_pct": 91.69537204300015,
+   "contracts_rain_pct": 33.630042477205706,
+   "contracts_surge_pct": 26.657828521955576,
+   "exp_rain_pct": 2.038227768715675,
+   "exp_surge_pct": 20.114962116741374,
+   "up_rain_pct": 27.27702001138303,
+   "up_surge_pct": 91.6896160804216,
+   "nopolicy_rain_bgs_pct": 43.46696362286563
+  },
+  "extreme (2080 sea level, used)|1000|0.25": {
+   "loss_rain_pct": 72.75236424322023,
+   "contracts_rain_pct": 9.956440572495334,
+   "contracts_surge_pct": 51.04299126105895,
+   "exp_rain_pct": 0.6370468383374853,
+   "exp_surge_pct": 9.451261450717764,
+   "up_rain_pct": 19.713197879617045,
+   "up_surge_pct": 61.76552303233385,
+   "nopolicy_rain_bgs_pct": 48.73118279569893
+  },
+  "extreme (2080 sea level, used)|1000|0.5": {
+   "loss_rain_pct": 76.67859175550296,
+   "contracts_rain_pct": 13.765861313276156,
+   "contracts_surge_pct": 46.52200968588512,
+   "exp_rain_pct": 0.783741023083645,
+   "exp_surge_pct": 10.565328255492657,
+   "up_rain_pct": 21.220679165295557,
+   "up_surge_pct": 64.28892490880263,
+   "nopolicy_rain_bgs_pct": 47.60715771951727
+  },
+  "extreme (2080 sea level, used)|1000|0.75": {
+   "loss_rain_pct": 79.08082615872783,
+   "contracts_rain_pct": 18.205676253348123,
+   "contracts_surge_pct": 42.082194745813155,
+   "exp_rain_pct": 0.8913822741228529,
+   "exp_surge_pct": 11.50481534902358,
+   "up_rain_pct": 22.132022857313906,
+   "up_surge_pct": 66.25689914401694,
+   "nopolicy_rain_bgs_pct": 46.58033184945366
+  },
+  "moderate (current sea level)|100|0.25": {
+   "loss_rain_pct": 81.46646283582143,
+   "contracts_rain_pct": 4.374881631990476,
+   "contracts_surge_pct": 22.49127458672655,
+   "exp_rain_pct": 1.6061675371405932,
+   "exp_surge_pct": 22.256021239384168,
+   "up_rain_pct": 36.83806207927188,
+   "up_surge_pct": 88.16420001558588,
+   "nopolicy_rain_bgs_pct": 40.35087719298245
+  },
+  "moderate (current sea level)|100|0.5": {
+   "loss_rain_pct": 83.75996109096948,
+   "contracts_rain_pct": 6.225480912312978,
+   "contracts_surge_pct": 20.64067530640405,
+   "exp_rain_pct": 1.8340101239159325,
+   "exp_surge_pct": 26.7433186938168,
+   "up_rain_pct": 38.17788222823911,
+   "up_surge_pct": 89.03592890021294,
+   "nopolicy_rain_bgs_pct": 39.59044368600683
+  },
+  "moderate (current sea level)|100|0.75": {
+   "loss_rain_pct": 88.45567232689734,
+   "contracts_rain_pct": 12.591650658802521,
+   "contracts_surge_pct": 14.274505559914504,
+   "exp_rain_pct": 2.7547596395600915,
+   "exp_surge_pct": 48.865352857538916,
+   "up_rain_pct": 40.67867907290753,
+   "up_surge_pct": 100.00000000000001,
+   "nopolicy_rain_bgs_pct": 38.0327868852459
+  },
+  "moderate (current sea level)|1000|0.25": {
+   "loss_rain_pct": 68.60503259343848,
+   "contracts_rain_pct": 2.280782446362382,
+   "contracts_surge_pct": 25.29693460674765,
+   "exp_rain_pct": 0.8378622772636036,
+   "exp_surge_pct": 12.855648402096866,
+   "up_rain_pct": 33.21709241014903,
+   "up_surge_pct": 69.48314565097274,
+   "nopolicy_rain_bgs_pct": 43.614931237721024
+  },
+  "moderate (current sea level)|1000|0.5": {
+   "loss_rain_pct": 72.53051324190112,
+   "contracts_rain_pct": 3.2304320770541923,
+   "contracts_surge_pct": 23.635724141662834,
+   "exp_rain_pct": 1.107388027121526,
+   "exp_surge_pct": 13.793840511302088,
+   "up_rain_pct": 35.34949982631426,
+   "up_surge_pct": 68.16052831036858,
+   "nopolicy_rain_bgs_pct": 42.34404536862004
+  },
+  "moderate (current sea level)|1000|0.75": {
+   "loss_rain_pct": 74.36131674421445,
+   "contracts_rain_pct": 5.692486675144071,
+   "contracts_surge_pct": 21.173669543572956,
+   "exp_rain_pct": 1.3775495346482682,
+   "exp_surge_pct": 13.993638258303216,
+   "up_rain_pct": 36.58327868170674,
+   "up_surge_pct": 66.14302783418853,
+   "nopolicy_rain_bgs_pct": 40.794223826714806
+  }
+ },
+ "takeup_pfirm": {
+  "in_map": 31.083938435312824,
+  "outside": 2.193119281706824,
+  "structures_in": 61009
+ },
+ "tidal_in_pfirm": 62,
+ "tidal_in_effective": 56,
+ "pfirm_land_km2": 131.1092,
+ "sfha_land_km2": 91.0772
+}

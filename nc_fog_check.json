@@ -1,0 +1,77 @@
+{
+ "by_class": [
+  {
+   "cls": "dry, no fog",
+   "events": 60,
+   "kept": 25,
+   "median_drain_min": 22.505000000000003,
+   "median_depth_in": 1.6099999999999999,
+   "sensors": 34,
+   "share_removed": 0.5833333333333333
+  },
+  {
+   "cls": "fog, no rain",
+   "events": 5,
+   "kept": 4,
+   "median_drain_min": 86.0,
+   "median_depth_in": 2.8,
+   "sensors": 5,
+   "share_removed": 0.19999999999999996
+  },
+  {
+   "cls": "rain",
+   "events": 1051,
+   "kept": 470,
+   "median_drain_min": 25.26,
+   "median_depth_in": 2.24,
+   "sensors": 248,
+   "share_removed": 0.5528068506184587
+  }
+ ],
+ "fog_events_top_days": {
+  "2026-08-08": 1,
+  "2026-04-18": 1,
+  "2026-02-18": 1,
+  "2025-08-14": 1,
+  "2025-02-12": 1
+ },
+ "paper_floods_total": 499,
+ "paper_floods_fog_no_rain": 4,
+ "paper_floods_dry_no_fog": 25,
+ "by_radar_rain": {
+  "classes": [
+   "<0.05",
+   "0.05-0.25",
+   "0.25-0.5",
+   "0.5-1",
+   ">=1"
+  ],
+  "events": [
+   149,
+   134,
+   170,
+   142,
+   338
+  ],
+  "share_removed": [
+   0.691,
+   0.47,
+   0.629,
+   0.507,
+   0.544
+  ]
+ },
+ "removed_median_depth_in": 1.57,
+ "kept_median_depth_in": 3.07,
+ "removed_share_ge4in": 0.20583468395461912,
+ "march_12_2026": {
+  "00:00-02:00 thunderstorm": {
+   "events": 75,
+   "kept": 7
+  },
+  "06:00-09:00 light rain": {
+   "events": 37,
+   "kept": 2
+  }
+ }
+}

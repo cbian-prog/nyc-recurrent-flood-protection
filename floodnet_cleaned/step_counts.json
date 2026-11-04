@@ -1,0 +1,18 @@
+{
+ "1 events in the source table (to 2026-10-26)": 3581,
+ "2 in the paper's record (to 2026-08-11)": 2929,
+ "3 and draining in at least 30 min": 2127,
+ "4 of which at tidal sensors (FloodNet flag)": 1702,
+ "5 of which at tidal sensors (paper flag, +3 reclassified)": 1739,
+ "6a at sensors missing from the sensor table (dropped)": 1,
+ "6b at non-tidal sensors without rain evidence (dropped)": 22,
+ "7 counted as floods": 2104,
+ "7a tidal": 1739,
+ "7b non-tidal (rain)": 365,
+ "all events: excluded NO_SENSOR": 14,
+ "all events: excluded SHORT": 945,
+ "all events: excluded NO_RAIN": 29,
+ "all events: excluded SHORT+NO_RAIN": 37,
+ "all events: usable (floods_clean.csv)": 2556,
+ "usable after the paper's cutoff (not analysed)": 452
+}

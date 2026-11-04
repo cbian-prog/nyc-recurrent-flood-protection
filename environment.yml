@@ -1,0 +1,17 @@
+name: nyc-recurrent-floods
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.2
+  - pandas=2.3
+  - geopandas=1.1
+  - rasterio=1.4
+  - shapely=2.1
+  - scipy=1.15
+  - statsmodels=0.14
+  - matplotlib=3.10
+  - pyarrow=21
+  - openpyxl
+  - pyogrio
+  - requests

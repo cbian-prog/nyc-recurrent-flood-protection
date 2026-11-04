@@ -1,0 +1,12 @@
+Item,Specification,Value,Unit
+Hazard-curve digitisation,Uniform ±0.10 m shift of the NACCS still-water curve,,
+Structure valuation,"Lognormal multiplier on all NSI values, σ = 0.25 (PLUTO/NSI ratio 1.84 ≈ 2.4σ)",,
+Vulnerability family,"USACE generic (EGM 01-03/04-01) or storey-fraction curve, equal weight",,
+USACE function scaling,"Triangular 0.76–1.00–1.15 (observed structure-only Sandy loss 8.0–12.1 bn ÷ untuned 10.48 bn) × N(1, 0.03) tabulated-function noise",,
+Storey-curve scaling,Triangular 0.92–1.00–1.08 on k = 1.06 (recalibrated on NSI values),,
+Not sampled (stated),"No coastal defences in the bathtub; single Battery curve (checked, −2.3%); present-day sea level",,
+Draws,4000,,
+Result: USACE point estimate,,485,M USD yr⁻¹
+Result: median,,498,M USD yr⁻¹
+Result: interquartile range,,406–608,M USD yr⁻¹
+Result: 5–95% range,,304–799,M USD yr⁻¹

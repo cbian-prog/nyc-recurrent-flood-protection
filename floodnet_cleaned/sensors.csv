@@ -1,0 +1,480 @@
+sensor_id,sensor_name,borough,street_name,lat,lon,date_installed,date_removed,lowest_point_height_delta_inches,tidal_floodnet,tidal_paper,reclassified_tidal,reclass_dry_floods,reclass_dry_at_high_tide,reclass_to_water_m,events_in_record,floods_counted
+BK-livonia-ave-georgia-ave-2tzr8o,BK - Georgia Ave/ Livonia Ave,Brooklyn,Georgia Avenue,40.664423,-73.895839,2026-03-06T00:00:00.000,,7.95,False,False,False,,,,3.0,1.0
+BK-lott-ave-thatford-ave-2tzqlc,BK - Lott Ave/Thatford Ave,Brooklyn,Lott Avenue,40.658076,-73.90676,2026-03-06T00:00:00.000,,8.19,False,False,False,,,,3.0,0.0
+BK-vermont-st-linden-blvd-2tzqx0,BK - Linden Blvd/Vermont St,Brooklyn,Linden Boulevard,40.659197,-73.888368,2026-03-06T00:00:00.000,,11.42,False,False,False,,,,2.0,0.0
+BK-halsey-st-saratoga-ave-2tzmno,BK - Halsey St/Saratoga Ave,Brooklyn,Halsey Street,40.685532,-73.917807,2026-03-06T00:00:00.000,,6.97,False,False,False,,,,0.0,0.0
+BK-saint-marks-ave-brooklyn-ave-2tzmc0,BK - Brooklyn Ave/St Marks Ave,Brooklyn,Brooklyn Avenue,40.674788,-73.944409,2026-03-06T00:00:00.000,,6.14,False,False,False,,,,1.0,0.0
+BK-saratoga-ave-bainbridge-st-2tzmxo,BK - Saratoga Ave/Bainbridge St,Brooklyn,Saratoga Avenue,40.682639,-73.917221,2026-03-06T00:00:00.000,,7.44,False,False,False,,,,1.0,1.0
+BK-dumont-ave-hendrix-st-215zzc,BK - Dumont Ave/Hendrix St,Brooklyn,Dumont Avenue,40.667195,-73.888024,2024-08-23T00:00:00.000,,11.42,False,False,False,,,,5.0,2.0
+Q-160th-st-24th-rd-2t7t4o,Q - 24th Rd/160th St,Queens,24th Road,40.775542,-73.803981,2026-02-19T00:00:00.000,,11.18,False,False,False,,,,0.0,0.0
+BK-ocean-ave-oriental-blvd-2ub2lo,BK - Oriental Blvd/Ocean Ave,Brooklyn,Ocean Avenue,40.57761,-73.94737,2026-03-12T00:00:00.000,,7.2,False,False,False,,,,1.0,0.0
+BK-seaview-ave-paerdegat-avenue-north-2vshw0,BK - Paerdegat Ave N/Paerdegat 13th St,Brooklyn,Seaview Avenue,40.62738,-73.90329,2026-04-10T00:00:00.000,,8.39,False,False,False,,,,0.0,0.0
+Q-craft-ave-huxley-st-3-2wiemc,Q - Huxley St/Craft Ave,Queens,Huxley Street,40.64925,-73.73683,2026-04-24T00:00:00.000,,15.55,False,False,False,,,,3.0,1.0
+Q-160th-ave-101st-st-2vfj80,Q - 101st St/160th Ave,Queens,101st Street,40.65829,-73.831946,2026-04-03T00:00:00.000,,4.76,False,False,False,,,,6.0,1.0
+SI-hamden-ave-boundary-ave-2x8ck0,SI - Boundary Ave/Hamden Ave,Staten Island,Boundary Avenue,40.578706,-74.099937,2026-05-08T00:00:00.000,,3.5,True,True,False,,,,12.0,12.0
+SI-port-ln-richmond-ter-2upluc,SI - Richmond Terr/Port Ln,Staten Island,Richmond Terrace,40.639775,-74.138844,2026-03-20T00:00:00.000,,1.81,False,False,False,,,,0.0,0.0
+Q-roosevelt-ave-prince-st-2t7spo,Q - Roosevelt Ave/Prince St,Queens,Roosevelt Avenue,40.75875,-73.83275,2026-02-19T00:00:00.000,,6.5,False,False,False,,,,5.0,2.0
+BK-saint-marks-ave-rochester-ave-2rrwxo,BK - Rochester Ave/ Bergen St,Brooklyn,Rochester Avenue,40.675006,-73.92782,2026-01-22T00:00:00.000,,10.47,False,False,False,,,,0.0,0.0
+Q-springfield-blvd-144th-ave-1-2whrzc,Q - 144th Ave/Springfield Blvd,Queens,144th Avenue,40.66706,-73.7571,2026-04-24T00:00:00.000,,11.42,False,False,False,,,,1.0,0.0
+BK-kermit-pl-e-8th-st-2yoh6c,BK - E Eighth St/Kermit Pl,Brooklyn,East 8th Street,40.648592,-73.972787,2026-06-05T00:00:00.000,,3.27,False,False,False,,,,1.0,0.0
+SI-lincoln-ave-boundary-ave-2yb5eo,SI - Boundary Ave/ Lincoln Ave,Staten Island,Lincoln Avenue,40.575945,-74.102224,2026-05-29T00:00:00.000,,9.13,True,True,False,,,,0.0,0.0
+BX-e-175th-st-washington-ave-2xykro,BX - Washington Ave/E 175th Ave,Bronx,Washington Avenue,40.844875,-73.899189,2026-05-22T00:00:00.000,,6.93,False,False,False,,,,1.0,1.0
+BK-avenue-l-e-24th-st-2yoifc,BK - Avenue L/E 24th St,Brooklyn,Avenue L,40.62136,-73.951435,2026-06-05T00:00:00.000,,11.42,False,False,False,,,,0.0,0.0
+BK-cortelyou-rd-rugby-rd-2yohoo,BK - Rugby Rd/Cortelyou Rd,Brooklyn,"Rugby Road, East 14th Street",40.640725,-73.965356,2026-06-05T00:00:00.000,,7.09,False,False,False,,,,0.0,0.0
+Q-48th-st-47th-ave-2k9p90,Q - 48th St / 47th Ave,Queens,47th Avenue,40.741009,-73.917106,2025-08-29T00:00:00.000,,2.8,False,False,False,,,,3.0,0.0
+Q-broadway-61st-st-2yoddo,Q - 61st St/Broadway,Queens,Broadway,40.750772,-73.901193,2026-06-05T00:00:00.000,,8.82,False,False,False,,,,1.0,0.0
+Q-64th-st-laurel-hill-blvd-2yodpc,Q - Laurel Hill/64th St,Queens,64th Street,40.73927,-73.901816,2026-06-05T00:00:00.000,,12.83,False,False,False,,,,1.0,1.0
+BK-sherman-st-terrace-pl-2yoguo,BK - Terrace Pl/Sherman St,Brooklyn,Terrace Place,40.655971,-73.974782,2026-06-05T00:00:00.000,,1.46,False,False,False,,,,1.0,0.0
+BX-lafontaine-ave-e-178th-st-2xyl8c,BX - LaFontaine Ave/E 178th St,Bronx,Lafontaine Avenue,40.847356,-73.893897,2026-05-22T00:00:00.000,,2.8,False,False,False,,,,0.0,0.0
+SI-midland-ave-boundary-ave-2yb56c,SI - Midland Ave/ Boundary Ave,Staten Island,Midland Avenue,40.577184,-74.1009,2026-05-29T00:00:00.000,,10.12,True,True,False,,,,0.0,0.0
+BK-44th-st-14th-ave-2yoi3o,BK - 14th Ave/44th St,Brooklyn,44th Street,40.636493,-73.987123,2026-06-05T00:00:00.000,,10.59,False,False,False,,,,0.0,0.0
+SI-richmond-ave-eton-pl-2upm9c,SI - Eton Pl/Richmond Ave,Staten Island,Eton Place,40.60424,-74.16083,2026-03-20T00:00:00.000,,10.47,False,False,False,,,,0.0,0.0
+BX-louis-niñé-bl-southern-bl-0pmu80,BX - Louis Niñé Bl/Southern Bl,Bronx,"Louis Nine Boulevard, Wilkins Avenue",40.830719,-73.892104,2022-02-11T00:00:00.000,,7.17,False,False,False,,,,0.0,0.0
+BK-brighton-6th-st-ocean-view-ave-2ub2dc,BK - Brighton 6th St/Ocean View Ave,Brooklyn,Brighton 6th Street,40.57963,-73.96229,2026-03-12T00:00:00.000,,5.31,False,False,False,,,,7.0,3.0
+Q-craft-ave-huxley-st-2ol8k0,Q - Craft Ave/Huxley St,Queens,Craft Avenue,40.64969,-73.73694,2025-11-21T00:00:00.000,,8.62,True,True,False,,,,0.0,0.0
+BK-w-27th-st-mermaid-ave-1zbc0d,BK - Mermaid Ave/W 27th St (2),Brooklyn,Mermaid Avenue,40.575733,-73.993449,2025-08-21T00:00:00.000,,9.25,False,False,False,,,,1.0,1.0
+SI-baltic-st-bay-st-2upkto,SI - Bay St/Baltic St,Staten Island,Bay Street,40.63135,-74.07639,2026-03-20T00:00:00.000,,11.77,False,False,False,,,,1.0,0.0
+BK-blake-ave-euclid-ave-2vshw0,BK - Euclid Ave/Blake Ave,Brooklyn,Euclid Avenue,40.67143,-73.87107,2026-04-10T00:00:00.000,,10.08,False,False,False,,,,1.0,1.0
+BK-dinsmore-pl-chestnut-st-2vshw0,BK - Chestnut St/ Dinsmore Pl,Brooklyn,Chestnut Street,40.68155,-73.87512,2026-04-10T00:00:00.000,,11.97,False,False,False,,,,0.0,0.0
+Q-102nd-st-160th-ave-1a5ng0,Q - 102nd St/160th Ave,Queens,102nd Street,40.658779,-73.831185,2023-03-17T00:00:00.000,2026-04-03T00:00:00.000,11.77,True,True,False,,,,72.0,59.0
+SI-quintard-st-hurlbert-st-2w5qsc,SI - Foch Ave/Lamport Blvd,Staten Island,Quintard Street,40.59278,-74.07588,2026-04-17T00:00:00.000,,5.2,False,False,False,,,,0.0,0.0
+SI-alex-cir-doty-ave-2x8bv0,SI - Doty Ave/Father Capodanno Blvd,Staten Island,Doty Avenue,40.592826,-74.064515,2026-05-08T00:00:00.000,,11.3,True,True,False,,,,1.0,0.0
+Q-beach-52nd-st-rockaway-beach-blvd-2vfj80,Q - Rockaway Bch Blvd/Bch 53rd St,Queens,Rockaway Beach Boulevard,40.59285,-73.78276,2026-04-03T00:00:00.000,,5.12,False,False,False,,,,0.0,0.0
+Q-hillside-ave-153rd-st-2wrm8o,Q - Hillside Ave/161st St,Queens,153rd Street,40.708238,-73.801095,2026-04-30T00:00:00.000,,9.49,False,False,False,,,,2.0,1.0
+Q-167th-st-gothic-dr-2wrlto,Q - Gothic Dr/167th St,Queens,Gothic Drive,40.713259,-73.797247,2026-04-30T00:00:00.000,,11.54,False,False,False,,,,1.0,1.0
+Q-norton-dr-westbourne-ave-1-2wif1c,Q - Norton Dr/ Westbourne Ave,Queens,Norton Drive,40.608866,-73.768734,2026-04-24T00:00:00.000,,1.3,True,True,False,,,,17.0,16.0
+BX-e-140th-st-rider-ave-2kkxk0,BX - Rider Ave / E 140th St,Bronx,Rider Avenue,40.81355,-73.92663,2025-09-04T00:00:00.000,,9.96,False,False,False,,,,1.0,0.0
+SI-barrett-ave-forest-ave-2upm10,SI - Barrett Ave/Forest Ave,Staten Island,Barrett Avenue,40.62593,-74.13664,2026-03-20T00:00:00.000,,11.65,False,False,False,,,,0.0,0.0
+Q-150th-st-94th-ave-2wrnb0,Q - 150th St/94th Ave,Queens,150th Street,40.70048,-73.803557,2026-04-29T00:00:00.000,,8.9,False,False,False,,,,1.0,1.0
+Q-vernon-blvd-40th-ave-2uoync,Q - Vernon Blvd/40th Ave,Queens,Vernon Boulevard,40.7582,-73.94525,2026-03-20T00:00:00.000,,8.98,False,False,False,,,,0.0,0.0
+BK-stillwell-ave-neptune-ave-2ub1mo,BK - Stillwell Ave/Neptune Ave,Brooklyn,Stillwell Avenue,40.57949,-73.98188,2026-03-12T00:00:00.000,,7.56,False,False,False,,,,0.0,0.0
+BK-benson-ave-avenue-v-2w1qko,BK - Ave V/ Stillwell Ave,Brooklyn,Avenue V,40.593658,-73.984299,2026-04-15T00:00:00.000,,6.26,False,False,False,,,,5.0,3.0
+Q-beach-59th-st-rockaway-freeway-2vfj80,Q - Beach 59th St/Rockaway Beach Blvd,Queens,Beach 59th Street,40.59229,-73.78904,2026-04-03T00:00:00.000,,16.97,False,False,False,,,,0.0,0.0
+Q-160th-st-110th-ave-2l96m0,Q - 160th St/Brinkerhoff Ave,Queens,160th Street,40.692625,-73.791139,2025-09-17T00:00:00.000,,8.78,False,False,False,,,,2.0,2.0
+BX-corlear-ave-w-234th-st-2cak60,BX - Corlear Ave/W 234th St,Bronx,Corlear Avenue,40.882861,-73.904812,2025-03-27T00:00:00.000,,13.31,False,False,False,,,,0.0,0.0
+BX-story-ave-leland-ave-2-2wv7yo,BX - Story Ave/Thieriot Ave,Bronx,Story Avenue,40.823863,-73.861878,2026-05-01T00:00:00.000,,10.39,False,False,False,,,,0.0,0.0
+Q-w-16th-rd-cross-bay-blvd-2wikyo,Q - W16th Rd/Cross Bay Blvd,Queens,West 16th Road,40.601897,-73.823293,2026-04-24T00:00:00.000,,3.74,True,True,False,,,,0.0,0.0
+BK-w-31st-st-neptune-ave-2ub23c,BK - W 31st Ave/Neptune Ave,Brooklyn,Neptune Avenue,40.57736,-73.99795,2026-03-12T00:00:00.000,,8.78,False,False,False,,,,2.0,1.0
+Q-chandler-st-nameoke-ave-2v3evo,Q - Namesake Ave/Chandler St,Queens,"Nameoke Avenue, Nameoke Street",40.60849,-73.75592,2026-03-27T00:00:00.000,,5.67,False,False,False,,,,0.0,0.0
+Q-beach-90th-st-rockaway-freeway-2vfj80,Q - Beach 90th St/ Rockaway Fwy,Queens,Beach 90th Street,40.58759,-73.81419,2026-04-03T00:00:00.000,,7.48,False,False,False,,,,9.0,8.0
+BK-bath-ave-bay-46th-st-2w1qcc,BK - Bath Ave/ Bay 46th St,Brooklyn,Bath Avenue,40.591251,-73.985974,2026-04-15T00:00:00.000,,9.61,False,False,False,,,,0.0,0.0
+Q-chandler-st-battery-rd-2v3enc,Q - Battery Rd/Chandler St,Queens,Battery Road,40.60958,-73.75585,2026-03-27T00:00:00.000,,9.72,True,True,False,,,,0.0,0.0
+SI-richmond-ter-lafayette-ave-2upl3o,SI- Richmond Ter/Lafayette Ave,Staten Island,Richmond Terrace,40.64484,-74.09621,2026-03-20T00:00:00.000,,5.31,False,False,False,,,,7.0,4.0
+SI-maple-ave-grove-ave-2uplh0,SI - Maple Ave/Grove Ave,Staten Island,Maple Avenue,40.63881,-74.13426,2026-03-20T00:00:00.000,,7.09,False,False,False,,,,0.0,0.0
+BX-lincoln-ave-e-132nd-st-2kkxa0,BX - Lincoln Ave / Bruckner Blvd,Bronx,Lincoln Avenue,40.80671,-73.93029,2025-09-04T00:00:00.000,,11.54,False,False,False,,,,1.0,0.0
+BK-bay-pkwy-shore-pkwy-2w1qrc,BK - Bay Pkwy/Shore Pkwy,Brooklyn,Bay Parkway,40.595796,-74.000051,2026-04-15T00:00:00.000,,9.84,False,False,False,,,,2.0,1.0
+BK-linden-blvd-fountain-ave-2vshw0,BK - Linden Blvd/Fountain Ave,Brooklyn,Linden Boulevard,40.66643,-73.87186,2026-04-10T00:00:00.000,,6.5,False,False,False,,,,4.0,0.0
+BK-loring-ave-autumn-ave-2vshw0,BK - Loring Ave/Autumn Ave,Brooklyn,Loring Avenue,40.66753,-73.86478,2026-04-10T00:00:00.000,,15.43,False,False,False,,,,5.0,0.0
+SI-murray-hulbert-ave-bay-st-2upklc,SI - Bay St/Front St,Staten Island,Bay Street,40.62065,-74.07101,2026-03-20T00:00:00.000,,1.22,False,False,False,,,,3.0,2.0
+Q-beach-140th-st-cronston-ave-1zbc0d,Q - Beach 140th St/Cronston Ave,Queens,Beach 140th Street,40.57655,-73.85923,2024-07-18T00:00:00.000,,5.24,True,True,False,,,,1.0,0.0
+BK-shore-pkwy-shell-rd-2ub1wo,BK - Shore Pkwy/W Sixth St,Brooklyn,"Shore Parkway, Leif Ericson Drive, Shore Parkway South",40.58253,-73.97404,2026-03-12T00:00:00.000,,9.84,False,False,False,,,,0.0,0.0
+BK-w-12th-st-avenue-x-2w1q40,BK - W 12th St/Ave X,Brooklyn,West 12th Street,40.589353,-73.981968,2026-04-15T00:00:00.000,,8.43,False,False,False,,,,0.0,0.0
+BK-ridgewood-ave-autumn-ave-2vshw0,BK - Ridgewood Ave/Autumn Ave,Brooklyn,Ridgewood Avenue,40.68602,-73.87046,2026-04-10T00:00:00.000,,3.82,False,False,False,,,,1.0,1.0
+Q-newport-ave-beach-137th-st-2-2wii00,Q - Beach 137th St/Newport Ave,Queens,Beach 137th Street,40.575677,-73.855784,2026-04-24T00:00:00.000,,8.31,False,False,False,,,,0.0,0.0
+BX-rosedale-ave-lacombe-ave-1-2wv870,BX - Rosedale Ave/Lacombe Ave,Bronx,Rosedale Avenue,40.814621,-73.865291,2026-05-01T00:00:00.000,,9.96,False,False,False,,,,0.0,0.0
+Q-beach-64th-st-de-costa-ave-2vfj80,Q - Beach 64th St/De Costa Ave,Queens,Beach 64th Street,40.59803,-73.79382,2026-04-03T00:00:00.000,,6.18,False,False,False,,,,0.0,0.0
+Q-beach-59th-st-beach-channel-dr-1zbc0d,Q - Beach Chn Dr/ Beach 59th St,Queens,Beach Channel Drive,40.59408,-73.78921,2026-04-03T00:00:00.000,,0.59,False,True,True,4.0,4.0,78.0,11.0,11.0
+BK-euclid-ave-sutter-ave-2vshw0,BK - Euclid Ave/Sutter Ave,Brooklyn,Euclid Avenue,40.67297,-73.87137,2026-04-10T00:00:00.000,,10.35,False,False,False,,,,1.0,0.0
+Q-beach-72nd-st-gouverneur-ave-1zbc0d,Q - Gouveneur Ave/Beach 72nd St,Queens,"Gouverneur Avenue, Failing Avenue",40.59335,-73.80083,2026-04-03T00:00:00.000,,7.09,False,False,False,,,,0.0,0.0
+BX-soundview-ave-noble-ave-1-2wv7x0,BX - Soundview Ave/ Noble Ave,Bronx,Soundview Avenue,40.823391,-73.868157,2026-05-01T00:00:00.000,,6.38,False,False,False,,,,0.0,0.0
+Q-44th-ave-111th-st-2t7sfo,Q - 44th Ave/111th St,Queens,111th Street,40.749077,-73.854391,2026-02-19T00:00:00.000,,8.19,False,False,False,,,,0.0,0.0
+Q-norton-ave-beach-45th-st-2vfj80,Q - Norton Ave/Beach 45th St,Queens,Norton Avenue,40.59832,-73.77696,2026-04-03T00:00:00.000,,8.03,False,False,False,,,,0.0,0.0
+Q-nameoke-ave-redfern-ave-2v3ebo,Q - Redfern Ave/Hassock St,Queens,Redfern Avenue,40.6093,-73.75126,2026-03-27T00:00:00.000,,6.26,True,True,False,,,,0.0,0.0
+BX-w-231st-st-fairfield-ave-2wif80,BX - Fairfield Ave/ W231st St,Bronx,Fairfield Avenue,40.88338,-73.91427,2026-04-24T00:00:00.000,,3.35,False,False,False,,,,0.0,0.0
+BX-seward-ave-zerega-ave-4-2wv8do,BX - Zerega Ave/Seward Ave,Bronx,Seward Avenue,40.82189,-73.84253,2026-05-01T00:00:00.000,,11.5,False,False,False,,,,0.0,0.0
+BK-marcy-ave-hopkins-st-278inc,BK - Marcy Ave/Hopkins St,Brooklyn,Marcy Avenue,40.699262,-73.949902,2024-12-19T00:00:00.000,,7.91,False,False,False,,,,11.0,6.0
+BK-central-ave-woodbine-st-3-2xkv7c,BK - Central Ave/Woodbine St,Brooklyn,Central Avenue,40.688204,-73.911541,2026-05-15T00:00:00.000,,8.27,False,False,False,,,,0.0,0.0
+Q-raleigh-st-albert-rd-2z1hic,Q - Albert Rd/Raleigh St,Queens,Albert Road,40.66874,-73.836845,2026-06-12T00:00:00.000,,10.28,False,False,False,,,,0.0,0.0
+SI-cassidy-pl-lafayette-ave-2z1750,SI - Cassidy Pl/Lafayette Ave,Staten Island,Cassidy Place,40.641976,-74.09629,2026-06-12T00:00:00.000,,6.26,False,False,False,,,,4.0,2.0
+M-avenue-c-loop-avenue-c-2zpcg0,M - Ave C/E 18th St,Manhattan,Avenue C Loop,40.7304,-73.97415,2026-06-25T00:00:00.000,,8.39,False,False,False,,,,3.0,1.0
+BX-w-179th-st-cedar-ave-1vpt40,BX - Cedar Ave/W 179th St,Bronx,Cedar Avenue,40.855564,-73.917483,2024-05-09T00:00:00.000,2026-06-10T00:00:00.000,2.87,False,False,False,,,,0.0,0.0
+Q-59th-ave-94th-st-2zat90,Q - 59th Ave/94th St,Queens,94th Street,40.734652,-73.866846,2026-06-17T00:00:00.000,,10.63,False,False,False,,,,0.0,0.0
+Q-121st-st-115th-ave-2z1j6c,Q - 121st St/115th Ave,Queens,121st Street,40.677611,-73.817843,2026-06-12T00:00:00.000,,5.79,False,False,False,,,,0.0,0.0
+Q-laurel-hill-blvd-56th-rd-2yod20,Q - Laurel Hill Blvd/96th Rd,Queens,Laurel Hill Boulevard,40.729276,-73.92863,2026-06-05T00:00:00.000,,7.24,False,False,False,,,,1.0,0.0
+Q-moncriff-dr-104th-st-2z1iuo,Q - 164th Dr/104th St,Queens,"Moncriff Drive, 164th Drive",40.650982,-73.829241,2026-06-12T00:00:00.000,,2.28,True,True,False,,,,2.0,1.0
+Q-164th-ave-cross-bay-blvd-2z1ie0,Q - Crossbay Blvd/164th Ave,Queens,Cross Bay Boulevard,40.651135,-73.837672,2026-06-12T00:00:00.000,,11.14,False,False,False,,,,0.0,0.0
+BK-henry-st-mill-st-0pzq40,BK - Henry St/Mill St,Brooklyn,Henry Street,40.675734,-74.003396,2022-02-18T00:00:00.000,,5.31,False,False,False,,,,0.0,0.0
+Q-51st-ave-97th-st-1z9hbc,Q - 97th St/51st Ave,Queens,51st Avenue,40.741079,-73.865752,2026-06-17T00:00:00.000,,8.43,False,False,False,,,,1.0,0.0
+SI-nugent-ave-quintard-st-2x8cbo,SI - Nugent Ave/Quintard St,Staten Island,Nugent Avenue,40.590482,-74.080468,2026-05-08T00:00:00.000,,11.54,True,True,False,,,,0.0,0.0
+BX-e-178th-st-daly-ave-3-2xylqo,BX - E178th St/Daly Ave,Bronx,East 178th Street,40.842757,-73.883244,2026-05-22T00:00:00.000,,9.92,False,False,False,,,,1.0,0.0
+BX-clinton-ave-crotona-park-north-1-2xylic,BX - Crotona Park N/Clinton Ave,Bronx,Crotona Park North,40.84163,-73.893181,2026-05-22T00:00:00.000,,6.73,False,False,False,,,,0.0,0.0
+Q-108th-ave-159th-st-1jtss0,Q - 108th Ave/159th St,Queens,108th Avenue,40.695403,-73.794018,2023-09-21T00:00:00.000,,6.73,False,False,False,,,,0.0,0.0
+BK-evergreen-ave-eldert-st-1-2xkvhc,BK - Eldert St/Evergreen Ave,Brooklyn,Eldert Street,40.688204,-73.911541,2026-05-15T00:00:00.000,,6.81,False,False,False,,,,0.0,0.0
+SI-sunnymeade-village-sand-ln-2x8c3c,SI - Sand Ln/Sunnymeade Village,Staten Island,Sand Lane,40.590907,-74.067101,2026-05-08T00:00:00.000,,11.3,True,True,False,,,,0.0,0.0
+BK-main-st-water-st-1-2xljvo,BK - Main St/Plymouth St,Brooklyn,Main Street,40.703366,-73.990734,2026-05-15T00:00:00.000,,14.41,False,False,False,,,,0.0,0.0
+BK-knickerbocker-ave-palmetto-st-1mpi40,BK - Knickerbocker Ave/Palmetto St,Brooklyn,Knickerbocker Avenue,40.69629,-73.91379,2023-11-16T00:00:00.000,,22.05,False,False,False,,,,2.0,0.0
+BX-bronx-st-e-tremont-ave-1-2xylz0,BX - Bronx St/E Tremont Ave,Bronx,East Tremont Avenue,40.840159,-73.878742,2026-05-22T00:00:00.000,,4.69,False,False,False,,,,0.0,0.0
+BK-tillary-st-park-ave-2jg4e0,BK - Tillary St / Navy St,Brooklyn,Tillary Street,40.696065,-73.98072,2025-08-13T00:00:00.000,2026-05-15T00:00:00.000,6.61,False,False,False,,,,0.0,0.0
+BK-lee-ave-middleton-st-19qok0,BK - Lee Ave/Middleton St,Brooklyn,Lee Avenue,40.700775,-73.954629,2023-03-09T00:00:00.000,,10.08,False,False,False,,,,8.0,3.0
+M-e-30th-st-franklin-delano-roosevelt-drive-service-road-west-2zpd00,M - E 30th St/FDR Drive S,Manhattan,"Franklin Delano Roosevelt Drive Service Road West, Avenue C",40.740438,-73.973167,2026-06-25T00:00:00.000,,10.24,False,False,False,,,,1.0,0.0
+Q-97th-pl-christie-ave-1z9hbc,Q - Christie Ave/97th Pl,Queens,Christie Avenue,40.740485,-73.864163,2026-06-17T00:00:00.000,,9.65,False,False,False,,,,1.0,0.0
+BX-e-208th-st-bainbridge-ave-2calqo,BX - E 208th St/Bainbridge Ave,Bronx,Bainbridge Avenue,40.87781,-73.87977,2025-03-27T00:00:00.000,2026-06-10T00:00:00.000,15.51,False,False,False,,,,0.0,0.0
+Q-63rd-ave-alderton-st-2zatfo,Q - 63rd Ave/Alderton St,Queens,63rd Avenue,40.727313,-73.866941,2026-06-17T00:00:00.000,,11.38,False,False,False,,,,0.0,0.0
+M-e-11th-st-avenue-d-2zpc60,M - Ave D/E 11th St,Manhattan,East 11th Street,40.725477,-73.974831,2026-06-25T00:00:00.000,,5.67,False,False,False,,,,0.0,0.0
+Q-141st-st-120th-ave-2z1jeo,Q - 141st St/120th Ave,Queens,120th Avenue,40.676185,-73.80003,2026-06-12T00:00:00.000,,12.48,False,False,False,,,,0.0,0.0
+BX-college-ave-e-165th-st-214t90,BX - College Ave/E 165th St,Bronx,East 165th Street,40.829109,-73.915682,2024-08-22T00:00:00.000,2026-06-10T00:00:00.000,18.39,False,False,False,,,,0.0,0.0
+Q-99th-st-165th-ave-2z1iko,Q - 99th st/165th ave,Queens,"99th Street, Hawtree Avenue",40.650029,-73.831877,2026-06-12T00:00:00.000,,4.06,False,False,False,,,,6.0,6.0
+SI-bay-st-minthorne-st-2agb10,SI - Minthorne St/ Victory Blvd,Staten Island,Minthorne Street,40.637624,-74.07525,2025-02-19T00:00:00.000,,7.8,True,True,False,,,,11.0,9.0
+M-avenue-c-e-20th-st-2zpcro,M - Ave C/E 20th St,Manhattan,Avenue C,40.732463,-73.974479,2026-06-25T00:00:00.000,,7.44,False,False,False,,,,0.0,0.0
+Q-yellowstone-blvd-67th-dr-2zato0,Q - Yellowstone Blvd/68th Ave,Queens,Yellowstone Boulevard,40.726776,-73.848873,2026-06-17T00:00:00.000,,10.94,False,False,False,,,,0.0,0.0
+Q-saint-james-ave-51st-ave-2yodw0,Q - St James Ave/Queens Blvd,Queens,Saint James Avenue,40.738018,-73.881303,2026-06-05T00:00:00.000,,8.82,False,False,False,,,,1.0,0.0
+Q-corona-plaza-national-st-1z9hbc,Q - National St/Roosevelt Ave,Queens,National Street,40.749372,-73.862977,2026-06-17T00:00:00.000,,8.54,False,False,False,,,,1.0,0.0
+BX-webster-ave-e-166th-st-215110,BX - Webster Ave/E 166th St,Bronx,Webster Avenue,40.829267,-73.911467,2024-08-22T00:00:00.000,2026-05-23T00:00:00.000,1.46,False,False,False,,,,19.0,4.0
+BX-van-cortlandt-extension-park-south-old-putnam-trail-2yxedo,BX - Van Cortlandt Park Nature Trail,Bronx,Old Putnam Trail,40.889555,-73.89333,2026-06-10T00:00:00.000,,,False,False,False,,,,0.0,0.0
+Q-ascan-ave-austin-st-2zatrc,Q - Austin St/Ascan Ave,Queens,Austin Street,40.718343,-73.840406,2026-06-17T00:00:00.000,,5.08,False,False,False,,,,1.0,0.0
+BK-pioneer-st-richards-st-2zae5o,BK - Pioneer St/Richards St,Brooklyn,Pioneer Street,40.677908,-74.009669,2026-06-17T00:00:00.000,,6.85,False,False,False,,,,0.0,0.0
+Q-167th-st-linden-blvd-2z1jjo,Q - 167th St/Linden Blvd,Queens,167th Street,40.690469,-73.782311,2026-06-12T00:00:00.000,,8.7,False,False,False,,,,0.0,0.0
+BK-van-brunt-st-reed-st-2zaf4o,BK - Van Brunt St/Reed St,Brooklyn,Van Brunt Street,40.673806,-74.017133,2026-06-17T00:00:00.000,,9.02,True,True,False,,,,0.0,0.0
+BX-city-island-rd-city-island-ave-2wif80,BX - City Island Bridge (Eastbound),Bronx,"City Island Road, Defoe Road",40.85709,-73.79597,2026-04-24T00:00:00.000,2026-06-10T00:00:00.000,7.91,False,False,False,,,,0.0,0.0
+BK-union-st-3rd-ave-2zadgo,BK - 3rd Ave/Union St,Brooklyn,Union Street,40.678369,-73.985293,2026-06-17T00:00:00.000,,7.72,False,False,False,,,,0.0,0.0
+BK-richards-st-coffey-st-2zaee0,BK - Coffey St/Richards St,Brooklyn,Coffey Street,40.675328,-74.012694,2026-06-17T00:00:00.000,,10.47,True,True,False,,,,0.0,0.0
+Q-reeves-ave-63rd-ave-30fpm0,Q - Reeves Ave/Main st,Queens,Reeves Avenue,40.739687,-73.824568,2026-07-09T00:00:00.000,,9.29,False,False,False,,,,0.0,0.0
+Q-160th-st-72nd-ave-1lmgk0,Q - 160th St/72nd Ave,Queens,72nd Avenue,40.728216,-73.808928,2023-10-26T00:00:00.000,,15.31,False,False,False,,,,1.0,0.0
+Q-jamaica-ave-148th-st-30fcqo,Q - Jamaica Ave/148th St,Queens,148th Street,40.701655,-73.80636,2026-07-09T00:00:00.000,,16.85,False,False,False,,,,0.0,0.0
+BK-coney-island-ave-caton-ave-2lavtc,BK - Coney Island Ave/Caton Ave,Brooklyn,Coney Island Avenue,40.647853,-73.971121,2025-09-18T00:00:00.000,,5.31,False,False,False,,,,2.0,0.0
+BK-richardson-st-n-11th-st-1x59w1,BK - Richardson St/N 11th St,Brooklyn,North 11th Street,40.718531,-73.952822,2024-06-06T00:00:00.000,,10.08,False,False,False,,,,2.0,1.0
+BK-junius-st-sutter-ave-1dnf80,BK - Junius St/Sutter Ave,Brooklyn,Junius Street,40.668742,-73.902658,2023-05-24T00:00:00.000,,13.43,False,False,False,,,,1.0,1.0
+BX-metropolitan-ave-linden-dr-2lnmzc,BX - Metropolitan Ave/Linden Dr,Bronx,Metropolitan Avenue,40.840601,-73.855459,2025-09-25T00:00:00.000,,8.78,False,False,False,,,,0.0,0.0
+Q-147-drive-259-st-1f5ig0,Q - 147 Drive/ 259 St,Queens,147th Drive,40.65572,-73.729558,2023-06-22T00:00:00.000,2023-07-27T00:00:00.000,5.39,True,True,False,,,,1.0,1.0
+M-e-122nd-st-3rd-1yjns0,M - E 122nd St/3rd,Manhattan,3rd Avenue,40.801601,-73.937485,2022-11-13T00:00:00.000,,15.39,False,False,False,,,,2.0,1.0
+BX-roberts-ave-waters-pl-2921jc,BX - Waters Pl/ Fink Ave,Bronx,Waters Place,40.843944,-73.839728,2025-01-23T00:00:00.000,,8.82,False,False,False,,,,0.0,0.0
+BK-dean-st-utica-ave-215zzc,BK - Dean St/Utica Ave,Brooklyn,Utica Avenue,40.675495,-73.930394,2024-08-23T00:00:00.000,,5.28,False,False,False,,,,0.0,0.0
+SI-waverly-pl-targee-st-2agano,SI - Targee St/Waverly Pl,Staten Island,Targee Street,40.618275,-74.084857,2025-02-19T00:00:00.000,,11.1,False,False,False,,,,0.0,0.0
+BX-e-175th-st-webster-ave-2lnmh0,BX - E 175th St/Webster Ave,Bronx,East 175th Street,40.84574,-73.90224,2025-09-25T00:00:00.000,,7.83,False,False,False,,,,0.0,0.0
+BK-jefferson-ave-marcus-garvey-blvd-2mfc90,BK - Jefferson Ave/ Marcus Garvey Blvd,Brooklyn,Jefferson Avenue,40.68469,-73.93822,2025-10-10T00:00:00.000,,9.41,False,False,False,,,,1.0,0.0
+Q-mowbray-dr-austin-st-21vxbc,Q - Mowbray Dr/Austin St,Queens,Austin Street,40.709929,-73.83033,2024-09-06T00:00:00.000,,6.22,False,False,False,,,,2.0,1.0
+Q-97th-pl-christie-ave-20q200,Q - 96th St/55th Ave,Queens,96th Street,40.738401,-73.865495,2024-08-14T00:00:00.000,2024-10-14T00:00:00.000,50.16,False,False,False,,,,0.0,0.0
+BX-morrison-ave-harrod-pl-1vpqc0,BX - Harrod Pl/Morrison Ave,Bronx,Morrison Avenue,40.828874,-73.874293,2024-05-09T00:00:00.000,,3.35,False,False,False,,,,0.0,0.0
+SI-jewett-ave-castleton-ave-0xwr80,SI - Jewett Ave/Castleton Ave,Staten Island,Jewett Avenue,40.633346,-74.129583,2022-07-22T00:00:00.000,,9.25,False,False,False,,,,0.0,0.0
+Q-hendrickson-pl-166th-st-1x5fg0,Q - Hendrickson Pl/166th St,Queens,Hendrickson Place,40.698449,-73.788862,2024-06-06T00:00:00.000,,11.73,False,False,False,,,,3.0,1.0
+BK-19th-ave-77th-st-20cdbc,BK - 19th Ave/77th St,Brooklyn,19th Avenue,40.610849,-73.995451,2024-08-07T00:00:00.000,,32.68,False,False,False,,,,1.0,0.0
+BX-home-st-intervale-av-0pmrg0,BX - Home St/Intervale Av,Bronx,Intervale Avenue,40.828263,-73.895037,2022-02-11T00:00:00.000,,18.74,False,False,False,,,,0.0,0.0
+Q-188th-st-58th-ave-1zbc0d,Q - 188th St/ 58th Ave,Queens,58th Avenue,40.742676,-73.787458,2025-09-11T00:00:00.000,,5.67,False,False,False,,,,13.0,2.0
+BX-paulding-ave-duncan-st-2caow0,BX - Duncan St/Paulding Ave,Bronx,Duncan Street,40.872997,-73.858546,2025-03-27T00:00:00.000,,16.34,False,False,False,,,,0.0,0.0
+Q-30th-pl-47th-ave-1x5co0,Q - 30th Pl/ 47th Ave,Queens,30th Place,40.74307,-73.936655,2024-06-06T00:00:00.000,,8.03,False,False,False,,,,2.0,1.0
+Q-church-rd-e-7th-rd-1zdtxo,Q - Church Rd/E 7th Rd,Queens,East 7th Road,40.608545,-73.818352,2024-07-19T00:00:00.000,2025-08-21T00:00:00.000,11.14,True,True,False,,,,8.0,3.0
+Q-160th-st-107th-ave-1jtyc0,Q - 160th St/107th Ave,Queens,160th Street,40.69737,-73.794579,2023-09-21T00:00:00.000,,9.49,False,False,False,,,,4.0,2.0
+Q-russell-st-1-07zqc0,Q - Russell St 1,Queens,Russell Street,40.654312,-73.831566,2021-03-05T00:00:00.000,,6.1,True,True,False,,,,144.0,138.0
+Q-woodside-ave-37th-rd-1veb80,Q - 37th Rd/Woodside Ave,Queens,37th Road,40.751047,-73.909431,2024-05-03T00:00:00.000,,12.36,False,False,False,,,,0.0,0.0
+BK-linwood-st-wortman-ave-215zzc,BK - Linwood St/Wortman Ave,Brooklyn,Wortman Avenue,40.660735,-73.876004,2024-08-23T00:00:00.000,,11.26,False,False,False,,,,2.0,0.0
+BK-clarendon-rd-e-56th-st-20rvvo,BK - Clarendon Rd/E 56th St,Brooklyn,East 56th Street,40.645056,-73.923793,2024-08-15T00:00:00.000,,12.01,False,False,False,,,,2.0,0.0
+M-e-117th-st-1st-ave-1yji80,M - E 117th St/1st Ave,Manhattan,1st Avenue,40.796533,-73.935178,2024-07-03T00:00:00.000,,13.82,False,False,False,,,,0.0,0.0
+Q-44th-dr-jackson-ave-2k9oqo,Q - 44th Dr / Jackson Ave,Queens,44th Drive,40.74718,-73.94253,2025-08-29T00:00:00.000,,2.4,False,False,False,,,,1.0,0.0
+BK-logan-st-etna-st-2bkxrc,BK - Logan St/Etna St,Brooklyn,Etna Street,40.685682,-73.878689,2025-03-13T00:00:00.000,,8.03,False,False,False,,,,1.0,0.0
+Q-saint-james-ave-broadway-214qw0,Q - Saint James Ave/Broadway,Queens,Broadway,40.740064,-73.878522,2024-08-22T00:00:00.000,,11.54,False,False,False,,,,0.0,0.0
+Q-1st-st-104th-st-1a5t00,Q - 1st St/104th St,Queens,1st Street,40.655908,-73.828642,2023-03-17T00:00:00.000,,11.89,True,True,False,,,,55.0,49.0
+BK-flatlands-ave-e-80th-st-1umm00,BK - Flatlands Ave/E 80th St,Brooklyn,Flatlands Avenue,40.635483,-73.913574,2024-04-18T00:00:00.000,,8.5,False,False,False,,,,3.0,0.0
+BK-4th-av-garfield-pl-0erv80,BK - 4th Av/Garfield Pl,Brooklyn,4th Avenue,40.675855,-73.983944,2021-07-15T00:00:00.000,,11.26,False,False,False,,,,4.0,2.0
+BX-wilson-ave-e-214th-st-2cap4c,BX - Wilson Ave/E 214th St,Bronx,Wilson Avenue,40.87613,-73.85103,2025-03-27T00:00:00.000,,7.83,False,False,False,,,,1.0,1.0
+M-dyckman-st-payson-ave-1yht40,M - Dyckman St/Payson Ave,Manhattan,"Dyckman Street, West 200th Street",40.866835,-73.928972,2024-07-02T00:00:00.000,,17.28,False,False,False,,,,0.0,0.0
+BK-fort-greene-pl-atlantic-ave-2rrw0c,BK - Atlantic Ave/ Fort Greene Pl,Brooklyn,"Fort Greene Place, 5th Avenue",40.68357,-73.97563,2026-01-22T00:00:00.000,,6.61,False,False,False,,,,0.0,0.0
+BX-e-mosholu-parkway-south-webster-ave-2calz0,BX - Webster Ave/Mosholu Pkwy S,Bronx,East Mosholu Parkway South,40.86869,-73.88155,2025-03-27T00:00:00.000,,11.61,False,False,False,,,,0.0,0.0
+BK-ditmas-ave-westminster-rd-1lbfc0,BK - Ditmas Ave/Westminster Rd,Brooklyn,"Westminster Road, East 12th Street",40.63563,-73.96627,2023-10-20T00:00:00.000,,12.36,False,False,False,,,,7.0,6.0
+SI-n-burgher-ave-myrtle-ave-2agbmo,SI - Myrtle Ave / N Burgher Ave,Staten Island,Myrtle Avenue,40.630218,-74.113455,2025-02-19T00:00:00.000,,9.13,False,False,False,,,,1.0,0.0
+BX-edgewater-rd-seneca-ave-214yhc,BX - Edgewater Rd/Seneca Ave,Bronx,Edgewater Road,40.819327,-73.88379,2024-08-22T00:00:00.000,,10.55,False,False,False,,,,1.0,0.0
+BK-humboldt-st-norman-ave-2k9nco,BK - Humboldt St / Norman Ave,Brooklyn,Humboldt Street,40.727447,-73.945762,2025-08-29T00:00:00.000,,7.83,False,False,False,,,,2.0,2.0
+M-nagle-ave-dyckman-st-1yhf80,M - Nagle Ave/Dyckman St,Manhattan,"Dyckman Street, West 200th Street",40.861746,-73.924982,2024-07-02T00:00:00.000,,12.83,False,False,False,,,,6.0,5.0
+Q-71st-ave-75th-st-1vcro0,Q - 71st Ave/75th St,Queens,75th Street,40.707006,-73.875512,2024-05-02T00:00:00.000,,5.98,False,False,False,,,,1.0,0.0
+BK-whitty-ln-e-56th-st-20rvlo,BK - Whitty Ln/E 56th St,Brooklyn,East 56th Street,40.641079,-73.923355,2024-08-15T00:00:00.000,2024-12-20T00:00:00.000,16.06,False,False,False,,,,0.0,0.0
+Q-164-pl-109th-ave-1jtn80,Q - 164 Pl/109th Ave,Queens,164th Place,40.695632,-73.788393,2023-09-21T00:00:00.000,,24.25,False,False,False,,,,0.0,0.0
+M-e-111th-st-a-new-st-1yjl00,M - E 116th St/FDR Drive,Manhattan,East 110th Street,40.792351,-73.936903,2024-07-03T00:00:00.000,2024-12-13T00:00:00.000,59.65,False,False,False,,,,0.0,0.0
+Q-51st-ave-jacobus-st-20q7k0,Q - 51st Ave/Jacobus St,Queens,51st Avenue,40.736665,-73.887746,2024-08-14T00:00:00.000,,10.71,False,False,False,,,,13.0,4.0
+SI-haven-ave-adam-ave-1qijg0,SI - Haven Ave/ Adam Ave,Staten Island,Adams Avenue,40.579297,-74.098201,2024-01-29T00:00:00.000,,7.44,False,True,True,4.0,3.0,470.0,17.0,15.0
+M-12th-ave-w-29th-st-2nvb9o,M - W 29th St/12th Ave,Manhattan,West 29th Street,40.753704,-74.006925,2025-11-07T00:00:00.000,,6.61,False,False,False,,,,2.0,0.0
+SI-catherine-ct-jewett-ave-1wu5w0,SI - Catherine Ct/Jewett Ave,Staten Island,Jewett Avenue,40.631311,-74.130524,2024-05-31T00:00:00.000,,29.53,False,False,False,,,,2.0,2.0
+Q-31st-ave-32nd-st-2ausk0,Q - 31st Ave/ 32nd St,Queens,31st Avenue,40.763964,-73.922841,2025-02-27T00:00:00.000,,8.27,False,False,False,,,,2.0,1.0
+BX-ditmars-st-hunter-ave-1hczk0,BX - Ditmars St/Hunter Ave 1,Bronx,Ditmars Street,40.849405,-73.789165,2023-08-04T00:00:00.000,2023-10-12T00:00:00.000,11.77,True,True,False,,,,1.0,1.0
+BX-1st-st-avenue-a-1zby90,BX - 1st St/Avenue A,Bronx,Avenue A,40.812851,-73.881043,2024-07-18T00:00:00.000,,3.62,False,False,False,,,,6.0,5.0
+M-w-157th-ave-broadway-1vr9w0,M - Broadway/W 157th St,Manhattan,West 157th Street,40.834239,-73.945121,2024-05-10T00:00:00.000,,11.14,False,False,False,,,,0.0,0.0
+BX-morris-ave-e-170th-st-214qm0,BX - Morris Ave/E 170th St,Bronx,Morris Avenue,40.837699,-73.911451,2024-08-22T00:00:00.000,2025-10-24T00:00:00.000,9.72,False,False,False,,,,0.0,0.0
+Q-beach-channel-dr-beach-48th-st-1zdub0,Q - Beach Channel Dr/Beach 48th St,Queens,Beach 48th Street,40.595001,-73.779035,2024-07-19T00:00:00.000,,7.83,True,True,False,,,,12.0,5.0
+Q-beach-channel-dr-beach-38th-st-1zduho,Q - Beach Channel Dr/Beach 38th St,Queens,Beach 38th Street,40.595733,-73.770498,2024-07-19T00:00:00.000,,6.5,True,True,False,,,,24.0,18.0
+BK-farragut-rd-rockaway-pkwy-1umj80,BK -  Farragut Rd/ Rockaway Pkwy,Brooklyn,Farragut Road,40.646557,-73.904204,2024-04-18T00:00:00.000,,16.57,False,False,False,,,,4.0,1.0
+Q-231st-st-148th-ave-1edkw0,Q - 231st St/ 148th Ave,Queens,148th Avenue,40.655678,-73.751291,2023-06-07T00:00:00.000,,6.73,True,True,False,,,,3.0,1.0
+BK-marcy-ave-flushing-ave-19qzo0,BK - Marcy Ave/Flushing Ave,Brooklyn,Marcy Avenue,40.699283,-73.950083,2023-03-09T00:00:00.000,2024-12-19T00:00:00.000,4.8,False,False,False,,,,3.0,1.0
+BK-newel-st-greenpoint-ave-2k9o50,BK - Jewel St/ Greenpoint Ave,Brooklyn,Jewel Street,40.73051,-73.94872,2025-08-29T00:00:00.000,,11.69,False,False,False,,,,1.0,0.0
+Q-penelope-ave-83rd-pl-1vcug0,Q - 83rd Pl/Penelope Ave,Queens,83rd Place,40.721347,-73.870753,2024-05-02T00:00:00.000,,5.08,False,False,False,,,,2.0,0.0
+BK-farragut-rd-rogers-ave-20rv00,BK - Farragut Rd/Rogers Ave,Brooklyn,Farragut Road,40.636159,-73.950699,2024-08-15T00:00:00.000,,2.64,False,False,False,,,,3.0,1.0
+Q-30th-ave-89th-st-1pmzc0,Q - 30th Ave/89th St,Queens,30th Avenue,40.761834,-73.879978,2024-01-12T00:00:00.000,,19.33,False,False,False,,,,0.0,0.0
+SI-pompey-ave-laredo-ave-2msi00,SI - Laredo Ave/Pompey Ave,Staten Island,Laredo Avenue,40.549207,-74.172037,2025-10-17T00:00:00.000,,8.9,False,False,False,,,,0.0,0.0
+BK-avenue-p-e-9th-st-20rub0,BK - Avenue P/E 9th St,Brooklyn,Avenue P,40.609813,-73.964606,2024-08-15T00:00:00.000,,9.96,False,False,False,,,,3.0,2.0
+BX-balcom-ave-dewey-ave-2n5dw0,BX - Dewey Ave/ Balcom Ave,Bronx,Dewey Avenue,40.82035,-73.82525,2025-10-24T00:00:00.000,,11.65,False,False,False,,,,1.0,0.0
+SI-bedford-ave-kiswick-st-1j3pw0,SI - Bedford Ave/Kiswick St,Staten Island,Bedford Avenue,40.575318,-74.095266,2023-09-07T00:00:00.000,,9.13,True,True,False,,,,18.0,12.0
+BX-brady-ave-muliner-ave-2917g0,BX - Brady Ave/ Muliner Ave,Bronx,Muliner Avenue,40.852026,-73.86201,2025-01-23T00:00:00.000,,3.7,False,False,False,,,,2.0,0.0
+Q-59th-ave-175th-st-21u2nc,Q - 59th Ave/175th St,Queens,175th Street,40.740155,-73.795243,2024-09-05T00:00:00.000,,9.72,False,False,False,,,,4.0,1.0
+BK-kent-ave-wallabout-st-19r2g0,BK - Kent Ave/Wallabout St,Brooklyn,Kent Avenue,40.699336,-73.960584,2023-03-09T00:00:00.000,,10.31,False,False,False,,,,2.0,2.0
+BK-meserole-ave-newel-st-2if0k0,BK - Newel Ave/ Meserole St,Brooklyn,"Newel Street, Newell Street",40.728355,-73.94935,2025-07-24T00:00:00.000,,10.2,False,False,False,,,,2.0,0.0
+Q-161st-ave-99th-st-1a5q80,Q - 161st Ave/99th St,Queens,"161st Avenue, Grimm Avenue",40.656567,-73.833553,2023-03-17T00:00:00.000,,18.15,True,True,False,,,,70.0,47.0
+BK-oceanview-ave-ocean-view-ave-20cdbc,BK - Oceanview Ave/Ocean View Ave,Brooklyn,"Oceanview Avenue, Ocean View Avenue",40.579007,-73.964718,2024-08-07T00:00:00.000,2024-10-31T00:00:00.000,0,False,False,False,,,,0.0,0.0
+BX-white-plains-rd-story-ave-1zbxz0,BX - White Plains Rd/Story Ave,Bronx,Story Avenue,40.824326,-73.858637,2024-07-18T00:00:00.000,,16.34,False,False,False,,,,1.0,1.0
+BK-marion-st-howard-ave-215zzc,BK - Marion St/Howard Ave,Brooklyn,Marion Street,40.680855,-73.91946,2024-08-23T00:00:00.000,,8.78,False,False,False,,,,4.0,1.0
+BK-rockaway-pkwy-clarkson-ave-1dni00,BK - Rockaway Pkwy/ Clarkson Ave,Brooklyn,Rockaway Parkway,40.661108,-73.919957,2023-05-24T00:00:00.000,,21.14,False,False,False,,,,0.0,0.0
+Q-woodhull-ave-193rd-st-2msf80,Q - Woodhull Ave/ 193rd St,Queens,193rd Street,40.71099,-73.76662,2025-10-17T00:00:00.000,,9.53,False,False,False,,,,2.0,2.0
+Q-147th-ave-springfield-ln-20pvio,Q - 147th Ave/Springfield Ln,Queens,Springfield Lane,40.659535,-73.759907,2024-08-14T00:00:00.000,,12.83,False,False,False,,,,0.0,0.0
+M-e-79th-st-park-ave-2ausk0,M - E 79th St/ Park Ave,Manhattan,East 79th Street,40.776,-73.96116,2025-02-27T00:00:00.000,,6.65,False,False,False,,,,3.0,1.0
+M-park-ave-tito-puente-wy-1yjco0,M - Park Ave/ Tito Puente Wy,Manhattan,East 110th Street,40.795714,-73.946467,2024-07-03T00:00:00.000,,14.88,False,False,False,,,,0.0,0.0
+BX-e-240th-st-furman-ave-2n5dw0,BX - Furman Ave/ E240th St,Bronx,Furman Avenue,40.90155,-73.85064,2025-10-24T00:00:00.000,,8.62,False,False,False,,,,2.0,0.0
+BK-wythe-ave-wallabout-st-19qzo0,BK - Wythe Ave/Wallabout St,Brooklyn,Wythe Avenue,40.699542,-73.958983,2023-03-09T00:00:00.000,,5.63,False,False,False,,,,22.0,7.0
+SI-kissel-ave-snug-harbor-rd-2agb9c,SI - Snug Harbor Rd / Kissel Ave,Staten Island,Snug Harbor Road,40.644221,-74.106407,2025-02-19T00:00:00.000,,5.67,False,False,False,,,,5.0,3.0
+BK-walton-st-marcy-ave-19qww0,BK - Walton St/Marcy Ave,Brooklyn,Walton Street,40.700821,-73.951335,2023-03-09T00:00:00.000,,10.91,False,False,False,,,,9.0,3.0
+BX-bruner-ave-barnes-ave-1vpi00,BX - Barnes Ave/Bruner Ave,Bronx,Bruner Avenue,40.899255,-73.849858,2024-05-09T00:00:00.000,2025-10-24T00:00:00.000,8.62,False,False,False,,,,0.0,0.0
+BK-malcolm-x-blvd-fulton-st-2mfbf0,BK - Fulton St/ Malcom X Blvd,Brooklyn,Fulton Street,40.6793,-73.92834,2025-10-10T00:00:00.000,,6.38,False,False,False,,,,2.0,1.0
+BK-2nd-ave-41st-st-20cdbc,BK - 41st St/2nd Ave,Brooklyn,41st Street,40.654176,-74.011831,2024-08-07T00:00:00.000,,13.58,False,False,False,,,,4.0,0.0
+Q-177th-st-147th-ave-20pvr0,Q - 177th St/147th Ave,Queens,177th Street,40.660523,-73.768886,2024-08-14T00:00:00.000,,14.65,False,False,False,,,,0.0,0.0
+M-w-125th-st-12th-ave-1yji80,M - W 125th St/12th Ave,Manhattan,West 130th Street,40.818058,-73.959927,2024-07-03T00:00:00.000,,23.9,False,False,False,,,,1.0,0.0
+SI-mclaughlin-st-agnes-pl-1aigk0,SI - McLaughlin St/Agnes Pl,Staten Island,McLaughlin Street,40.589132,-74.072692,2023-03-24T00:00:00.000,,16.69,True,True,False,,,,5.0,1.0
+BX-cross-st-minnieford-ave-1kwos0,BX - Cross St/Minnieford Ave,Bronx,Minnieford Avenue,40.853159,-73.788843,2023-10-12T00:00:00.000,,7.2,True,True,False,,,,9.0,9.0
+BX-e-165th-st-teller-ave-214ty0,BX - E 165th St/Teller Ave,Bronx,East 165th Street,40.828463,-73.914039,2024-08-22T00:00:00.000,,8.5,False,False,False,,,,0.0,0.0
+BK-elm-ave-e-17th-st-2lawnc,BK - E 17th St/Elm Ave,Brooklyn,East 17th Street,40.618491,-73.958259,2025-09-18T00:00:00.000,,9.72,False,False,False,,,,0.0,0.0
+BK-e-57th-st-snyder-ave-20rw0o,BK - E 57th St/Snyder Ave,Brooklyn,Snyder Avenue,40.650585,-73.923201,2024-08-15T00:00:00.000,,20.43,False,False,False,,,,2.0,0.0
+Q-maurice-ave-queens-midtown-expy-1vejk0,Q - Maurice Ave/Queens Midtown Expressway,Queens,"Queens Midtown Expressway, Borden Avenue",40.727627,-73.90663,2024-05-03T00:00:00.000,,11.3,False,False,False,,,,3.0,1.0
+BX-bronxdale-ave-poplar-st-291z80,BX - Bronxdale Ave/ Poplar St,Bronx,Bronxdale Avenue,40.84272,-73.85472,2025-01-23T00:00:00.000,,5.98,False,False,False,,,,1.0,0.0
+Q-hillside-ave-127th-st-21vxbc,Q - Hillside Ave/127th St,Queens,127th Street,40.703141,-73.824329,2024-09-06T00:00:00.000,,9.25,False,False,False,,,,1.0,1.0
+Q-holly-ave-union-st-1vcow0,Q - Holly Ave/Union St,Queens,"Holly Avenue, 46th Avenue",40.751463,-73.817921,2024-05-02T00:00:00.000,,3.58,False,False,False,,,,3.0,0.0
+SI-quincy-ave-iona-st-1deh00,SI - Quincy Ave/Iona St,Staten Island,"Quincy Avenue, Comanche Avenue",40.576402,-74.084275,2023-05-19T00:00:00.000,,3.7,True,True,False,,,,42.0,37.0
+BK-troy-ave-farragut-rd-20rv6o,BK - Troy Ave/Farragut Rd,Brooklyn,Farragut Road,40.637051,-73.934856,2024-08-15T00:00:00.000,,8.5,False,False,False,,,,8.0,4.0
+Q-beach-84-st-0me680,Q - Beach 84 St,Queens,Beach 84th Street,40.59136,-73.80996,2021-12-10T00:00:00.000,,8.27,True,True,False,,,,438.0,407.0
+Q-85th-st-91st-ave-1zbc0d,Q - 85th St/91st Ave,Queens,85th Street,40.687854,-73.857288,2025-03-13T00:00:00.000,,15.75,False,False,False,,,,4.0,0.0
+BX-e-153rd-st-river-ave-2kksk0,BX - River Ave / E 153rd St,Bronx,"River Avenue, Cromwell Avenue",40.82434,-73.92807,2025-09-04T00:00:00.000,,11.89,False,False,False,,,,0.0,0.0
+SI-lenevar-ave--drumgoole-rd-w-1wubg0,SI - Lenevar Ave & Drumgoole Rd W,Staten Island,Lenevar Avenue,40.531504,-74.206958,2024-05-31T00:00:00.000,,8.03,False,False,False,,,,1.0,0.0
+Q-48th-ave-108th-st-20pto0,Q - 48th Ave/108th St,Queens,108th Street,40.746128,-73.856278,2024-08-14T00:00:00.000,,54.49,False,False,False,,,,1.0,1.0
+Q-149th-ave-brookville-blvd-1f54k0,Q - 149th Ave/ Brookville Blvd,Queens,149th Avenue,40.65259,-73.746435,2023-06-22T00:00:00.000,2025-08-21T00:00:00.000,15.24,True,True,False,,,,0.0,0.0
+SI-chapin-ave-dalemere-rd-1uzko0,SI - Chapin Ave/Dalemere Rd,Staten Island,Chapin Avenue,40.597499,-74.101773,2024-04-25T00:00:00.000,,4.33,False,False,False,,,,0.0,0.0
+BX-boynton-ave-lafayette-ave-1zby7c,BX - Boynton Ave/Lafayette Ave,Bronx,Lafayette Avenue,40.819703,-73.876275,2024-07-18T00:00:00.000,,9.37,False,False,False,,,,3.0,0.0
+SI-sweetbrook-rd--ridgewood-ave-1wue80,SI - Sweetbrook Rd & Ridgewood Ave,Staten Island,Leverett Avenue,40.555541,-74.164706,2024-05-31T00:00:00.000,,50.51,False,False,False,,,,0.0,0.0
+BK-ocean-pkwy-avenue-w-20rtno,BK - Ocean Pkwy/Avenue W,Brooklyn,"Ocean Parkway, Ocean Parkway Service Road",40.593196,-73.96431,2024-08-15T00:00:00.000,,5.98,False,False,False,,,,3.0,1.0
+BX-w-234th-st-tibbett-ave-2cakho,BX - Tibbett Ave/W 234th St,Bronx,Tibbett Avenue,40.88326,-73.90585,2025-03-27T00:00:00.000,,4.09,False,False,False,,,,39.0,39.0
+SI-rector-st-richmond-terr-1aijc0,SI - Rector St/Richmond Terr,Staten Island,Rector Street,40.637113,-74.127786,2023-03-24T00:00:00.000,,9.02,True,True,False,,,,3.0,0.0
+BK-blake-ave-strauss-st-1dnks0,BK - Blake Ave/Strauss St,Brooklyn,Blake Avenue,40.664865,-73.915238,2023-05-24T00:00:00.000,,10.67,False,False,False,,,,2.0,1.0
+BK-e-45th-st-rutland-rd-1dnf80,BK - E 45th St/ Rutland Rd,Brooklyn,East 45th Street,40.660232,-73.936183,2023-05-24T00:00:00.000,,10.31,False,False,False,,,,0.0,0.0
+SI-grimsby-st-mapleton-ave-1de5w0,SI - Grimsby St/ Mapleton Ave,Staten Island,Grimsby Street,40.574836,-74.093448,2023-05-19T00:00:00.000,,7.68,True,True,False,,,,37.0,33.0
+Q-87th-st-astoria-blvd-1pmwk0,Q - 87th St/Astoria Blvd,Queens,87th Street,40.764667,-73.881841,2024-01-12T00:00:00.000,,4.92,False,False,False,,,,5.0,3.0
+Q-beach-84th-st-beach-channel-dr-2nf0xc,Q - Beach 84 St (2),Queens,Beach 84th Street,40.591699,-73.809929,2025-10-29T00:00:00.000,,5.39,True,True,False,,,,87.0,73.0
+Q-169th-st-underhill-ave-21u2nc,Q - 169th St/Underhill Ave,Queens,169th Street,40.746942,-73.799275,2024-09-05T00:00:00.000,,10.2,False,False,False,,,,0.0,0.0
+BX-virginia-ave-e-177th-st-1zbxsc,BX - Virginia Ave/E 177th St,Bronx,East 177th Street,40.832581,-73.861014,2024-07-18T00:00:00.000,2025-10-24T00:00:00.000,9.49,False,False,False,,,,0.0,0.0
+Q-69th-ave-195th-ln-21u2nc,Q - 69th Ave/195th Ln,Queens,69th Avenue,40.736703,-73.778413,2024-09-05T00:00:00.000,,9.37,False,False,False,,,,3.0,1.0
+Q-roosevelt-ave-63rd-st-214pvc,Q - Roosevelt Ave/63rd St,Queens,63rd Street,40.745686,-73.901113,2024-08-22T00:00:00.000,,27.36,False,False,False,,,,0.0,0.0
+BX-mosholu-ave-broadway-2cal1o,BX - Broadway/Mosholu Ave,Bronx,"Broadway, New York 9 A, US Highway 9 South, New York State Route 9A, US-9 North, US Highway 9 North, State Route 9 A, US-9 South",40.90418,-73.89626,2025-03-27T00:00:00.000,,9.25,False,False,False,,,,0.0,0.0
+SI-genesee-ave-richmond-ave-20e7zc,SI - Genesee Ave/Richmond Ave,Staten Island,Richmond Avenue,40.552834,-74.168147,2024-08-08T00:00:00.000,,19.09,False,False,False,,,,2.0,0.0
+BX-reynolds-ave-sampson-ave-291vio,BX - Sampson Ave/ 7th Ave,Bronx,Sampson Avenue,40.823316,-73.810488,2025-01-23T00:00:00.000,2025-02-26T00:00:00.000,2.05,False,False,False,,,,0.0,0.0
+BK-pioneer-st-conover-st-0pzvo0,BK - Pioneer St/Conover St,Brooklyn,Conover Street,40.679734,-74.012422,2022-02-18T00:00:00.000,,16.22,False,False,False,,,,2.0,0.0
+M-stanton-st-mangin-st-1vri80,M - Mangin St/Stanton St,Manhattan,"Stanton Street, A New Street",40.717852,-73.976247,2024-05-10T00:00:00.000,,12.01,False,False,False,,,,3.0,0.0
+Q-beach-42nd-st-beach-channel-dr-1zduec,Q - Beach 42nd St/Beach Channel Dr,Queens,Beach Channel Drive,40.595867,-73.773651,2024-07-19T00:00:00.000,,10.59,True,True,False,,,,2.0,1.0
+Q-bell-blvd-northern-blvd-2kxsno,Q - Bell Blvd / Northern Blvd,Queens,"Northern Boulevard, New York State Route 25A, State Route 25 A, New York 25 A",40.760432,-73.769284,2025-09-11T00:00:00.000,,9.13,False,False,False,,,,2.0,2.0
+Q-41st-ave-150th-st-1vcm40,Q - 150th St/41st Ave,Queens,41st Avenue,40.762516,-73.813991,2024-05-02T00:00:00.000,,10.43,False,False,False,,,,0.0,0.0
+M-riverside-dr-w-81st-st-2ausk0,M - W 81st St/ Riverside Dr,Manhattan,Riverside Drive,40.786217,-73.981525,2025-02-27T00:00:00.000,,10.16,False,False,False,,,,0.0,0.0
+M-e-26th-st-lexington-ave-2mfdi0,M - Lexington Ave/E 26th St,Manhattan,Lexington Avenue,40.74119,-73.98337,2025-10-10T00:00:00.000,,10.24,False,False,False,,,,0.0,0.0
+Q-235th-st-129th-ave-20pwg0,Q - 235th St/129th Ave,Queens,235th Street,40.680741,-73.732096,2024-08-14T00:00:00.000,,9.72,False,False,False,,,,0.0,0.0
+Q-brookville-blvd-149th-ave-1zbc0d,Q - Brookville Blvd/ 149th St,Queens,Brookville Boulevard,40.65265,-73.746437,2025-08-21T00:00:00.000,,8.9,True,True,False,,,,7.0,3.0
+Q-50th-ave-65th-pl-1vemc0,Q - 50th Ave/65th Pl,Queens,65th Place,40.73715,-73.900019,2024-05-03T00:00:00.000,,10.35,False,False,False,,,,4.0,0.0
+BK-utica-ave-rutland-rd-215zzc,BK - Utica Ave/Rutland Rd,Brooklyn,Rutland Road,40.660655,-73.931103,2024-08-23T00:00:00.000,,11.02,False,False,False,,,,4.0,2.0
+Q-davenport-ct-1-07zks0,Q - Davenport Ct 1,Queens,Davenport Court,40.653387,-73.830559,2021-03-05T00:00:00.000,,6.97,True,True,False,,,,75.0,70.0
+Q-63rd-st-laurel-hill-blvd-214qc0,Q - 63rd St/Laurel Hill Blvd,Queens,63rd Street,40.738246,-73.902776,2024-08-22T00:00:00.000,,10.55,False,False,False,,,,8.0,0.0
+BX-allerton-ave-e-gun-hill-rd-2918u0,BX - E Gun Hill Rd/ Gunther Ave,Bronx,East Gun Hill Road,40.864261,-73.834248,2025-01-23T00:00:00.000,,19.33,False,False,False,,,,2.0,2.0
+Q-2nd-st-54th-ave-2k9of0,Q - 54th Ave / Second St,Queens,2nd Street,40.740837,-73.959307,2025-08-29T00:00:00.000,,7.09,False,False,False,,,,2.0,2.0
+BK-morgan-ave-johnson-ave-1e4600,BK - Morgan Ave/Johnson Ave,Brooklyn,Morgan Avenue,40.707861,-73.932426,2023-06-02T00:00:00.000,,36.97,False,False,False,,,,1.0,0.0
+Q-beach-72nd-st-almeda-ave-1a5hw0,Q - Beach 72nd St/Almeda Ave,Queens,Beach 72nd Street,40.596572,-73.800994,2023-03-17T00:00:00.000,,15.39,True,True,False,,,,11.0,10.0
+Q-51st-ave-71st-st-20qac0,Q - 51st Ave/71st St,Queens,71st Street,40.735848,-73.893286,2024-08-14T00:00:00.000,,27.36,False,False,False,,,,1.0,0.0
+Q-brookville-blvd-147-ave-1i17s0,Q - Brookville Blvd/147 Ave,Queens,147th Avenue,40.65733,-73.744879,2023-08-17T00:00:00.000,,6.61,True,True,False,,,,0.0,0.0
+M-lexington-ave-e-104th-st-1yjfg0,M - Lexington Ave/E 104th St,Manhattan,East 104th Street,40.791021,-73.947317,2024-07-03T00:00:00.000,,8.62,False,False,False,,,,1.0,0.0
+Q-beach-29th-st-seagirt-ave-1w2p00,Q - Beach 29th St/Seagirt Ave,Queens,Beach 29th Street,40.594737,-73.761827,2024-05-16T00:00:00.000,,28.43,False,False,False,,,,1.0,0.0
+BK-mermaid-ave-w-32th-st-1uodw0,BK - Mermaid Ave/W 32th St,Brooklyn,West 32nd Street,40.575,-73.998473,2024-04-19T00:00:00.000,2024-10-31T00:00:00.000,0,False,False,False,,,,3.0,0.0
+BK-wallabout-st-harrison-ave-19qrc0,BK - Wallabout St/Harrison Ave,Brooklyn,Wallabout Street,40.701603,-73.948601,2023-03-09T00:00:00.000,,12.83,False,False,False,,,,5.0,0.0
+BK-16th-ave-80th-st-20cdbc,BK - 16th Ave/80th St,Brooklyn,80th Street,40.613281,-74.003602,2024-08-07T00:00:00.000,,3.46,False,False,False,,,,3.0,1.0
+Q-204th-st-100th-ave-2msf80,Q - 204th St/ 100th Ave,Queens,204th Street,40.71147,-73.75595,2025-10-17T00:00:00.000,,6.93,False,False,False,,,,3.0,1.0
+SI-lyon-pl-devens-st-0xwzk0,SI - Lyon Pl/Devens St,Staten Island,Lyon Place,40.619373,-74.147436,2022-07-22T00:00:00.000,,16.22,False,False,False,,,,0.0,0.0
+BX-story-ave-boynton-ave-1zby0o,BX - Story Ave/Boynton Ave,Bronx,Boynton Avenue,40.821901,-73.876581,2024-07-18T00:00:00.000,,9.25,False,False,False,,,,0.0,0.0
+Q-brinkerhoff-ave-157th-st-11czg0,Q - Brinkerhoff Ave/157th St,Queens,"110th Avenue, Brinkerhoff Avenue",40.691989,-73.792461,2022-09-27T00:00:00.000,2025-09-17T00:00:00.000,11.89,False,False,False,,,,0.0,0.0
+Q-queens-boulevard-broadway-20q4s0,Q - Queens Blvd/Broadway,Queens,Queens Boulevard,40.73671,-73.877074,2024-08-14T00:00:00.000,,13.94,False,False,False,,,,8.0,4.0
+Q-beach-35-st-beach-channel-dr-1oeug0,Q - Beach 35 St/Beach Channel Dr,Queens,Beach 35th Street,40.596618,-73.767808,2023-12-19T00:00:00.000,,6.97,True,True,False,,,,68.0,50.0
+BK-2nd-ave-49th-st-2l8qvc,BK - 2nd Ave/49th St,Brooklyn,2nd Avenue,40.649742,-74.01632,2025-09-17T00:00:00.000,,5.98,False,False,False,,,,2.0,1.0
+Q-71st-st-31st-ave-214p1c,Q - 71st St/31st Ave,Queens,71st Street,40.758415,-73.896246,2024-08-22T00:00:00.000,,10.83,False,False,False,,,,0.0,0.0
+BK-hancock-st-marcy-ave-2mfkg0,BK - Hancock St/Marcy Ave,Brooklyn,Hancock Street,40.68294,-73.9469,2025-10-10T00:00:00.000,,9.49,False,False,False,,,,2.0,2.0
+M-10th-ave-w-211th-st-1yhnk0,M - 10th Ave/ W 211th St,Manhattan,West 211th Street,40.867128,-73.917187,2024-07-02T00:00:00.000,,11.02,False,False,False,,,,3.0,0.0
+Q-utopia-pkwy-67th-ave-1lmjc0,Q - Utopia Pkwy/ 67th Ave,Queens,Utopia Parkway,40.734408,-73.79335,2023-10-26T00:00:00.000,,7.32,False,False,False,,,,5.0,3.0
+Q-astoria-park-south-18th-st-2ausk0,Q - Astoria Park/ 18th St,Queens,"Astoria Park South, Astoria Avenue South",40.775789,-73.926152,2025-02-27T00:00:00.000,,9.41,False,False,False,,,,0.0,0.0
+SI-ridgewood-ave-arthur-kill-rd-20e7zc,SI - Ridgewood Ave/Arthur Kill Rd,Staten Island,Arthur Kill Road,40.560325,-74.166351,2024-08-08T00:00:00.000,,8.9,True,True,False,,,,16.0,12.0
+BK-vanderbilt-ave-flushing-ave-214o0o,BK - Vanderbilt Ave/Flushing Ave,Brooklyn,Vanderbilt Avenue,40.697725,-73.970675,2024-08-22T00:00:00.000,,16.1,False,False,False,,,,0.0,0.0
+Q-183rd-st-90th-ave-1lmow0,Q - 183rd St/90th Ave,Queens,90th Avenue,40.711128,-73.777904,2023-10-26T00:00:00.000,,9.49,False,False,False,,,,2.0,2.0
+Q-175th-st-75th-ave-21u2nc,Q - 175th St/75th Ave,Queens,175th Street,40.728269,-73.794784,2024-09-05T00:00:00.000,,8.74,False,False,False,,,,1.0,0.0
+BK-5th-ave-45th-st-1umrk0,BK - 45th St/5th Ave,Brooklyn,45th Street,40.648417,-74.008333,2024-04-18T00:00:00.000,2024-12-20T00:00:00.000,29.41,False,False,False,,,,0.0,0.0
+SI-hylan-blvd-jefferson-blvd-1nhfo0,SI - Hylan Blvd/ Jefferson Blvd,Staten Island,Hylan Boulevard,40.581063,-74.098494,2023-12-01T00:00:00.000,,11.42,True,True,False,,,,3.0,1.0
+M-grand-st-thompson-st-2suz00,M - Thompson St/Grand St,Manhattan,Thompson Street,40.722921,-74.004389,2026-02-12T00:00:00.000,,10.12,False,False,False,,,,4.0,1.0
+BK-knickerbocker-ave-hart-st-1e48s0,BK - Knickerbocker Ave/ Hart St,Brooklyn,Knickerbocker Avenue,40.70142,-73.923109,2023-06-02T00:00:00.000,,10.43,False,False,False,,,,6.0,4.0
+Q-147th-st-235th-st-1w2dw0,Q - 232nd St/147th Ave,Queens,147th Avenue,40.657485,-73.747802,2024-05-16T00:00:00.000,2024-07-25T00:00:00.000,0,False,False,False,,,,0.0,0.0
+BK-lawrence-ave-seton-pl-2lawdc,BK - Lawrence Ave/Seton Pl,Brooklyn,Lawrence Avenue,40.630042,-73.974964,2025-09-18T00:00:00.000,,10.59,False,False,False,,,,0.0,0.0
+Q-10th-st-vernon-blvd-2ausk0,Q - 10th St/ Vernon Blvd,Queens,10th Street,40.767149,-73.937288,2025-02-27T00:00:00.000,,6.18,False,False,False,,,,6.0,1.0
+BK-putnam-ave-franklin-ave-2jg3bo,BK - Putnam Ave / Franklin Ave,Brooklyn,Putnam Avenue,40.68345,-73.95605,2025-08-13T00:00:00.000,,8.27,False,False,False,,,,0.0,0.0
+M-hancock-pl-morningside-ave-1yjfg0,M - Hancock Pl/Morningside Ave,Manhattan,Morningside Avenue,40.810956,-73.954405,2024-07-03T00:00:00.000,,9.61,False,False,False,,,,8.0,5.0
+Q-169th-st-sayres-ave-1jtq00,Q - 169th St/Sayres Ave,Queens,169th Street,40.69229,-73.781615,2023-09-21T00:00:00.000,,8.31,False,False,False,,,,1.0,1.0
+BK-neptune-ave-w-29th-st-1xvic0,BK - Neptune Ave W 29th St,Brooklyn,West 29th Street,40.577605,-73.995721,2024-06-20T00:00:00.000,,8.66,False,False,False,,,,9.0,2.0
+M-s-st-broad-st-1zbc0d,M - Broad St/South St,Manhattan,Broad Street,40.701836,-74.011231,2025-08-22T00:00:00.000,,13.58,False,False,False,,,,2.0,0.0
+BK-10th-ave-76th-st-1umos0,BK - 76th St/10th Ave,Brooklyn,10th Avenue,40.623751,-74.014499,2024-04-18T00:00:00.000,,22.2,False,False,False,,,,1.0,1.0
+Q-hobart-st-31st-ave-214plc,Q - Hobart St/31st Ave,Queens,Hobart Street,40.757299,-73.908146,2024-08-22T00:00:00.000,,23.43,False,False,False,,,,3.0,1.0
+BK-ocean-pkwy-coney-island-ave-2lavec,BK - Coney Island Ave/Park Circle,Brooklyn,Coney Island Avenue,40.650531,-73.972239,2025-09-18T00:00:00.000,,9.13,False,False,False,,,,1.0,0.0
+M-e-houston-st-baruch-dr-1zmfzc,M - E Houston St/Baruch Dr,Manhattan,East Houston Street,40.719531,-73.977398,2024-07-24T00:00:00.000,,7.8,False,False,False,,,,1.0,0.0
+M-barclay-st-w-st-2juumc,M - Barclay St/West St,Manhattan,"West Street, New York 9 A, New York State Route 9A, West Side Highway, State Route 9 A",40.714444,-74.013332,2025-08-21T00:00:00.000,,12.13,False,False,False,,,,3.0,2.0
+Q-davenport-ct-2-07znk0,Q - Davenport Ct 2,Queens,Davenport Court,40.653387,-73.830559,2021-03-05T00:00:00.000,2022-12-14T00:00:00.000,9.25,True,True,False,,,,13.0,13.0
+Q-kissena-blvd-rose-ave-1mpkw0,Q - Kissena Blvd/ Rose Ave,Queens,Kissena Boulevard,40.746096,-73.814241,2023-11-16T00:00:00.000,,5.39,False,False,False,,,,3.0,1.0
+BK-3rd-ave-61st-st-20cdbc,BK - 3rd Ave/61st St,Brooklyn,61st Street,40.641339,-74.020726,2024-08-07T00:00:00.000,,7.91,False,False,False,,,,0.0,0.0
+BK-dewitt-ave-williams-ave-215zzc,BK - DeWitt Ave/Williams Ave,Brooklyn,Williams Avenue,40.656385,-73.895703,2024-08-23T00:00:00.000,,8.15,False,False,False,,,,6.0,0.0
+Q-159th-st-109th-ave-0vr4s0,Q - 159th St/109th Ave,Queens,159th Street,40.69395,-73.793087,2022-06-10T00:00:00.000,2023-09-21T00:00:00.000,6.61,False,False,False,,,,0.0,0.0
+Q-155th-ave-79th-st-215zzc,Q - 155th Ave/79th St,Queens,79th Street,40.66403,-73.85473,2024-08-23T00:00:00.000,,6.5,False,False,False,,,,31.0,28.0
+Q-brookville-blvd-rockaway-blvd-1-23ndo0,Q - Brookville Blvd/ Snake Rd 1,Queens,Brookville Boulevard,40.6439,-73.74448,2024-10-10T00:00:00.000,,12.24,True,True,False,,,,113.0,101.0
+Q-41st-ave-78th-st-1vep40,Q - 41st Ave/78th St,Queens,41st Avenue,40.745681,-73.887337,2024-05-03T00:00:00.000,,9.45,False,False,False,,,,0.0,0.0
+Q-beach-43rd-st-15qgw0,Q - Beach 43rd St,Queens,Beach 43rd Street,40.600158,-73.775326,2022-12-21T00:00:00.000,,9.72,True,True,False,,,,4.0,2.0
+M-3rd-ave-e-25th-st-2mfd4o,M - 3rd Ave/E 25th St,Manhattan,"East 25th Street, Bernard Baruch Way",40.740155,-73.982282,2025-10-10T00:00:00.000,,17.56,False,False,False,,,,4.0,0.0
+Q-lewis-ave-101st-st-21u2nc,Q - Lewis Ave/101st St,Queens,Lewis Avenue,40.740431,-73.859311,2024-09-05T00:00:00.000,,17.05,False,False,False,,,,2.0,0.0
+M-waverly-pl-6th-av-0mg3o0,M - Waverly Pl/6th Av,Manhattan,Waverly Place,40.733009,-74.000316,2021-12-11T00:00:00.000,2022-04-01T00:00:00.000,12.76,False,False,False,,,,0.0,0.0
+BK-nautilus-ave-surf-ave-20cdbc,BK - Nautilus Ave/Surf Ave,Brooklyn,Surf Avenue,40.575518,-74.008308,2024-08-07T00:00:00.000,,7.8,False,False,False,,,,0.0,0.0
+Q-peck-ave-153rd-st-1lmug0,Q - Peck Ave/153rd st,Queens,153rd Street,40.745617,-73.814417,2023-10-26T00:00:00.000,,7.32,False,False,False,,,,3.0,1.0
+M-w-143rd-st-frederick-douglass-blvd-1yhi00,M - W 143rd St/Frederick Douglass Blvd,Manhattan,West 144th Street,40.822214,-73.942642,2024-07-02T00:00:00.000,,13.11,False,False,False,,,,0.0,0.0
+BX-irwin-ave-w-232nd-st-2nie80,BX - W 232nd St/Irwin Ave,Bronx,West 232nd Street,40.882315,-73.907927,2025-10-31T00:00:00.000,,10.08,False,False,False,,,,0.0,0.0
+Q-25th-ave-43rd-st-2ausk0,Q - 25th Ave/ 43rd St,Queens,25th Avenue,40.766816,-73.909423,2025-02-27T00:00:00.000,,10.47,False,False,False,,,,1.0,0.0
+Q-30th-ave-77th-st-1vcm40,Q - 30th Ave/77th St,Queens,77th Street,40.760622,-73.891141,2024-05-02T00:00:00.000,,10.55,False,False,False,,,,1.0,0.0
+Q-78th-st-atlantic-ave-2bkxj0,Q - 78th St/ Atlantic Ave,Queens,78th Street,40.684349,-73.861527,2025-03-13T00:00:00.000,,11.65,False,False,False,,,,2.0,0.0
+SI-saybrook-st-croft-pl-2n5eg0,SI - Saybrook St/Croft Pl,Staten Island,Saybrook Street,40.605167,-74.160819,2025-10-24T00:00:00.000,,10.94,False,False,False,,,,0.0,0.0
+BK-columbia-st-bay-st-0pzkk0,BK - Columbia St/Bay St,Brooklyn,Columbia Street,40.673267,-74.008418,2022-02-18T00:00:00.000,,12.83,False,False,False,,,,0.0,0.0
+BK-avenue-y-e-14th-st-20ru10,BK - Avenue Y/E 14th St,Brooklyn,East 14th Street,40.589699,-73.955668,2024-08-15T00:00:00.000,,11.85,False,False,False,,,,3.0,2.0
+Q-sunbury-road-merrick-boulevard-20px3c,Q - Sunbury Rd/Merrick Blvd,Queens,Sunbury Road,40.683301,-73.768533,2024-08-14T00:00:00.000,,14.65,False,False,False,,,,0.0,0.0
+BK-decatur-st-tompkins-ave-2mfii0,BK - Tompkins Ave/ Fulton St,Brooklyn,Tompkins Avenue,40.6802,-73.94321,2025-10-10T00:00:00.000,,10.24,False,False,False,,,,1.0,1.0
+Q-79th-st-151-ave-1w2go0,Q - 79th St/151st Ave,Queens,79th Street,40.667256,-73.855389,2024-05-16T00:00:00.000,,56.69,False,False,False,,,,0.0,0.0
+BK-avenue-m-e-104th-st-2nick0,BK - E104th St/ Ave M,Brooklyn,East 104th Street,40.64054,-73.88827,2025-10-31T00:00:00.000,,11.5,False,False,False,,,,5.0,2.0
+BX-mullan-pl-pennyfield-ave-1vpks0,BX - Schurz Ave/Mullan Pl,Bronx,Mullen Place,40.815776,-73.807329,2024-05-09T00:00:00.000,,5.98,False,False,False,,,,5.0,2.0
+M-e-79th-st-1st-ave-29txio,M - E 79th St/ 1st Ave,Manhattan,East 79th Street,40.77222,-73.95258,2025-02-07T00:00:00.000,,5.28,False,False,False,,,,0.0,0.0
+Q-34th-ave-100th-st-1vcjc0,Q - 100th St/34th Ave,Queens,100th Street,40.755249,-73.868158,2024-05-02T00:00:00.000,,9.84,False,False,False,,,,0.0,0.0
+Q-47th-ave-102nd-st-20pwg0,Q - 47th Ave/102nd St,Queens,102nd Street,40.744845,-73.861614,2024-08-14T00:00:00.000,,11.54,False,False,False,,,,0.0,0.0
+SI-olympia-blvd-mapleton-ave-1dee80,SI - Olympia Blvd/ Mapleton Ave,Staten Island,Olympia Boulevard,40.573983,-74.091884,2023-05-19T00:00:00.000,,11.65,True,True,False,,,,6.0,4.0
+Q-church-rd-e-6th-rd-2jvgso,Q - Church Rd/E 6th Rd,Queens,"Church Road, 101st Street",40.60918,-73.817947,2025-08-21T00:00:00.000,,10.35,True,True,False,,,,19.0,15.0
+BX-gillespie-ave-la-salle-ave-291wwo,BX - Gillespie Ave/ Lasalle Ave,Bronx,Gillespie Avenue,40.839289,-73.830338,2025-01-23T00:00:00.000,,8.31,False,False,False,,,,1.0,0.0
+BX-tier-st-william-ave-1hd2c0,BX - Tier St/William Ave,Bronx,Tier Street,40.847966,-73.789598,2023-08-04T00:00:00.000,2023-10-12T00:00:00.000,12.83,True,True,False,,,,0.0,0.0
+Q-onderdonk-ave-flushing-ave-2mf9uc,BK - Howard Ave/ Macon St,Brooklyn,Howard Avenue,40.684294,-73.920195,2025-10-10T00:00:00.000,,10.47,False,False,False,,,,1.0,1.0
+BK-halsey-st-throop-ave-2mfhfo,BK - Halsey St/ Throop Ave,Brooklyn,Halsey Street,40.682874,-73.941032,2025-10-10T00:00:00.000,,7.28,False,False,False,,,,3.0,1.0
+BK-winthrop-st-remsen-ave-2nick0,BK - E102nd St/ Ave N,Brooklyn,Remsen Avenue,40.63781,-73.8876,2025-10-31T00:00:00.000,,3.94,False,False,False,,,,3.0,0.0
+Q-56th-ave-springfield-blvd-1zbc0d,Q - 56th Ave/ Springfield Blvd,Queens,56th Avenue,40.75255,-73.7591,2025-09-11T00:00:00.000,,8.19,False,False,False,,,,4.0,3.0
+Q-sunbury-road-177th-place-20pwtc,Q - 120th Ave/177th Pl,Queens,177th Place,40.685102,-73.767066,2024-08-14T00:00:00.000,,8.5,False,False,False,,,,0.0,0.0
+Q-76th-st-37th-rd-214qm0,Q - 76th St/37th Rd,Queens,37th Road,40.747519,-73.889395,2024-08-22T00:00:00.000,,8.78,False,False,False,,,,1.0,1.0
+BX-van-nest-ave-radcliff-ave-2lnmso,BX - Radcliffe Ave/Van Nest Ave,Bronx,Van Nest Avenue,40.846488,-73.856049,2025-09-25T00:00:00.000,,11.06,False,False,False,,,,0.0,0.0
+BK-e-46th-st-winthrop-st-2rrxg0,BK - Winthrop St/ E 46th St,Brooklyn,Winthrop Street,40.65809,-73.93521,2026-01-22T00:00:00.000,,10.83,False,False,False,,,,2.0,0.0
+BK-oceanview-ave-ocean-view-ave-24qgzc,BK - Ocean View Ave / Brighton 3rd St,Brooklyn,"Oceanview Avenue, Ocean View Avenue",40.579018,-73.965033,2024-10-31T00:00:00.000,,8.39,False,False,False,,,,2.0,0.0
+M-bennett-ave-broadway-1yhi00,M - Bennett Ave/Broadway,Manhattan,Bennett Avenue,40.859338,-73.931534,2024-07-02T00:00:00.000,,17.28,False,False,False,,,,0.0,0.0
+Q-whitestone-expressway-linden-pl-2kxrqc,Q - Linden Pl/ 28th Ave,Queens,Linden Place,40.772019,-73.833792,2025-09-11T00:00:00.000,,4.69,False,False,False,,,,3.0,3.0
+Q-145th-road-springfield-boulevard-20pw7o,Q - 145th Rd/Springfield Blvd,Queens,Springfield Boulevard,40.663945,-73.759328,2024-08-14T00:00:00.000,,9.25,False,False,False,,,,0.0,0.0
+BX-newman-ave-gildersleeve-ave-2o89w0,BX - Newman Ave/ Gildersleeve Ave,Bronx,Newman Avenue,40.80957,-73.85431,2025-11-14T00:00:00.000,,8.66,False,False,False,,,,0.0,0.0
+M-delancey-st-fdr-dr-2suzbo,M - Delancey St/FDR Dr,Manhattan,"FDR Drive, FDR Drive West Lane, East River Drive",40.71467,-73.976881,2026-02-12T00:00:00.000,,6.85,False,False,False,,,,3.0,1.0
+BK-9th-st-smith-st-0etvg0,BK - 9th St/Smith St,Brooklyn,9th Street,40.673654,-73.995396,2021-07-16T00:00:00.000,2021-12-10T00:00:00.000,13.07,False,False,False,,,,2.0,2.0
+M-e-108th-st-1st-ave-1vrco0,M - E 108th St/1st Ave,Manhattan,East 108th Street,40.790943,-73.939451,2024-05-10T00:00:00.000,,1.81,False,False,False,,,,0.0,0.0
+BK-carroll-st-4th-av-0ery00,BK - Carroll St/4th Av,Brooklyn,Carroll Street,40.676281,-73.984089,2021-07-15T00:00:00.000,,5.67,False,False,False,,,,10.0,6.0
+Q-deerfield-rd-beach-28th-st-1zdul0,Q - Deerfield Rd/Beach 28th St,Queens,Beach 28th Street,40.597343,-73.761458,2024-07-19T00:00:00.000,,9.37,True,True,False,,,,1.0,0.0
+Q-bay-24-st-cornage-ave-1w2rs0,Q - 24th St/Bay 24th St,Queens,Bay 24th Street,40.602601,-73.761457,2024-05-16T00:00:00.000,,8.54,False,False,False,,,,1.0,0.0
+Q-russell-st-2-07zt40,Q - Russell St 2,Queens,Russell Street,40.654254,-73.831736,2021-03-05T00:00:00.000,2024-02-15T00:00:00.000,30.87,True,True,False,,,,61.0,59.0
+Q-crescent-st-hoyt-avenue-south-2ausk0,Q - Cresent St/ Hoyt Ave,Queens,"Crescent Street, 25th Street",40.77293,-73.92155,2025-02-27T00:00:00.000,,9.29,False,False,False,,,,1.0,0.0
+M-w-119th-st-5th-ave-1yj9w0,M - W 119th St/5th Ave,Manhattan,West 119th Street,40.803119,-73.946141,2022-11-13T00:00:00.000,2024-12-13T00:00:00.000,13.19,False,False,False,,,,0.0,0.0
+SI-fabian-st-sneden-ave-20e7zc,SI - Fabian St/Sneden Ave,Staten Island,Sneden Avenue,40.54111,-74.174256,2024-08-08T00:00:00.000,,5.28,False,False,False,,,,0.0,0.0
+BX-hobart-ave-coddington-ave-291xu0,BX - Hobart Ave/ Coddington Ave,Bronx,Hobart Avenue,40.841029,-73.828842,2025-01-23T00:00:00.000,,6.5,False,False,False,,,,1.0,1.0
+Q-253rd-st-147-drive-1edno0,Q - 253rd St/ 147 Drive,Queens,253rd Street,40.655806,-73.736616,2023-06-07T00:00:00.000,2023-06-22T00:00:00.000,6.5,True,True,False,,,,0.0,0.0
+M-e-23rd-st-asser-levy-pl-2mfdvc,M - E 23rd St/FDR Drive,Manhattan,East 23rd Street,40.735873,-73.975937,2025-10-10T00:00:00.000,,9.02,False,False,False,,,,3.0,0.0
+Q-beach-66th-st-thursby-ave-1a5vs0,Q - Beach 66th St/Thursby Ave,Queens,Beach 66th Street,40.595956,-73.795556,2023-03-17T00:00:00.000,,7.44,True,True,False,,,,1.0,1.0
+BK-church-ave-e-53rd-st-215zzc,BK - Church Ave/E 53rd St,Brooklyn,Church Avenue,40.652245,-73.927709,2024-08-23T00:00:00.000,,23.9,False,False,False,,,,6.0,2.0
+BK-wallabout-st-throop-ave-19qu40,BK - Wallabout St/Throop Ave,Brooklyn,Wallabout Street,40.702812,-73.946768,2023-03-09T00:00:00.000,,9.13,False,False,False,,,,8.0,4.0
+BX-britton-st-bronx-park-east-2caoio,BX - Britton St/Bronx Park E,Bronx,Britton Street,40.86667,-73.87028,2025-03-27T00:00:00.000,,1.93,False,False,False,,,,0.0,0.0
+Q-133rd-st-97th-ave-21vxbc,Q - 133rd St/97th Ave,Queens,97th Avenue,40.694502,-73.815287,2024-09-06T00:00:00.000,,5.08,False,False,False,,,,6.0,1.0
+Q-177th-st-129th-ave-20pxgo,Q - 177th St/129th Ave,Queens,177th Street,40.680464,-73.765682,2024-08-14T00:00:00.000,,10.08,False,False,False,,,,2.0,0.0
+M-market-slip-s-st-2suyoc,M - Market Slip/South St,Manhattan,Market Slip,40.709579,-73.994078,2026-02-12T00:00:00.000,,10.79,False,False,False,,,,3.0,1.0
+M-11th-ave-w-42nd-st-2nvbn0,M - W 42nd St/11th Ave,Manhattan,West 42nd Street,40.760792,-73.998075,2025-11-07T00:00:00.000,,4.57,False,False,False,,,,0.0,0.0
+BX-white-plains-rd-wood-ave-2lnn60,BX - White Plains Rd/Wood Ave,Bronx,"White Plains Road, Pugsley Road",40.835616,-73.863275,2025-09-25T00:00:00.000,,11.18,False,False,False,,,,11.0,4.0
+BK-vermont-st-stanley-ave-215zzc,BK - Vermont St/Stanley Ave,Brooklyn,Stanley Avenue,40.657638,-73.888062,2024-08-23T00:00:00.000,,8.03,False,False,False,,,,4.0,2.0
+Q-springfield-blvd-murdock-ave-2msf80,Q - Springfield Blvd/ Murdock Ave,Queens,Springfield Boulevard,40.70329,-73.74068,2025-10-17T00:00:00.000,,8.9,False,False,False,,,,0.0,0.0
+Q-31st-rd-14th-st-2ausk0,Q - 14th St/ 31st Rd,Queens,31st Road,40.767691,-73.93232,2025-02-27T00:00:00.000,,9.09,False,False,False,,,,2.0,1.0
+BK-kingston-ave-rutland-rd-1dnqc0,BK - Kingston Ave/Rutland Rd,Brooklyn,Kingston Avenue,40.659991,-73.942603,2023-05-24T00:00:00.000,,13.11,False,False,False,,,,4.0,3.0
+M-malcolm-x-blvd-w-118th-1yjl00,M - Malcolm X Blvd/W 118th,Manhattan,West 117th Street,40.802614,-73.948844,2024-07-03T00:00:00.000,2024-12-13T00:00:00.000,9.37,False,False,False,,,,0.0,0.0
+M-126th-st-7th-av-0mi140,M - 126th St/7th Av,Manhattan,"West 126th Street, Sylvia P Woods Way, James Brown Way",40.80983,-73.948101,2021-12-12T00:00:00.000,,9.96,False,False,False,,,,9.0,6.0
+M-rivington-st-suffolk-st-1zmfzc,M - Rivington St/Suffolk St,Manhattan,Suffolk Street,40.719461,-73.985789,2024-07-24T00:00:00.000,,12.95,False,False,False,,,,1.0,0.0
+BX-longwood-ave-southern-blvd-1vpnk0,BX - Southern Blvd/Longwood Ave,Bronx,Longwood Avenue,40.816353,-73.896467,2024-05-09T00:00:00.000,,3.11,False,False,False,,,,0.0,0.0
+SI-seaview-ave-hylan-blvd-1aiug0,SI - Seaview Ave/Hylan Blvd,Staten Island,Seaview Avenue,40.586602,-74.09168,2023-03-24T00:00:00.000,,14.65,True,True,False,,,,1.0,1.0
+Q-184th-st-91st-ave-1lmro0,Q - 184th St/91st Ave,Queens,184th Street,40.710475,-73.776529,2023-10-26T00:00:00.000,,7.83,False,False,False,,,,2.0,1.0
+M-e-6th-st-fdr-drive-1vrfg0,M - E 6th St/FDR Dr,Manhattan,East 6th Street,40.721652,-73.975084,2024-05-10T00:00:00.000,,7.83,False,False,False,,,,0.0,0.0
+M-indian-rd-w-215th-st-1yhqc0,M - Indian Rd/W 215th St,Manhattan,West 218th Street,40.873076,-73.918458,2024-07-02T00:00:00.000,,5.63,True,True,False,,,,1.0,1.0
+BK-meserole-ave-newel-st-1tyro0,BK - Meserole Ave/Newel St,Brooklyn,Meserole Avenue,40.728288,-73.949231,2024-04-05T00:00:00.000,2025-07-24T00:00:00.000,3.58,False,False,False,,,,0.0,0.0
+BK-hoyt-st-5th-st-007sk0,BK - Hoyt St/5th St,Brooklyn,Hoyt Street,40.676672,-73.994591,2020-10-05T00:00:00.000,,17.17,False,False,False,,,,29.0,22.0
+BK-85th-st-24th-ave-1xv780,BK - 85th St 24th Ave,Brooklyn,85th Street,40.599746,-73.988479,2024-06-20T00:00:00.000,,10.79,False,False,False,,,,2.0,0.0
+BX-ditmars-st-hunter-ave-1kwrk0,BX - Ditmars St/Hunter Ave 2,Bronx,Ditmars Street,40.849297,-73.789528,2023-10-12T00:00:00.000,,0.94,True,True,False,,,,347.0,298.0
+Q-park-lane-park-lane-south-21u2nc,Q - Park Ln/Park Lane South,Queens,"Park Lane South, Park Place, Onslow Place",40.707823,-73.837171,2024-09-05T00:00:00.000,,13.46,False,False,False,,,,2.0,0.0
+BK-winthrop-st-e-94th-st-1dnt40,BK - Winthrop St/ E 94th St,Brooklyn,Winthrop Street,40.661173,-73.924517,2023-05-24T00:00:00.000,,8.39,False,False,False,,,,9.0,4.0
+BX-tier-st-william-ave-1kwuc0,BX - Tier St/William Ave,Bronx,Tier Street,40.848094,-73.789491,2023-10-12T00:00:00.000,,3.46,True,True,False,,,,14.0,11.0
+Q-brookville-blvd-149th-ave-3-23nfdo,Q - Brookville Blvd/ Snake Rd 3,Queens,Brookville Boulevard,40.649528,-73.74561,2024-10-10T00:00:00.000,,18.46,True,True,False,,,,78.0,42.0
+Q-160th-st-brinkerhoff-ave-1ju140,Q - 160th St/Brinkerhoff Ave,Queens,"110th Avenue, Brinkerhoff Avenue",40.692628,-73.790908,2023-09-21T00:00:00.000,2025-09-17T00:00:00.000,9.49,False,False,False,,,,0.0,0.0
+Q-w-16th-rd-cross-bay-blvd-1zdu4c,Q - W 16th Rd/Cross Bay Blvd,Queens,West 16th Road,40.601616,-73.820453,2024-07-19T00:00:00.000,,8.9,True,True,False,,,,3.0,1.0
+M-e-108th-st-park-ave-1kwx40,M - E 108th St/Park Ave,Manhattan,East 108th Street,40.794408,-73.947289,2023-10-12T00:00:00.000,,9.57,False,False,False,,,,3.0,1.0
+M-academy-st-vermilyea-ave-2nidwc,M - Vermilyea Ave/ Academy St,Manhattan,Vermilyea Avenue,40.86551,-73.924308,2025-10-31T00:00:00.000,,6.26,False,False,False,,,,1.0,0.0
+BX-castle-hill-ave-saint-raymonds-ave-2920m0,BX - St Raymond Ave/ Castle Hill Ave,Bronx,"Saint Raymond's Avenue, Saint Raymond South Avenue, Saint Raymond Avenue",40.837811,-73.852669,2025-01-23T00:00:00.000,,9.21,False,False,False,,,,0.0,0.0
+M-w-147th-st-malcolm-x-blvd-1yhks0,M - W 147th St/Malcolm X Blvd,Manhattan,West 147th Street,40.821781,-73.935526,2024-07-02T00:00:00.000,,16.69,False,False,False,,,,0.0,0.0
+BK-flatlands-8th-st-e-108th-st-1umx40,BK - Flatlands 8th St/E 108th St,Brooklyn,Flatlands 8th Street,40.640908,-73.884565,2024-04-18T00:00:00.000,,13.82,False,False,False,,,,3.0,0.0
+BK-dwight-st-king-st-0pznc0,BK - Dwight St/King St,Brooklyn,Dwight Street,40.676352,-74.008561,2022-02-18T00:00:00.000,,9.09,False,False,False,,,,2.0,0.0
+M-lafayette-st-white-st-1zmfzc,M - Lafayette St/White St,Manhattan,"Lafayette Street, Federal Plaza",40.717411,-74.001524,2024-07-24T00:00:00.000,,6.38,False,False,False,,,,2.0,0.0
+BK-farragut-rd-brooklyn-ave-20rvdc,BK - Farragut Rd/Brooklyn Ave,Brooklyn,Brooklyn Avenue,40.636771,-73.942329,2024-08-15T00:00:00.000,,11.02,False,False,False,,,,6.0,3.0
+BK-church-ave-e10th-st-1lbck0,BK - Church Ave/E10th St,Brooklyn,"Church Avenue, New York 27, New York State Route 27, State Route 27",40.64673,-73.970166,2023-10-20T00:00:00.000,,7.2,False,False,False,,,,4.0,1.0
+BK-caton-ave-e-8th-st-2lavl0,BK - Caton Ave/E Eighth St,Brooklyn,"Caton Avenue, State Route 27",40.647972,-73.972408,2025-09-18T00:00:00.000,,8.31,False,False,False,,,,4.0,1.0
+M-varick-st-canal-st-1zmfzc,M - Varick St/Canal St,Manhattan,Canal Street,40.722851,-74.006881,2024-07-24T00:00:00.000,,11.54,False,False,False,,,,1.0,0.0
+BK-dover-st-shore-blvd-20cdbc,BK - Dover St/Shore Blvd,Brooklyn,Dover Street,40.582007,-73.949998,2024-08-07T00:00:00.000,,11.85,False,False,False,,,,5.0,0.0
+BK-9th-st-smith-st-0mlfc0,BK - 9th St/Smith St,Brooklyn,9th Street,40.673401,-73.994892,2021-12-14T00:00:00.000,,8.15,False,False,False,,,,10.0,6.0
+Q-39th-ave-192nd-st-2kxsh0,Q - 192nd St/ 39th Ave,Queens,39th Avenue,40.76193,-73.78986,2025-09-11T00:00:00.000,,5.2,False,False,False,,,,2.0,0.0
+BK-fountain-ave-flatlands-ave-215zzc,BK - Fountain Ave/Flatlands Ave,Brooklyn,Flatlands Avenue,40.660318,-73.867307,2024-08-23T00:00:00.000,,7.8,False,False,False,,,,11.0,1.0
+Q-44th-dr-vernon-blvd-2if0k0,Q - 44th Dr/ Vernon Blvd,Queens,44th Drive,40.74908,-73.95193,2025-07-24T00:00:00.000,,11.38,False,False,False,,,,2.0,1.0
+M-academy-st-sherman-ave-2nido0,M - Sherman Ave/Academy St,Manhattan,Sherman Avenue,40.864401,-73.923884,2025-10-31T00:00:00.000,,7.09,False,False,False,,,,0.0,0.0
+Q-liberty-ave-183rd-st-2msf80,Q - Liberty Ave/ 183rd St,Queens,183rd Street,40.70549,-73.77576,2025-10-17T00:00:00.000,,12.05,False,False,False,,,,2.0,1.0
+Q-108th-ave-159th-st-0vr200,Q - 108th Ave/159th St,Queens,108th Avenue,40.695371,-73.794115,2022-06-10T00:00:00.000,2023-09-21T00:00:00.000,8.03,False,False,False,,,,0.0,0.0
+SI-dawson-court-dawson-circle-20e7zc,SI - Dawson Ct/Dawson Cir,Staten Island,Dawson Circle,40.604898,-74.166162,2024-08-08T00:00:00.000,,3.35,False,False,False,,,,0.0,0.0
+Q-beach-49th-st-rockaway-beach-blvd-1zdu7o,Q - Beach 49th St/Rockaway Beach Blvd,Queens,Beach 49th Street,40.593339,-73.779743,2024-07-19T00:00:00.000,,7.95,True,True,False,,,,5.0,0.0
+BK-83rd-st-21st-ave-20rsoo,BK - 83rd St/21st Ave,Brooklyn,83rd Street,40.604882,-73.994148,2024-08-15T00:00:00.000,,9.37,False,False,False,,,,3.0,2.0
+SI-olympia-slater-blvd-1j3so0,SI - Olympia/ Slater Blvd,Staten Island,Slater Boulevard,40.579374,-74.08697,2023-09-07T00:00:00.000,,6.61,True,True,False,,,,0.0,0.0
+Q-205th-st-90th-ave-2msnf0,Q - 205th St/ 90th Ave,Queens,205th Street,40.71765,-73.75812,2025-10-17T00:00:00.000,2025-10-23T00:00:00.000,8.54,False,False,False,,,,0.0,0.0
+BX-watson-ave-close-ave-1zbbzc,BX - Watson Ave/Close Ave,Bronx,Close Avenue,40.825626,-73.882366,2024-07-18T00:00:00.000,,24.37,False,False,False,,,,3.0,0.0
+BK-mermaid-ave-w-27th-st-1uors0,BK - Mermaid Ave/W 27th St,Brooklyn,Mermaid Avenue,40.575683,-73.99307,2024-04-19T00:00:00.000,2025-08-21T00:00:00.000,6.54,False,False,False,,,,0.0,0.0
+BK-grand-ave-greene-ave-2jg3u0,BK - Greene Ave / Grand Ave,Brooklyn,Greene Avenue,40.687137,-73.962457,2025-08-13T00:00:00.000,,8.39,False,False,False,,,,2.0,1.0
+BX-e-149th-st-brook-ave-1zbc0d,BX - Brook Ave / E 149th St,Bronx,Brook Avenue,40.815088,-73.914993,2025-09-04T00:00:00.000,,8.9,False,False,False,,,,0.0,0.0
+BK-concord-st-navy-st-1zmfzc,BK - Concord St/Navy St,Brooklyn,Navy Street,40.697836,-73.980408,2024-07-24T00:00:00.000,,12.24,False,False,False,,,,2.0,1.0
+Q-157th-st-109th-ave-0vqz80,Q - 157th St/109th Ave,Queens,157th Street,40.693297,-73.794337,2022-06-10T00:00:00.000,2023-09-21T00:00:00.000,9.49,False,False,False,,,,0.0,0.0
+BX-colgate-av-westchester-av-0pmzs0,BX - Colgate Av/Westchester Av,Bronx,Colgate Avenue,40.828553,-73.882075,2022-02-11T00:00:00.000,,26.89,False,False,False,,,,7.0,0.0
+BK-mermaid-ave-w-32nd-st-24qgfc,BK - Mermaid Ave/W 32nd St,Brooklyn,Mermaid Avenue,40.575179,-73.998369,2024-10-31T00:00:00.000,,3.35,False,False,False,,,,8.0,2.0
+BK-lorraine-st-henry-st-0pzsw0,BK - Lorraine St/Henry St,Brooklyn,Lorraine Street,40.673707,-74.00435,2022-02-18T00:00:00.000,,9.72,False,False,False,,,,8.0,1.0
+M-w-118th-st-lenox-ave-2lclao,M - 118th St/ Malcolm X Blvd,Manhattan,West 118th Street,40.803292,-73.948541,2025-09-19T00:00:00.000,,7.83,False,False,False,,,,0.0,0.0
+M-avenue-of-the-americas-w-18th-st-2mfe0c,M - 6th Ave/W 18th St,Manhattan,"Avenue of the Americas, 6th Avenue",40.73971,-73.99526,2025-10-10T00:00:00.000,,18.98,False,False,False,,,,1.0,0.0
+M-catherine-slip-catherine-st-2suy9c,M - Catherine Slip/Catherine St,Manhattan,Catherine Slip,40.710519,-73.998475,2026-02-12T00:00:00.000,,6.85,False,False,False,,,,1.0,0.0
+Q-1st-st-rockaway-blvd-20pwq0,Q - 1st St/Rockaway Blvd,Queens,"Rockaway Boulevard, New York State Route 878, State Route 878, New York 878",40.638098,-73.740976,2024-09-19T00:00:00.000,,11.42,False,False,False,,,,0.0,0.0
+SI-willow-rd-e-nina-ave-0xx2c0,SI - Willow Rd E/Nina Ave,Staten Island,Willow Road East,40.61133,-74.151058,2022-07-22T00:00:00.000,,19.09,False,False,False,,,,2.0,0.0
+SI-baden-pl-mapleton-ave-1dejs0,SI - Baden Pl/ Mapleton Ave,Staten Island,Mapleton Avenue,40.573189,-74.090386,2023-05-19T00:00:00.000,,10.43,True,True,False,,,,27.0,24.0
+BK-marcy-av-ellery-st-007vc0,BK - Marcy Ave/Ellery St,Brooklyn,Marcy Avenue,40.697974,-73.949837,2020-10-05T00:00:00.000,2023-03-09T00:00:00.000,20.87,False,False,False,,,,0.0,0.0
+BX-e-174th-st-webster-ave-2lane0,BX - Webster Ave/E 174th St,Bronx,Webster Avenue,40.84425,-73.90273,2025-09-25T00:00:00.000,,9.61,False,False,False,,,,0.0,0.0
+BX-tinton-ave-e-163rd-st-2lan40,BX - Tinton Ave/E 163rd St,Bronx,Tinton Avenue,40.822773,-73.903054,2025-09-25T00:00:00.000,,0,False,False,False,,,,0.0,0.0
+M-avenue-c-e-5th-st-1zmfzc,M - Avenue C/E 5th St,Manhattan,East 5th Street,40.722973,-73.979801,2024-07-24T00:00:00.000,,9.37,False,False,False,,,,0.0,0.0
+BK-ocean-ave-dorchester-rd-1lbi40,BK - Ocean Ave/Dorchester Rd,Brooklyn,Ocean Avenue,40.641051,-73.959463,2023-10-20T00:00:00.000,,10.43,False,False,False,,,,3.0,0.0
+BK-riverdale-ave-thatford-ave-2nick0,BK - Thatford Ave/ Riverdale Ave,Brooklyn,Thatford Avenue,40.66125,-73.90755,2025-10-31T00:00:00.000,,7.05,False,False,False,,,,2.0,2.0
+BK-coney-island-ave-brighton-beach-ave-20cdbc,BK - Coney Island Ave/Brighton Beach Ave,Brooklyn,Coney Island Avenue,40.577475,-73.959509,2024-08-07T00:00:00.000,,10.08,False,False,False,,,,9.0,3.0
+Q-98th-st-alstyne-ave-20pz80,Q - 98th St/Alstyne Ave,Queens,Alstyne Avenue,40.743128,-73.864458,2024-08-14T00:00:00.000,,8.27,False,False,False,,,,0.0,0.0
+BK-saint-johns-pl-brooklyn-ave-2rrwpc,BK - Brooklyn Ave/St Johns Pl,Brooklyn,Saint John's Place,40.671266,-73.944861,2026-01-22T00:00:00.000,,6.38,False,False,False,,,,1.0,1.0
+BX-rose-feiss-blvd-e-139th-st-2kkyj0,BX - Walnut Ave / E 139th St,Bronx,East 139th Street,40.803499,-73.907906,2025-09-04T00:00:00.000,,8.78,False,False,False,,,,3.0,0.0
+Q-brookville-blvd-rockaway-blvd-2-23nei0,Q - Brookville Blvd/ Snake Rd 2,Queens,Brookville Boulevard,40.6437,-73.7442,2024-10-10T00:00:00.000,,12.83,True,True,False,,,,58.0,50.0
+BX-e-165th-st-river-ave-214rec,BX - E 165th St/River Ave,Bronx,East 165th Street,40.832216,-73.924021,2024-08-22T00:00:00.000,2025-10-24T00:00:00.000,32.64,False,False,False,,,,0.0,0.0
+BX-morris-park-ave-radcliff-ave-25geeo,BX - Morris Park Ave/ Radcliff Ave,Bronx,Radcliff Avenue,40.847977,-73.857227,2024-11-14T00:00:00.000,,13.39,False,False,False,,,,1.0,1.0
+Q-126th-st-109th-ave-21vxbc,Q - 126th St/109th Ave,Queens,109th Avenue,40.683977,-73.815949,2024-09-06T00:00:00.000,,9.25,False,False,False,,,,4.0,1.0
+BX-bailey-ave-van-cortlandt-park-south-2calk0,BX - Van Cortlandt Park S/Bailey Ave,Bronx,Van Cortlandt Park South,40.885642,-73.895364,2025-03-27T00:00:00.000,,28.23,False,False,False,,,,0.0,0.0
+BK-35th-st-3rd-ave-20cdbc,BK - 35th St/3rd Ave,Brooklyn,35th Street,40.655606,-74.004967,2024-08-07T00:00:00.000,,13.07,False,False,False,,,,2.0,0.0
+Q-159th-st-109th-ave-1jtvk0,Q - 159th St/109th Ave,Queens,109th Avenue,40.69381,-73.792863,2023-09-21T00:00:00.000,,7.83,False,False,False,,,,2.0,1.0
+BX-sheridan-bl-173rd-st-0pmx00,BX - Sheridan Bl/173rd St,Bronx,"Sheridan Boulevard, State Route 895, New York-895, Sheridan Expressway North, New York State Route 895",40.833601,-73.883273,2022-02-11T00:00:00.000,,62.8,False,False,False,,,,0.0,0.0
+BX-centre-st-city-island-ave-1gmzg0,BX - Centre St/City Island Ave,Bronx,City Island Avenue,40.844349,-73.785508,2023-07-21T00:00:00.000,,11.42,True,True,False,,,,0.0,0.0
+SI-boundary-ave-hull-ave-1debg0,SI - Boundary Ave/ Hull Ave,Staten Island,Boundary Avenue,40.580028,-74.098358,2023-05-19T00:00:00.000,,12.24,False,False,False,,,,1.0,1.0
+M-peck-slip-front-st-1zmfzc,M - Peck Slip/Front St,Manhattan,Peck Slip,40.707833,-74.001697,2024-07-24T00:00:00.000,,17.68,False,False,False,,,,2.0,0.0
+SI-barlow-ave-abingdon-ave-20e7zc,SI - Barlow Ave/Abingdon Ave,Staten Island,Abingdon Avenue,40.558332,-74.159673,2024-08-08T00:00:00.000,,8.5,False,False,False,,,,2.0,1.0
+SI-caroline-st-castleton-ave-2agc1o,SI - Castleton Ave / Caroline St,Staten Island,Castleton Avenue,40.634294,-74.119554,2025-02-19T00:00:00.000,,3.98,False,False,False,,,,0.0,0.0
+BK-van-brunt-st-reed-st-0pzyg0,BK - Van Brunt St/Reed St,Brooklyn,Van Brunt Street,40.674602,-74.01607,2022-02-18T00:00:00.000,2022-12-27T00:00:00.000,64.96,False,False,False,,,,1.0,0.0
+BK-2nd-ave-49th-st-20cdbc,BK - 2nd Ave/49th St,Brooklyn,2nd Avenue,40.649779,-74.016307,2024-08-07T00:00:00.000,2025-09-17T00:00:00.000,5.98,False,False,False,,,,1.0,0.0
+M-12th-ave-w-24th-st-2nvb30,M - W 24th St/12th Ave,Manhattan,West 24th Street,40.75026,-74.00807,2025-11-07T00:00:00.000,,8.78,False,False,False,,,,1.0,0.0
+BK-fulton-st-dekalb-ave-1zmfzc,BK - Fulton St/Dekalb Ave,Brooklyn,"Fulton Street, Harriet Ross Tubman Avenue, Fulton Mall",40.689812,-73.983095,2024-07-24T00:00:00.000,2025-01-23T00:00:00.000,6.73,False,False,False,,,,0.0,0.0
+M-morningside-av-125th-st-0mhn80,M - Morningside Av/125th St,Manhattan,Morningside Avenue,40.811159,-73.954033,2021-12-12T00:00:00.000,2023-10-12T00:00:00.000,10.43,False,False,False,,,,0.0,0.0
+BK-3rd-ave-bergen-st-2jg440,BK - Bergen St / 3rd Ave,Brooklyn,Bergen Street,40.683327,-73.981874,2025-08-13T00:00:00.000,,6.97,False,False,False,,,,2.0,1.0
+BK-neptune-ave-w-35th-st-1xvfk0,BK - Neptune Ave W 35th St,Brooklyn,West 35th Street,40.577021,-74.001021,2024-06-20T00:00:00.000,,7.91,False,True,True,6.0,5.0,443.0,16.0,11.0
+BK-e-92nd-st-avenue-j-2nick0,BK - E92nd St/ Ave J,Brooklyn,East 92nd Street,40.63931,-73.90265,2025-10-31T00:00:00.000,,9.37,False,False,False,,,,8.0,5.0
+Q-77th-st-62nd-ave-1vcgk0,Q - 77th St/62nd Ave,Queens,77th Street,40.721687,-73.880904,2024-05-02T00:00:00.000,,9.65,False,False,False,,,,3.0,0.0
+BK-2nd-ave-53rd-st-1umuc0,BK - 2nd Ave/53rd St,Brooklyn,"53rd Street, Whale Square",40.647348,-74.018487,2024-04-18T00:00:00.000,,13.31,False,False,False,,,,1.0,0.0
+BK-bay-49th-st-harway-ave-1xvl40,BK - Bay 49th St/Harway Ave,Brooklyn,Harway Avenue,40.588256,-73.984969,2024-06-20T00:00:00.000,,3.86,False,False,False,,,,0.0,0.0
