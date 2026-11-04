@@ -1,11 +1,13 @@
-# Cleaned FloodNet street-flood record, New York City (Paper A)
+# Cleaned FloodNet street-flood record, New York City, 2020-2026
+
+DOI: https://doi.org/10.5281/zenodo.23964158
 
 This package holds the street-flood record used in *Recurrent flooding beyond the reach of flood protection in New York City*
 (Nature Cities, submitted). It keeps every event in the source table and states, for each one, whether it passes the
 checks and why not if it does not. Usable floods are in `floods_clean.csv`; removed events, each with a reason code, are in
 `excluded_events.csv`; `events_flagged.csv` holds all events with every flag.
 
-Built by `nc_package_floods.py` (Paper A code repository) on 2026-11-04.
+Built by `nc_package_floods.py` (https://github.com/cbian-prog/nyc-recurrent-flood-protection; archived at https://doi.org/10.5281/zenodo.23962188) on 2026-11-04.
 
 ## Sources
 
@@ -31,7 +33,7 @@ and are marked `in_paper_record = False`.
    skill of rainfall, not to remove errors; about half of the events in heavy rain also drain faster, some of them deep.
 4. **Tidal flag:** FloodNet's flag plus 3 sensors that behave as tidal (`reclassified_tidal`): within 1 km of open water, at
    least 3 floods on days with less than 0.1 in of rain, at least two-thirds of them within 2 h of a Battery level above MHHW.
-   The rule was fixed before results were examined. 1,739 floods at tidal sensors.
+   1,739 floods at tidal sensors.
 5. **Removed:** 1 flood at a sensor missing from the sensor table, and 22 floods at non-tidal sensors with no rain evidence.
 6. **Counted as floods:** 2,104 (1,739 tidal, 365 rain).
 
@@ -104,5 +106,10 @@ non-tidal sensor from 7 days after installation, as used by the storm-and-place 
 
 FloodNet data are published on NYC Open Data under the City of New York's Open Data terms of use; please cite FloodNet and
 the NYC Open Data datasets above. NOAA data (MRMS, CO-OPS, CUDEM) are public. ASOS reports are from the Iowa Environmental
-Mesonet. This derived package is released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). Citation of the
-paper and a DOI will be added at release.
+Mesonet. This derived package is released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+
+Please cite this dataset as:
+
+> Bian, C. Cleaned FloodNet street-flood record, New York City, 2020-2026. Zenodo https://doi.org/10.5281/zenodo.23964158 (2026).
+
+and, where relevant, the paper: Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood protection in New York City* (submitted to Nature Cities).

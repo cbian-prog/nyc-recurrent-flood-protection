@@ -6,6 +6,7 @@ The study places New York City's flood sources (coastal surge, rainfall and tide
 
 - Code: this repository, archived at Zenodo, https://doi.org/10.5281/zenodo.23962188
 - Large public inputs as retrieved for the study: Zenodo, https://doi.org/10.5281/zenodo.23962247
+- Cleaned FloodNet street-flood record (also in `floodnet_cleaned/`), archived on its own so that it can be cited directly: Zenodo, https://doi.org/10.5281/zenodo.23964158
 - Licences: code MIT (`LICENSE`); data produced by this study CC BY 4.0 (`LICENSE-DATA`); third-party inputs keep their original terms (see *Inputs* below)
 
 ## Contents
@@ -16,7 +17,7 @@ The study places New York City's flood sources (coastal surge, rainfall and tide
 | `*.json` | Results written by the analysis scripts and read by the figure and table scripts. |
 | `figures/` | Figures 1–4, Extended Data Figs 1–4 and Supplementary Figs 1–3 as published (PDF and PNG). |
 | `tables/` | Supplementary Tables 1–7 (CSV and one workbook) and their legends. |
-| `floodnet_cleaned/` | The cleaned FloodNet street-flood record used in the paper, with every excluded event and its reason (own README, CC BY 4.0). |
+| `floodnet_cleaned/` | The cleaned FloodNet street-flood record used in the paper, with every excluded event and its reason (own README, CC BY 4.0; citable on its own, https://doi.org/10.5281/zenodo.23964158). |
 | `data/paper_a/` | Intermediate products of this study (described below). |
 | `data/naccs/` | NACCS still-water curve at The Battery digitised for this study, its tropical and extratropical components, and the per-save-point reconstruction. |
 | `data/` (other) | Small public inputs as retrieved (snapshots of sources that change over time). |
@@ -89,7 +90,7 @@ Several scripts carry names from earlier drafts (`figED*`, `fig5_*`); the table 
 
 | File | Content |
 |---|---|
-| `floodnet_cleaned/` | Every FloodNet event in the source table, with the 30-min drain rule, the rain-evidence test and the tidal flag applied (the paper analyses events to 11 August 2026); excluded events with reason codes (`SHORT`, `NO_RAIN`, `SHORT+NO_RAIN`, `NO_SENSOR`); sensor table; rainy sensor-days. See its README. |
+| `floodnet_cleaned/` | Every FloodNet event in the source table, with the 30-min drain rule, the rain-evidence test and the tidal flag applied (the paper analyses events to 11 August 2026); excluded events with reason codes (`SHORT`, `NO_RAIN`, `SHORT+NO_RAIN`, `NO_SENSOR`); sensor table; rainy sensor-days. See its README. Cite as Bian, C. Cleaned FloodNet street-flood record, New York City, 2020-2026. Zenodo https://doi.org/10.5281/zenodo.23964158 (2026). |
 | `data/paper_a/depths.npz` | Depth above ground at each of the 881,621 NSI structures (`depths`, 29 × 881,621) for 29 still-water levels from 0.5 to 7.5 m NAVD88 (`levels`); connected bathtub on the 20 m grid. |
 | `data/paper_a/masks_20m.npz`, `masks_city.npz` | Boolean rasters on the 20 m grid, for the surge window and for the whole city: FEMA Special Flood Hazard Area (`sfha`), 1-in-100 and 1-in-1,000-year surge reach (`s100`, `s1000`), extreme rainfall footprint (`rain`) and city land (`city`). |
 | `data/paper_a/sensor_days.parquet`, `sensor_days_model.parquet` | One row per rainy day at each non-tidal sensor: flood (`y`) and deepest flood depth (`dmax`), radar maximum hourly rain (`pmax`), Battery level relative to MHHW and high-tide flag (`tide_mhhw`, `hi`), distance to open water (`to_water`, `near`); the first file adds peak hour, intensity bin, borough and coordinates. |
