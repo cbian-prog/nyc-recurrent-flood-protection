@@ -4,8 +4,8 @@ Code and data for Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Flood protect
 
 The study places New York City's flood sources (coastal surge, rainfall and tide), the assets they reach (buildings, basement homes and subway stations) and three protection instruments (the FEMA flood map, the sewer design standard and the National Flood Insurance Program) on one frequency axis. Every input is a public dataset.
 
-- Code: this repository, archived at Zenodo, DOI **[DOI_CODE]**
-- Large public inputs as retrieved for the study: Zenodo, DOI **[DOI_INPUTS]**
+- Code: this repository, archived at Zenodo, https://doi.org/10.5281/zenodo.23962188
+- Large public inputs as retrieved for the study: Zenodo, https://doi.org/10.5281/zenodo.23962247
 - Licences: code MIT (`LICENSE`); data produced by this study CC BY 4.0 (`LICENSE-DATA`); third-party inputs keep their original terms (see *Inputs* below)
 
 ## Contents
@@ -29,7 +29,7 @@ The results needed by the figure scripts are included, so the figures and tables
 ```bash
 conda env create -f environment.yml
 conda activate nyc-recurrent-floods
-# unpack the Zenodo input archive [DOI_INPUTS] into this folder, so that its data/ merges with ./data/
+# unpack the Zenodo input archive https://doi.org/10.5281/zenodo.23962247 into this folder, so that its data/ merges with ./data/
 python nc_fig1.py; python nc_fig2.py; python nc_fig3.py; python nc_fig4_ed78.py
 python nc_edfig_record.py; python nc_edfig_surge.py; python nc_ed456.py
 python nc_si_robust.py; python nc_si_placement.py; python nc_supp.py
@@ -105,7 +105,7 @@ Several scripts carry names from earlier drafts (`figED*`, `fig5_*`); the table 
 
 ## Inputs
 
-All inputs are public. Small inputs that change over time are included in `data/` as retrieved; larger ones are in the Zenodo input archive **[DOI_INPUTS]**, which mirrors the `data/` layout. The NACCS per-save-point files require free registration at the USACE Coastal Hazards System and are not redistributed; the curves derived from them are in `data/naccs/`.
+All inputs are public. Small inputs that change over time are included in `data/` as retrieved; larger ones are in the Zenodo input archive (https://doi.org/10.5281/zenodo.23962247), which mirrors the `data/` layout. The NACCS per-save-point files require free registration at the USACE Coastal Hazards System and are not redistributed; the curves derived from them are in `data/naccs/`.
 
 | Dataset | Provider and identifier | Accessed | Location |
 |---|---|---|---|

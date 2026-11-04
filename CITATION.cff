@@ -7,15 +7,7 @@ authors:
   - family-names: Bian
     given-names: Ce
     affiliation: "Lamont-Doherty Earth Observatory and Columbia Climate School, Columbia University"
-  - family-names: Horton
-    given-names: Radley
-    affiliation: "Lamont-Doherty Earth Observatory and Columbia Climate School, Columbia University"
-  - family-names: Bresch
-    given-names: David N.
-    affiliation: "Institute for Environmental Decisions, ETH Zurich; MeteoSwiss"
-  - family-names: Zheng
-    given-names: Tian
-    affiliation: "Department of Statistics, Columbia University"
+doi: "10.5281/zenodo.23962188"
 repository-code: "https://github.com/cbian-prog/nyc-recurrent-flood-protection"
 keywords: [flood risk, New York City, storm surge, pluvial flooding, tidal flooding, flood insurance, FloodNet]
 preferred-citation:
