@@ -1,6 +1,6 @@
-"""Data for Fig. 4 and Extended Data Fig. 4d,e — why NFIP cover falls short, on the publication basis (NSI x USACE x NACCS water-level curve).
+"""Data for Fig. 4, Supplementary Fig. 3 and Supplementary Table 5 — why NFIP cover falls short, on the publication basis (NSI x USACE x NACCS water-level curve).
 
-Two estimates of what NFIP pays for a surge event (same definitions as insurance_city.py):
+Two estimates of what NFIP pays for a surge event:
   upper   : min(block-group loss, block-group building cover) — every policy sits on a damaged building
   neutral : policies placed at random among the structures of a block group:
             E[paid_i] = take_bg * min(loss_i, mean cover per contract in bg)

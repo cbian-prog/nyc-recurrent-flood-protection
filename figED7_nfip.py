@@ -1,4 +1,4 @@
-"""Data for Extended Data Fig. 4a-c — the NFIP data, Sandy claims and the two-city comparison.
+"""Data for Extended Data Fig. 4 — the NFIP policy data and Sandy claims (the two-city comparison was dropped 2026-11-08).
 a  in-force NFIP building coverage per contract (36,961 contracts): most sit exactly at the $250,000 residential limit
 b  structure-count take-up (contracts per NSI structure) and building cover by borough
 c  Sandy: NFIP building + contents claims paid by borough (OpenFEMA NFIP Redacted Claims v3, loss dates 28 Oct-5 Nov 2012) versus modelled untuned structure loss on the observed footprint
@@ -23,9 +23,7 @@ cl["t"]=pd.to_datetime(cl.dateOfLoss,errors="coerce").dt.tz_localize(None); cl=c
 paid_b=(cl.groupby("boro").amountPaidOnBuildingClaim.sum()/1e9).reindex(order).fillna(0); paid_c=(cl.groupby("boro").amountPaidOnContentsClaim.sum()/1e9).reindex(order).fillna(0)
 mod_b=(pd.Series(loss_usace(d_sandy)).groupby(s.boro.values).sum()/1e9).reindex(order).fillna(0)
 print(f"Sandy claims: building {paid_b.sum():.2f} bn, contents {paid_c.sum():.2f} bn, n={len(cl):,} | modelled structure loss {mod_b.sum():.1f} bn | building claims / modelled {100*paid_b.sum()/mod_b.sum():.0f}%")
-# two-city decomposition (category basis)
-two={c:json.load(open(f"insurance_city_{c}.json"))["0.477"] for c in ("nyc","miami")}
-json.dump(dict(cover_classes=dict(zip(labs,n_cls.astype(int).tolist())),cover_bn=dict(zip(labs,c_cls.tolist())),takeup_by_boro=tk.to_dict(),cover_by_boro_bn=cb.to_dict(),sandy_claims_building_bn=paid_b.to_dict(),sandy_claims_contents_bn=paid_c.to_dict(),sandy_modelled_bn=mod_b.to_dict(),two_city={c:{k:v for k,v in d.items() if k!="events"} for c,d in two.items()}),open("figED7_nfip.json","w"),indent=1)
+json.dump(dict(cover_classes=dict(zip(labs,n_cls.astype(int).tolist())),cover_bn=dict(zip(labs,c_cls.tolist())),takeup_by_boro=tk.to_dict(),cover_by_boro_bn=cb.to_dict(),sandy_claims_building_bn=paid_b.to_dict(),sandy_claims_contents_bn=paid_c.to_dict(),sandy_modelled_bn=mod_b.to_dict()),open("figED7_nfip.json","w"),indent=1)
 # ---- figure
 fig,ax=plt.subplots(2,2,figsize=(7.5,7.2),gridspec_kw=dict(hspace=.55,wspace=.38,left=.09,right=.985,top=.97,bottom=.1))
 a=ax[0,0]; x=np.arange(5); a.bar(x,n_cls/1e3,color="#1B4965")
@@ -37,10 +35,5 @@ b2=b.twinx(); b2.plot(xb,cb,"o",color="#D1542F",ms=6); b2.set_ylabel("Building c
 c=ax[1,0]; xc=np.arange(5); c.bar(xc-.2,mod_b,.4,color="#C9D3DA",label="Modelled structure loss"); c.bar(xc+.2,paid_b,.4,color=C_PAID,label="NFIP building claims paid"); c.bar(xc+.2,paid_c,.4,bottom=paid_b,color="#6F97AE",label="NFIP contents claims paid")
 c.set_xticks(xc); c.set_xticklabels(order,rotation=30,ha="right",rotation_mode="anchor"); c.set_ylabel("Sandy (USD bn)"); c.set_ylim(0,mod_b.max()*1.3); c.legend(frameon=False,fontsize=8.5,loc="upper right",bbox_to_anchor=(1.02,1.0)); c.set_title("c",loc="left",fontweight="bold"); c.grid(axis="y",alpha=.3)
 c.text(.97,.60,f"claims {paid_b.sum():.2f} + {paid_c.sum():.2f} bn\nmodelled {mod_b.sum():.1f} bn\nobserved 11.4–13.3 bn",transform=c.transAxes,ha="right",va="top",fontsize=9)
-d=ax[1,1]; names=["New York City","Miami-Dade"]; keys=["nyc","miami"]; xd=np.arange(2)
-p=[two[k]["neutral_pct"] for k in keys]; n=[two[k]["gap_nopolicy_pct"] for k in keys]; cp=[two[k]["gap_cap_pct"] for k in keys]; u=[two[k]["upper_pct"] for k in keys]; ft=[two[k]["full_takeup_pct"] for k in keys]
-d.bar(xd,p,.55,color=C_PAID,label="Paid (expected)"); d.bar(xd,n,.55,bottom=p,color=C_NOP,label="Gap: no policy"); d.bar(xd,cp,.55,bottom=np.array(p)+np.array(n),color=C_CAP,label="Gap: cover < loss")
-d.scatter(xd,u,marker="_",s=400,color="black",lw=1.8,zorder=5,label="Paid (upper bound)"); d.scatter(xd,ft,marker="^",s=50,color="#2E7D5B",zorder=5,label="Full take-up, statutory cap")
-for i,k in enumerate(keys): d.text(i,103,f"AAI {two[k]['aai_m']:.0f} M yr⁻¹",ha="center",va="bottom",fontsize=9)
-d.set_xticks(xd); d.set_xticklabels(names); d.set_ylim(0,112); d.set_yticks([0,20,40,60,80,100]); d.set_ylabel("Share of annual loss (%)"); d.legend(loc="upper center",bbox_to_anchor=(0.5,-0.14),ncol=2,frameon=False,fontsize=8.5,handletextpad=.4,columnspacing=.8); d.set_title("d",loc="left",fontweight="bold")
+ax[1,1].axis("off")
 plt.savefig("figED7_nfip_en.png",dpi=300,bbox_inches="tight"); plt.savefig("figED7_nfip_en.pdf",bbox_inches="tight"); print("saved figED7_nfip_en.png")

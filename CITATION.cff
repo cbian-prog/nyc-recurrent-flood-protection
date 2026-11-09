@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper and this archive."
-title: "Code and data for: Recurrent flooding beyond the reach of flood protection in New York City"
+title: "Code and data for: Recurrent flooding beyond the reach of flood risk management in New York City"
 type: software
 license: MIT
 authors:
@@ -12,7 +12,7 @@ repository-code: "https://github.com/cbian-prog/nyc-recurrent-flood-protection"
 keywords: [flood risk, New York City, storm surge, pluvial flooding, tidal flooding, flood insurance, FloodNet]
 preferred-citation:
   type: article
-  title: "Recurrent flooding beyond the reach of flood protection in New York City"
+  title: "Recurrent flooding beyond the reach of flood risk management in New York City"
   authors:
     - family-names: Bian
       given-names: Ce

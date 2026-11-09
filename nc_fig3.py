@@ -1,4 +1,4 @@
-"""Fig. 3 | Where protection reaches (R3, the paper's argument).
+"""Fig. 3 | Where the risk-management instruments reach (R3, the paper's argument).
 a coverage gaps grouped by instrument: share of each exposure outside the instrument's coverage
 b insurance follows the map, not the hazard: rain-scenario building loss vs NFIP policies by block-group side; insurable share by side"""
 import json, numpy as np
@@ -21,7 +21,7 @@ rows=[  # (group, label, share outside %, annotation, modelled-reach check %)
  (None,"Rain-side building loss (expected)",100-PI["pluvial-only BGs"]["expected_pct"],f"USD {PI['pluvial-only BGs']['loss_bn']:.1f} bn",None),
  (None,"Basement apartments (policy terms)",100.0,"≥50,000 informal units",None),
  ("Reference: coastal sources, inside the map",None,None,None,None),
- (None,"Tidal flood days (flood map)",100*(1-TG["flood_days_at_sensors_in_sfha"]),f"{TG['in_sfha']} of {TG['n']} tidal sensors inside",100*(1-TG["flood_days_at_sensors_in_s100"])),
+ (None,"Tidal flood days (flood zone)",100*(1-TG["flood_days_at_sensors_in_sfha"]),f"{TG['in_sfha']} of {TG['n']} tidal sensors inside",100*(1-TG["flood_days_at_sensors_in_s100"])),
  (None,"Surge-side 1-in-100-yr loss (insurance, expected)",surge100_out,f"USD {ev100['loss']/1e9:.1f} bn",None)]
 fig=plt.figure(figsize=(FULL,98*MM))
 a=axes_mm(fig,57,12,47,78)

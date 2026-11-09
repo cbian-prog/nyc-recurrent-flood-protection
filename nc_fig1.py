@@ -30,7 +30,12 @@ with rasterio.open("data/slr/nyc55_0ft.tif") as r: f0=r.read(1)
 s3new=s3&~(f0>=.5)
 S=nc_events.sensors(); S["lat"]=pd.to_numeric(S.latitude,errors="coerce"); S["lon"]=pd.to_numeric(S.longitude,errors="coerce")
 import nc_events; E=nc_events.load(); S["n"]=S.sensor_id.map(E.groupby("sensor_id").size()).fillna(0)
-Sall=S.dropna(subset=["lat","lon"]); Tt=Sall[(Sall.tidally_influenced=="Yes")&(Sall.n>0)]
+# observed flood days per year at each sensor (as in nc_data.py: distinct local days with a counted flood, over the years online)
+E["t"]=pd.to_datetime(E.flood_start_time).dt.tz_localize("UTC").dt.tz_convert("America/New_York").dt.tz_localize(None); END=E.t.max().normalize()
+S["inst"]=pd.to_datetime(S.date_installed,errors="coerce"); S["rem"]=pd.to_datetime(S.get("date_removed"),errors="coerce").fillna(END)
+S["yrs"]=((S.rem.clip(upper=END)-S.inst).dt.days/365.25).clip(lower=0); S["nd"]=S.sensor_id.map(E.assign(d=E.t.dt.normalize()).groupby("sensor_id").d.nunique()).fillna(0)
+S["fdpy"]=np.where((S.nd>0)&(S.yrs>0),S.nd/S.yrs.clip(lower=1/12),np.nan)   # flood days per year; sensors online < 1 month are floored at 1 month
+Sall=S.dropna(subset=["lat","lon"]); Tt=Sall[(Sall.tidally_influenced=="Yes")&(Sall.n>0)]; Sf=Sall[Sall.fdpy.notna()]; S0=Sall[Sall.fdpy.isna()]
 with rasterio.open("data/nyc_dem_55m.tif") as r: D,Dt,Dn=r.read(1),r.transform,r.nodata
 bext=[Dt.c,Dt.c+D.shape[1]*Dt.a,Dt.f+D.shape[0]*Dt.e,Dt.f]; base=np.where((D==Dn)|(D<0),0.0,1.0); lonc=Dt.c+(np.arange(D.shape[1])+.5)*Dt.a; base[((D==Dn)|(D<-500))&(lonc[None,:]<-74.24)]=1.0
 sh=pd.read_csv("data/subway/gtfs/shapes.txt"); trp=pd.read_csv("data/subway/gtfs/trips.txt",usecols=["route_id","shape_id"]).drop_duplicates(); sh=sh.merge(trp,on="shape_id",how="left")
@@ -47,14 +52,18 @@ a.imshow(np.where(s3new,1.0,np.nan),extent=s3ext,cmap=ListedColormap([TIDE]),int
 Lr.plot(ax=a,color="#8C8C8C",lw=0.4,zorder=4)
 a.plot([-74.12,-74.12],[40.53,40.655],color=INK,ls=(0,(4,2)),lw=0.6,zorder=4.5)   # west edge of the surge model domain, drawn only across Staten Island (the city land west of it)
 a.text(-74.115,40.535,"surge modelled\neast of this line",fontsize=5,color=INK,ha="left",va="bottom",zorder=7)
-a.scatter(Sall.lon,Sall.lat,s=1.2,c=INK,lw=0,zorder=5)
-a.scatter(Tt.lon,Tt.lat,s=4,facecolors="none",ec=TIDE,lw=0.6,zorder=6)   # tide in green, as in panel c
+from matplotlib.colors import LogNorm
+FD_CMAP="YlOrRd"; FD_NORM=LogNorm(vmin=0.1,vmax=30)
+a.scatter(S0.lon,S0.lat,s=1.2,c="#9A9A9A",lw=0,zorder=5)
+a.scatter(Sf.lon,Sf.lat,s=5,c=Sf.fdpy.clip(0.1,30),cmap=FD_CMAP,norm=FD_NORM,lw=0.2,ec=INK,zorder=6)
+a.scatter(Tt.lon,Tt.lat,s=14,facecolors="none",ec=TIDE,lw=0.6,zorder=7)   # tidal sensors with floods: green ring, as in panel c
+cax=axes_mm(fig,16,66,24,2.0); cb=plt.colorbar(plt.cm.ScalarMappable(cmap=FD_CMAP,norm=FD_NORM),cax=cax,orientation="horizontal",ticks=[0.1,1,10,30]); cb.ax.set_xticklabels(["0.1","1","10","30"]); cb.set_label("Flood days per year at sensor",fontsize=5.5,labelpad=1); cb.ax.tick_params(labelsize=5,length=2,pad=1); cb.outline.set_linewidth(0.4)
 a.set_xlim(-74.19,-73.72); a.set_ylim(40.53,40.92); a.set_aspect(1/np.cos(np.radians(40.7)))
 a.set_xticks([-74.1,-74.0,-73.9,-73.8]); a.set_yticks([40.6,40.7,40.8,40.9]); a.set_xlabel("Longitude (°E)"); a.set_ylabel("Latitude (°N)")
 for s_ in ("top","right"): a.spines[s_].set_visible(True)
 h=[Patch(fc=SURGE10,label="Surge, 1-in-10 yr (2.1 m)"),Patch(fc=SURGE100,label="Surge, 1-in-100 yr (3.2 m)"),Patch(fc=SURGE1000,label="Surge, 1-in-1,000 yr (4.6 m)"),
    Patch(fc=RAIN_MOD,label="Rain, ≈1-in-18 yr"),Patch(fc=RAIN_EXT,label="Rain, ≈1-in-458 yr"),Patch(fc=TIDE,label="Tide at +3 ft sea level"),
-   Line2D([],[],marker="o",ls="",mfc=INK,mec=INK,ms=1.8,label=f"FloodNet sensor (n = {len(Sall)})"),Line2D([],[],marker="o",ls="",mfc="none",mec=TIDE,ms=3,mew=0.6,label=f"Tidal sensor with floods (n = {len(Tt)})"),
+   Line2D([],[],marker="o",ls="",mfc="#9A9A9A",mec="#9A9A9A",ms=1.8,label=f"FloodNet sensor, no flood (n = {len(S0)})"),Line2D([],[],marker="o",ls="",mfc="#FC8D59",mec=INK,mew=0.2,ms=2.8,label=f"Sensor with floods, by days per year (n = {len(Sf)})"),Line2D([],[],marker="o",ls="",mfc="none",mec=TIDE,ms=4.2,mew=0.6,label=f"Tidal sensor with floods (n = {len(Tt)})"),
    Line2D([],[],color="#8C8C8C",lw=0.6,label="Subway route"),Line2D([],[],color=INK,ls=(0,(4,2)),lw=0.6,label="Surge modelled east of line")]
 a.legend(handles=h,loc="upper left",handlelength=1.0,labelspacing=0.25)
 panel(a,"a",dx=-9)

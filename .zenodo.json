@@ -1,7 +1,7 @@
 {
-  "title": "Code and data for: Recurrent flooding beyond the reach of flood protection in New York City",
+  "title": "Code and data for: Recurrent flooding beyond the reach of flood risk management in New York City",
   "upload_type": "software",
-  "description": "Analysis and figure code, results, the cleaned FloodNet street-flood record and intermediate products for a study of New York City's flood sources, exposure and protection on one frequency axis (submitted to Nature Cities). Large public inputs are archived separately; see README.",
+  "description": "Analysis and figure code, results, the cleaned FloodNet street-flood record and intermediate products for a study of New York City's flood sources, exposure and risk-management instruments on one frequency axis (submitted to Nature Cities). Large public inputs are archived separately; see README.",
   "creators": [
     {"name": "Bian, Ce", "affiliation": "Columbia University"}
   ],

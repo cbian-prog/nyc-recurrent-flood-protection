@@ -1,8 +1,8 @@
-# Recurrent flooding beyond the reach of flood protection in New York City
+# Recurrent flooding beyond the reach of flood risk management in New York City
 
-Code and data for Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood protection in New York City* (submitted to *Nature Cities*, 2026).
+Code and data for Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood risk management in New York City* (submitted to *Nature Cities*, 2026).
 
-The study places New York City's flood sources (coastal surge, rainfall and tide), the assets they reach (buildings, basement homes and subway stations) and three protection instruments (the FEMA flood map, the sewer design standard and the National Flood Insurance Program) on one frequency axis. Every input is a public dataset.
+The study places New York City's flood sources (coastal surge, rainfall and tide), the assets they reach (buildings, basement homes and subway stations) and three risk-management instruments (the FEMA flood map, the sewer design standard and the National Flood Insurance Program) on one frequency axis. Every input is a public dataset.
 
 - Code: this repository, archived at Zenodo, https://doi.org/10.5281/zenodo.23962188
 - Large public inputs as retrieved for the study: Zenodo, https://doi.org/10.5281/zenodo.23962247
@@ -16,7 +16,7 @@ The study places New York City's flood sources (coastal surge, rainfall and tide
 | `*.py` | Analysis and figure scripts (listed below). Run from the repository root. |
 | `*.json` | Results written by the analysis scripts and read by the figure and table scripts. |
 | `figures/` | Figures 1–4, Extended Data Figs 1–4 and Supplementary Figs 1–3 as published (PDF and PNG). |
-| `tables/` | Supplementary Tables 1–7 (CSV and one workbook) and their legends. |
+| `tables/` | Supplementary Tables 1–6 (CSV and one workbook) and their legends. |
 | `floodnet_cleaned/` | The cleaned FloodNet street-flood record used in the paper, with every excluded event and its reason (own README, CC BY 4.0; citable on its own, https://doi.org/10.5281/zenodo.23964158). |
 | `data/paper_a/` | Intermediate products of this study (described below). |
 | `data/naccs/` | NACCS still-water curve at The Battery digitised for this study, its tropical and extratropical components, and the per-save-point reconstruction. |
@@ -33,7 +33,7 @@ conda activate nyc-recurrent-floods
 # unpack the Zenodo input archive https://doi.org/10.5281/zenodo.23962247 into this folder, so that its data/ merges with ./data/
 python nc_fig1.py; python nc_fig2.py; python nc_fig3.py; python nc_fig4_ed78.py
 python nc_edfig_record.py; python nc_edfig_surge.py; python nc_ed456.py
-python nc_si_robust.py; python nc_si_placement.py; python nc_supp.py
+python nc_si_robust.py; python nc_si_placement.py; python nc_si_income.py
 python make_supp_tables.py
 ```
 
@@ -70,18 +70,16 @@ Figures are written to `figures/` and tables to `tables/`.
 | | `subway_flood.py` | Stations and entrances | `subway_summary.json` |
 | | `slr_overlay.py` | Land inundated at +3 ft | `slr_summary.json` |
 | | `fig2_impact_rp.py` | Impact against return period; Fig. 2b,c | `fig2_impact_rp.json` |
-| Insurance | `fig5_gap_nsi.py` | Insurable shares and decomposition; Fig. 4; ED Fig. 4d,e | `fig5_gap_nsi.json` |
-| | `figED7_nfip.py` | Policy file, Sandy claims, block-group map; ED Fig. 4a–c | `figED7_nfip.json` |
+| Insurance | `fig5_gap_nsi.py` | Insurable shares and decomposition; Fig. 4; Suppl. Table 5 | `fig5_gap_nsi.json` |
+| | `figED7_nfip.py` | Policy file and Sandy claims; ED Fig. 4 | `figED7_nfip.json` |
 | | `nfip_sandy_claims_v3.py` | Sandy claims (downloads from OpenFEMA) | `nfip_sandy_claims_v3.json` |
 | | `pluvial_insurance_nsi.py` | Rain-side and surge-side insurance; Fig. 3b; Suppl. Table 6 | `pluvial_insurance_nsi.json` |
-| | `insurance_city.py` (`CITY=nyc`, `CITY=miami`) | Two-city comparison; Suppl. Fig. 3a; Suppl. Table 7 | `insurance_city_*.json` |
-| | `figED3_hazard_basis.py` | Category against water-level basis; Suppl. Fig. 3b | `figED3_hazard_basis.json` |
 | | `download_pfirm.py` | 2015 preliminary flood map (downloads from FEMA) | `data/fema_nfhl/pfirm2015_zones_nyc.geojson` |
 | | `nc_si_sensitivity.py` | Suppl. Table 2 | `nc_si_sensitivity.json`, `tables/Table_S2.csv` |
 | Figures | `nc_fig1.py`, `nc_fig2.py`, `nc_fig3.py`, `nc_fig4_ed78.py` | Figs 1–4 and ED Fig. 4 | `figures/` |
 | | `nc_edfig_record.py`, `nc_edfig_surge.py`, `nc_ed456.py` | ED Figs 1–3 | `figures/` |
-| | `nc_si_robust.py`, `nc_si_placement.py`, `nc_supp.py` | Suppl. Figs 1–3 | `figures/` |
-| Tables | `make_supp_tables.py` | Suppl. Tables 1–7 | `tables/` |
+| | `nc_si_robust.py`, `nc_si_placement.py`, `nc_si_income.py` | Suppl. Figs 1–3 | `figures/` |
+| Tables | `make_supp_tables.py` | Suppl. Tables 1–6 | `tables/` |
 | Style | `nc_style.py` | Shared figure style | — |
 
 Several scripts carry names from earlier drafts (`figED*`, `fig5_*`); the table above gives the item each one now supports. Files whose name contains `ED`, `fig` or `nc_` are all part of the published analysis; nothing else is needed.
@@ -114,7 +112,6 @@ All inputs are public. Small inputs that change over time are included in `data/
 | Continuously Updated DEM, 1/9 arc-second | NOAA NCEI, https://doi.org/10.25921/ds9v-ky35 | 2026 | archive: `data/manhattan_dem_20m.tif`, `data/nyc_dem_55m.tif` (resampled) |
 | Datums and verified water levels, station 8518750 | NOAA CO-OPS, https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750 | 2026 | `data/coops/`, `data/battery_annual_max.npy` |
 | Sea Level Rise inundation extent, MHHW + 0–6 ft | NOAA Office for Coastal Management, InPort 48106, https://coast.noaa.gov/slrdata | 2026 | `data/slr/` (resampled to 55 m) |
-| SLOSH Maximum of Maximums v4 | NOAA NHC, https://www.nhc.noaa.gov/nationalsurge/ | 2026-06 | archive: `data/slosh/`, `data/slosh_nyc_full/`, `data/miami/slosh_cat*.tif` (city crops) |
 | NYC Stormwater Flood Maps | NYC DEP, NYC Open Data 9i7c-xyvv | 2026 | archive: `data/pluvial/` |
 | NOAA Atlas 14 vol. 10, Central Park | NOAA HDSC Precipitation Frequency Data Server | 2026 | `data/atlas14_centralpark_intensity_pds.csv` |
 | MRMS MultiSensor QPE 1-h Pass 2 | NOAA, via Iowa State archive https://mtarchive.geol.iastate.edu | 2026 | `data/mrms/` (city crops) |
@@ -123,18 +120,18 @@ All inputs are public. Small inputs that change over time are included in `data/
 | Airport weather reports, LGA and JFK | Iowa Environmental Mesonet | 2026 | `data/asos_hourly/wx_NYC_LGA_JFK_2020_2026.csv` |
 | FloodNet flood events and sensors | NYC Open Data aq7i-eu5q (events), kb2e-tjy3 (sensors) | 2026-11-03 | `data/floodnet/` |
 | 311 street-flooding complaints | NYC Open Data erm2-nwe9, descriptor "Street Flooding (SJ)" | 2026-09 | `data/sf_points.csv` |
-| National Structure Inventory 2026 Base | USACE, https://nsi.sec.usace.army.mil (counties 36005, 36047, 36061, 36081, 36085; Miami-Dade 12086) | 2026 | archive: `data/nsi_nyc/nsi.parquet`, `data/miami/nsi.parquet` |
+| National Structure Inventory 2026 Base | USACE, https://nsi.sec.usace.army.mil (counties 36005, 36047, 36061, 36081, 36085) | 2026 | archive: `data/nsi_nyc/nsi.parquet` |
 | Generic depth-damage functions | USACE EGM 01-03 (2000) and 04-01 (2003) | — | tabulated in `paper_a_core.py` |
 | PLUTO | NYC DCP, NYC Open Data 64uk-42ks | 2026 | archive: `data/pluto_bsmt.csv`, `data/pluto_nyc.csv` |
 | CDBG eligibility by tract (HUD LMISD 2016–2020) | NYC Open Data qmcw-ur37; HUD Exchange | 2026 | `data/nfip/tract_equity.parquet` |
 | Subway stations, entrances, GTFS | MTA, data.ny.gov 39hk-dx4f and i9wp-a4ja; https://www.mta.info/developers | 2026 | `data/subway/` |
 | National Flood Hazard Layer (effective) | FEMA, https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer | 2026-09 | archive: `data/fema_nfhl/nfhl_zones_nyc.geojson` |
 | Preliminary FIRM, DFIRM 360497 (30 January 2015) | FEMA Flood Map Service Center | 2026-09 | archive: `data/fema_nfhl/pfirm2015_zones_nyc.geojson` |
-| NFIP Redacted Policies v3, Redacted Claims v3 | OpenFEMA, https://www.fema.gov/openfema-data-page/nfip-redacted-policies-v3 and .../nfip-redacted-claims-v3 | 2026-09/10 | `data/nfip/all_current.parquet`, `data/nfip/claims_v3_sandy.json` (five boroughs); archive: `data/miami/nfip.parquet` |
+| NFIP Redacted Policies v3, Redacted Claims v3 | OpenFEMA, https://www.fema.gov/openfema-data-page/nfip-redacted-policies-v3 and .../nfip-redacted-claims-v3 | 2026-09/10 | `data/nfip/all_current.parquet`, `data/nfip/claims_v3_sandy.json` (five boroughs) |
 | Sandy Inundation Zone | NYC Open Data 5xsi-dfpx (from the FEMA MOTF field-verified extent) | 2026 | archive: `data/sandy_zone.geojson` |
 | TIGER/Line 2020 block groups, New York | US Census Bureau, tl_2020_36_bg | 2026 | archive: `data/nfip/tl_2020_36_bg.*` |
 
-FloodNet, OpenFEMA, PLUTO and the MTA files are updated continuously; the snapshots here are those analysed. This work uses the FEMA OpenFEMA API but is not endorsed by FEMA.
+FloodNet, OpenFEMA, PLUTO and the MTA files are updated continuously; the snapshots here are those analysed. The input archive also holds SLOSH and Miami-Dade files (`data/slosh*/`, `data/miami/`) from a two-city comparison that is not part of the published paper; they are not needed. This work uses the FEMA OpenFEMA API but is not endorsed by FEMA.
 
 ## Environment
 

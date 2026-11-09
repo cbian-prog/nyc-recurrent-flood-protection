@@ -1,14 +1,14 @@
 Quantity,Basis,Value
 "Rain footprint outside the 1-in-1,000-yr surge reach","rainfall extreme (2080 sea level, used); surge model domain",72%
-Rain footprint outside the map: area / basement lots / underground stations,"Effective FIRM (used); rainfall extreme (2080 sea level, used)","93% / 97% (21,728 of 22,443) / 44 of 46"
-Rain footprint outside the map: area / basement lots / underground stations,"2015 preliminary FIRM; rainfall extreme (2080 sea level, used)","86% / 91% (20,415 of 22,443) / 44 of 46"
-Rain footprint outside the map: area / basement lots / underground stations,"Either map; rainfall extreme (2080 sea level, used)","85% / 91% (20,349 of 22,443) / 44 of 46"
-Rain footprint outside the map: area / basement lots / underground stations,"Modelled 1-in-100-yr reach; rainfall extreme (2080 sea level, used); surge model domain","87% / 90% (18,303 of 20,233) / 43 of 46"
+Rain footprint outside the flood zone: area / basement lots / underground stations,"Effective FIRM (used); rainfall extreme (2080 sea level, used)","93% / 97% (21,728 of 22,443) / 44 of 46"
+Rain footprint outside the flood zone: area / basement lots / underground stations,"2015 preliminary FIRM; rainfall extreme (2080 sea level, used)","86% / 91% (20,415 of 22,443) / 44 of 46"
+Rain footprint outside the flood zone: area / basement lots / underground stations,"Either map; rainfall extreme (2080 sea level, used)","85% / 91% (20,349 of 22,443) / 44 of 46"
+Rain footprint outside the flood zone: area / basement lots / underground stations,"Modelled 1-in-100-yr reach; rainfall extreme (2080 sea level, used); surge model domain","87% / 90% (18,303 of 20,233) / 43 of 46"
 "Rain footprint outside the 1-in-1,000-yr surge reach",rainfall moderate (current sea level); surge model domain,65%
-Rain footprint outside the map: area / basement lots / underground stations,Effective FIRM (used); rainfall moderate (current sea level),"84% / 91% (2,659 of 2,927) / 12 of 12"
-Rain footprint outside the map: area / basement lots / underground stations,2015 preliminary FIRM; rainfall moderate (current sea level),"79% / 85% (2,487 of 2,927) / 12 of 12"
-Rain footprint outside the map: area / basement lots / underground stations,Either map; rainfall moderate (current sea level),"78% / 85% (2,481 of 2,927) / 12 of 12"
-Rain footprint outside the map: area / basement lots / underground stations,Modelled 1-in-100-yr reach; rainfall moderate (current sea level); surge model domain,"80% / 85% (2,127 of 2,493) / 12 of 12"
+Rain footprint outside the flood zone: area / basement lots / underground stations,Effective FIRM (used); rainfall moderate (current sea level),"84% / 91% (2,659 of 2,927) / 12 of 12"
+Rain footprint outside the flood zone: area / basement lots / underground stations,2015 preliminary FIRM; rainfall moderate (current sea level),"79% / 85% (2,487 of 2,927) / 12 of 12"
+Rain footprint outside the flood zone: area / basement lots / underground stations,Either map; rainfall moderate (current sea level),"78% / 85% (2,481 of 2,927) / 12 of 12"
+Rain footprint outside the flood zone: area / basement lots / underground stations,Modelled 1-in-100-yr reach; rainfall moderate (current sea level); surge model domain,"80% / 85% (2,127 of 2,493) / 12 of 12"
 Flood days below 1.75 in/h (hourly),"storm-day bootstrap, 95% interval",93% (88–98%); at 1 ft 70% (44–86%)
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall extreme (2080 sea level, used); surge-side if ≥25% of value inside the 1-in-100-yr reach",88% / 18%; 1.4% vs 18.3%
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall extreme (2080 sea level, used); surge-side if ≥50% of value inside the 1-in-100-yr reach",90% / 24%; 1.7% vs 20.0%
@@ -22,5 +22,5 @@ Rain-side share of rain loss / of NFIP contracts; expected insurable share rain 
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall moderate (current sea level); surge-side if ≥25% of value inside the 1-in-1,000-yr reach",69% / 2%; 0.8% vs 12.9%
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall moderate (current sea level); surge-side if ≥50% of value inside the 1-in-1,000-yr reach",73% / 3%; 1.1% vs 13.8%
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall moderate (current sea level); surge-side if ≥75% of value inside the 1-in-1,000-yr reach",74% / 6%; 1.4% vs 14.0%
-"NFIP contracts per 100 structures, inside / outside the map",2015 preliminary FIRM (A/V-rated contracts vs structures inside),"31 / 2.2 (61,009 structures inside)"
-Tidal sensors inside the map,2015 preliminary FIRM,62 of 67 (effective FIRM: 56 of 67)
+"NFIP contracts per 100 structures, inside / outside the flood zone",2015 preliminary FIRM (A/V-rated contracts vs structures inside),"31 / 2.2 (61,009 structures inside)"
+Tidal sensors inside the flood zone,2015 preliminary FIRM,62 of 67 (effective FIRM: 56 of 67)

@@ -44,11 +44,8 @@ run fig2_impact_rp.py
 run fig5_gap_nsi.py
 run figED7_nfip.py
 run pluvial_insurance_nsi.py
-CITY=nyc run insurance_city.py
-CITY=miami run insurance_city.py
-run figED3_hazard_basis.py
 run nc_si_sensitivity.py
 
 # 6 Figures and tables
 for s in nc_fig1.py nc_fig2.py nc_fig3.py nc_fig4_ed78.py nc_edfig_record.py nc_edfig_surge.py nc_ed456.py \
-         nc_si_robust.py nc_si_placement.py nc_supp.py make_supp_tables.py; do run "$s"; done
+         nc_si_robust.py nc_si_placement.py nc_si_income.py make_supp_tables.py; do run "$s"; done

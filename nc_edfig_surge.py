@@ -8,7 +8,7 @@ f  still-water level reconstructed at each save point, with offsets from The Bat
 g  USACE generic depth-damage functions (and the storey-fraction curve kept as a sensitivity)
 h  structure value by storey class and the share the functions apply to (3/N)
 i  surge AAI under alternative storey rules
-Panels come from figED1_validation.py, figED3_hazard_basis.py data and figED5_vulnerability.py, each prepared in its own namespace.
+Panels come from figED1_validation.py and figED5_vulnerability.py, each prepared in its own namespace.
 Replaces former Extended Data Figs 1, 2 and 7 (2026-11-04); the category-basis panel moved to the two-city Supplementary figure.
 """
 import json, numpy as np, rasterio, geopandas as gpd

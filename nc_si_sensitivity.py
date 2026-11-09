@@ -49,7 +49,7 @@ for sname,pat in SCEN.items():
             a=float((R&~s100).sum()/R.sum()); L=lots&inwP; S_=stn&inwU
             l=int((L&~CG.at(P.longitude,P.latitude,MC["s100"])).sum()); s_=int((S_&~CG.at(U_lon,U_lat,MC["s100"])).sum()); basis=f"{mname}; rainfall {sname}; surge model domain"
         OUT["coverage"][sname][mname]=dict(area_out=a,lots_out=l,lots=int(L.sum()),stations_out=s_,stations=int(S_.sum()))
-        rows.append((f"Rain footprint outside the map: area / basement lots / underground stations",basis,f"{100*a:.0f}% / {100*l/max(L.sum(),1):.0f}% ({l:,} of {int(L.sum()):,}) / {s_} of {int(S_.sum())}"))
+        rows.append((f"Rain footprint outside the flood zone: area / basement lots / underground stations",basis,f"{100*a:.0f}% / {100*l/max(L.sum(),1):.0f}% ({l:,} of {int(L.sum()):,}) / {s_} of {int(S_.sum())}"))
 print(json.dumps(OUT["coverage"],indent=0)[:1500])
 # ---- 3. bootstrap of the share below design (storm days resampled: a storm floods many sensors at once)
 SD=pd.read_parquet("data/paper_a/sensor_days_model.parquet").reset_index(drop=True); F=SD[SD.y==1]
@@ -95,11 +95,11 @@ for mname,polys in (("Effective FIRM (used)",EF),("2015 preliminary FIRM",PF)):
     ins=inpoly(s.x.values,s.y.values,polys)
     if mname.startswith("2015"):
         tu=dict(in_map=float(100*av.sum()/ins.sum()),outside=float(100*(~av).sum()/(~ins).sum()),structures_in=int(ins.sum()))
-        OUT["takeup_pfirm"]=tu; rows.append(("NFIP contracts per 100 structures, inside / outside the map","2015 preliminary FIRM (A/V-rated contracts vs structures inside)",f"{tu['in_map']:.0f} / {tu['outside']:.1f} ({tu['structures_in']:,} structures inside)"))
+        OUT["takeup_pfirm"]=tu; rows.append(("NFIP contracts per 100 structures, inside / outside the flood zone","2015 preliminary FIRM (A/V-rated contracts vs structures inside)",f"{tu['in_map']:.0f} / {tu['outside']:.1f} ({tu['structures_in']:,} structures inside)"))
 Sx=nc_events.sensors(); Tt=Sx[Sx.tidally_influenced=="Yes"]
 tin=inpoly(Tt.longitude.astype(float).values,Tt.latitude.astype(float).values,PF); OUT["tidal_in_pfirm"]=int(tin.sum())
 tef=inpoly(Tt.longitude.astype(float).values,Tt.latitude.astype(float).values,EF); OUT["tidal_in_effective"]=int(tef.sum())
-rows.append(("Tidal sensors inside the map","2015 preliminary FIRM",f"{int(tin.sum())} of {len(Tt)} (effective FIRM: {int(tef.sum())} of {len(Tt)})"))
+rows.append(("Tidal sensors inside the flood zone","2015 preliminary FIRM",f"{int(tin.sum())} of {len(Tt)} (effective FIRM: {int(tef.sum())} of {len(Tt)})"))
 OUT["pfirm_land_km2"]=float((pfirm&land).sum()*400/1e6); OUT["sfha_land_km2"]=float((sfha&land).sum()*400/1e6)
 json.dump(OUT,open("nc_si_sensitivity.json","w"),indent=1)
 T7=pd.DataFrame(rows,columns=["Quantity","Basis","Value"]); T7.to_csv("tables/Table_S2.csv",index=False)
