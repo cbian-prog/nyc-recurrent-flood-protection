@@ -17,10 +17,10 @@ rows=[  # (group, label, share outside %, annotation, modelled-reach check %)
  ("Drainage standard: anchored to 1.75 in h$^{-1}$",None,None,None,None),
  (None,"Flood days below the standard, hourly rain",100*N["flood_days_below_design"],f"{N['flood_days_below_design_n']} / {N['flood_days']}",None),
  (None,"Same, 30-min peak (estimated)",100*SH["est_30min"],f"15-min peak: {100*SH['est_15min']:.0f}%",None),
- ("Public insurance: follows the map",None,None,None,None),
+ ("Public insurance: follows the flood zone",None,None,None,None),
  (None,"Rain-side building loss (expected)",100-PI["pluvial-only BGs"]["expected_pct"],f"USD {PI['pluvial-only BGs']['loss_bn']:.1f} bn",None),
  (None,"Basement apartments (policy terms)",100.0,"≥50,000 informal units",None),
- ("Reference: coastal sources, inside the map",None,None,None,None),
+ ("Reference: coastal sources, inside the flood zone",None,None,None,None),
  (None,"Tidal flood days (flood zone)",100*(1-TG["flood_days_at_sensors_in_sfha"]),f"{TG['in_sfha']} of {TG['n']} tidal sensors inside",100*(1-TG["flood_days_at_sensors_in_s100"])),
  (None,"Surge-side 1-in-100-yr loss (insurance, expected)",surge100_out,f"USD {ev100['loss']/1e9:.1f} bn",None)]
 fig=plt.figure(figsize=(FULL,98*MM))
@@ -41,7 +41,7 @@ a.set_xlim(0,100); a.set_ylim(y+0.4,0.6); a.set_xticks([0,25,50,75,100]); a.grid
 a.set_xlabel("Share outside the instrument's coverage (%)")
 a.spines["left"].set_visible(False)
 a.plot([0.70],[0.995],transform=a.transAxes,marker="o",ms=3,mfc="white",mec=INK,mew=0.6,ls="",clip_on=False)
-a.text(0.73,0.995,"same, with the modelled 1-in-100-yr\nsurge reach in place of the map",transform=a.transAxes,fontsize=6,va="center",color="#555555")
+a.text(0.73,0.995,"same, with the modelled 1-in-100-yr\nsurge reach in place of the flood zone",transform=a.transAxes,fontsize=6,va="center",color="#555555")
 panel(a,"a",dx=-52,dy=0)
 # ---------------- b
 b=axes_mm(fig,141,35,37,30)
@@ -64,7 +64,7 @@ c.set_xlim(-0.55,1.55); c.set_ylim(0,100); c.set_xticks([0,1]); c.set_xticklabel
 c.legend(handles=[Line2D([],[],marker="o",ls="",color=INK,ms=3,label="expected"),Line2D([],[],marker="o",ls="",mfc="white",mec=INK,mew=0.7,ms=3,label="upper bound")],
          loc="upper left",ncol=1,borderaxespad=0.1)
 b.text(-0.3,-0.62,f"{100*pr['bgs_nopolicy']/pr['bgs']:.0f}% of rain-side block groups hold no policy",transform=b.transAxes,fontsize=6,ha="left",va="top",style="italic")
-b.text(-0.3,-0.76,f"NFIP contracts per 100 structures: {TU['all']['in_sfha']:.0f} inside\nthe map, {TU['all']['outside']:.0f} outside; where Sandy flooded,\n{TU['sandy_flooded_bgs']['in_sfha']:.0f} inside and {TU['sandy_flooded_bgs']['outside']:.0f} outside",transform=b.transAxes,fontsize=6,ha="left",va="top")
+b.text(-0.3,-0.76,f"NFIP contracts per 100 structures: {TU['all']['in_sfha']:.0f} inside\nthe flood zone, {TU['all']['outside']:.0f} outside; where Sandy flooded,\n{TU['sandy_flooded_bgs']['in_sfha']:.0f} inside and {TU['sandy_flooded_bgs']['outside']:.0f} outside",transform=b.transAxes,fontsize=6,ha="left",va="top")
 panel(c,"b",dx=-12,dy=0)
 save(fig,"Fig3")
 json.dump(dict(rows=[(r[1],r[2],r[3],r[4]) for r in rows if r[1]],policies_rain=pol_r,policies_surge=pol_s,policies_outside=pol_o,policies_outside_domain=pol_x,loss_rain=loss_r,loss_surge=loss_s,loss_outside_domain=loss_x,
