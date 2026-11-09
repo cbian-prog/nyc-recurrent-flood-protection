@@ -1,6 +1,6 @@
 # Recurrent flooding beyond the reach of flood risk management in New York City
 
-Code and data for Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood risk management in New York City* (submitted to *Nature Cities*, 2026).
+Code and data for Bian, C., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood risk management in New York City* (submitted to *Nature Cities*, 2026).
 
 The study places New York City's flood sources (coastal surge, rainfall and tide), the assets they reach (buildings, basement homes and subway stations) and three risk-management instruments (the FEMA flood map, the sewer design standard and the National Flood Insurance Program) on one frequency axis. Every input is a public dataset.
 

@@ -112,4 +112,4 @@ Please cite this dataset as:
 
 > Bian, C. Cleaned FloodNet street-flood record, New York City, 2020-2026. Zenodo https://doi.org/10.5281/zenodo.23964158 (2026).
 
-and, where relevant, the paper: Bian, C., Horton, R., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood risk management in New York City* (submitted to Nature Cities).
+and, where relevant, the paper: Bian, C., Bresch, D. N. & Zheng, T. *Recurrent flooding beyond the reach of flood risk management in New York City* (submitted to Nature Cities).

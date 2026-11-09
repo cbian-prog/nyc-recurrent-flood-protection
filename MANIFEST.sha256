@@ -1,8 +1,8 @@
 755f46956b7f17415176782c24c608e0d85f299f95b5438481eacaf607ea7cc0           696  .zenodo.json
-6c941d707d69fc634db9d1e92be2f11d6e71bda1838b78c806a0728df82dcebc          1011  CITATION.cff
+bf1c286ff0287187d603f79ccd8f97c32baef5266bcd9f5ab5675a0360934812           958  CITATION.cff
 a53d5f941aa9ca97a4375c717e0d3ea1e5cf9fcc5969ae35e014d78d5e27ff8a          1064  LICENSE
 dc9a47ea2370d77ac5b0a40b649338b8b962d0618aac1ada303ce7e86873e0d9         19499  LICENSE-DATA
-998deb12bbd54527bd1cab684c6a8f921e1367447cd5d23f5aadb1a73c99092f         14262  README.md
+812757c5b46c5ab951902dbf3421fbe9813375a2e8aade5fe988aad76695c006         14250  README.md
 3b262642c0f33575f8627cc50ccba45c9b480a9ee6928debfdfa2be081a783d9          9168  basement_exposure.py
 a020264ff44f063df41dd228d14159f99a95f71bd3ded269530332dec7505d65          1422  basement_summary.json
 2e119939db71b26c64312b3f5b3375134dda861226f9c212fe75fd737d6075e6       8002225  data/asos_hourly/NYC_p01i_1948_2026.csv
@@ -1244,7 +1244,7 @@ bf07f8a50a86ea40f9fceb268645cd366892719081402740c2c89e61f08febe1        431650  
 6bccc303acf3db935eba8eb147516d4a546b28fe163ec6254d49f63ae6269a44         37632  figures/SI_Fig3.pdf
 42b2bb452696794423eda16461cda7707b93dd7acf03c7902a2edaed640b6607        111511  figures/SI_Fig3.png
 9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411         18657  floodnet_cleaned/LICENSE
-86003834b8b90e95ede8339b519662676dd4697dca399436e274c0591abb84ca          8002  floodnet_cleaned/README.md
+9818398d48fe3a340221c711cfc24eda5cbbb6afbc1b41cfc78e86696af64a68          7990  floodnet_cleaned/README.md
 1008c4cd0f3d03f0951a500fb11238a30531e23c2cdd75a177474d0b266fa16a        846796  floodnet_cleaned/events_flagged.csv
 c5bc7187503d2ceb2709542c873aa38fba8e6d800765372286ddbca7d7f8a0ef        251212  floodnet_cleaned/excluded_events.csv
 6ac25899af4dcbde9215659314073262fda75adbfdcf035744f1ccf5fa83fc5a        596043  floodnet_cleaned/floods_clean.csv
