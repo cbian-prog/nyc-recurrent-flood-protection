@@ -1,6 +1,6 @@
 """Shared figure style for the Nature Cities submission.
-Canvas drawn at final size (full width 180 mm, single column 88 mm, height <= 170 mm), Arial, labels 7 pt, ticks 6 pt,
-panel letters 8 pt bold lowercase, lines 0.5-1 pt, markers 3-4 pt, vector PDF with editable text (fonttype 42),
+Canvas drawn at final size (full width 180 mm, single column 88 mm, height <= 170 mm), Arial, labels 8 pt, ticks and legends 7 pt,
+panel letters 10 pt bold lowercase, lines 0.5-1 pt, markers 3-4 pt, vector PDF with editable text (fonttype 42),
 map fills rasterised at 600 dpi. One colour per source in every figure."""
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -8,8 +8,8 @@ from matplotlib.transforms import ScaledTranslation
 MM=1/25.4
 FULL=180*MM; SINGLE=88*MM; MAXH=170*MM
 plt.rcParams.update({
-    "font.family":"Arial","font.size":7,"axes.labelsize":7,"axes.titlesize":7,"xtick.labelsize":6,"ytick.labelsize":6,"legend.fontsize":6,
-    "legend.title_fontsize":6,"axes.linewidth":0.5,"lines.linewidth":0.8,"lines.markersize":3.5,"patch.linewidth":0.5,
+    "font.family":"Arial","font.size":8,"axes.labelsize":8,"axes.titlesize":8,"xtick.labelsize":7,"ytick.labelsize":7,"legend.fontsize":7,
+    "legend.title_fontsize":7,"axes.linewidth":0.5,"lines.linewidth":0.8,"lines.markersize":3.5,"patch.linewidth":0.5,
     "xtick.major.width":0.5,"ytick.major.width":0.5,"xtick.minor.width":0.4,"ytick.minor.width":0.4,
     "xtick.major.size":2.5,"ytick.major.size":2.5,"xtick.minor.size":1.5,"ytick.minor.size":1.5,"xtick.major.pad":1.5,"ytick.major.pad":1.5,
     "axes.labelpad":2,"axes.spines.top":False,"axes.spines.right":False,"legend.frameon":False,"legend.handlelength":1.2,
@@ -23,16 +23,17 @@ TIDE="#2E7D5B"                                                  # tide: green
 PROT="#4D4D4D"; PROT_LIGHT="#A6A6A6"                            # protection instruments / insurance: dark grey
 NEUTRAL="#BDBDBD"; LAND="#FCFCF9"; WATER="#E4E4E4"; INK="#1A1A1A"; SANDY="#8E1B1B"
 def panel(ax,letter,dx=-7,dy=2,fig=None):
-    """bold 8 pt lowercase letter, placed dx/dy mm from the axes' top-left corner."""
+    """bold 10 pt lowercase letter, placed dx/dy mm from the axes' top-left corner."""
     f=fig or ax.figure
     t=ax.transAxes+ScaledTranslation(dx*MM,dy*MM,f.dpi_scale_trans)
-    ax.text(0,1,letter,transform=t,fontsize=8,fontweight="bold",va="bottom",ha="left")
+    ax.text(0,1,letter,transform=t,fontsize=10,fontweight="bold",va="bottom",ha="left")
 def axes_mm(fig,x,y,w,h):
     """add axes by position in mm from the figure's bottom-left corner."""
     W,H=fig.get_size_inches()/MM
     return fig.add_axes([x/W,y/H,w/W,h/H])
 def save(fig,name,outdirs=("figures",)):
     import os
+    if os.environ.get("FIG_OUTDIR"): outdirs=tuple(os.environ["FIG_OUTDIR"].split(","))   # preview renders go elsewhere
     for d in outdirs:
         os.makedirs(d,exist_ok=True)
         fig.savefig(f"{d}/{name}.pdf"); fig.savefig(f"{d}/{name}.png",dpi=300)

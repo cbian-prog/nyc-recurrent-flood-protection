@@ -42,8 +42,8 @@ sh=pd.read_csv("data/subway/gtfs/shapes.txt"); trp=pd.read_csv("data/subway/gtfs
 L=gpd.GeoDataFrame([(sid,g.route_id.iloc[0],LineString(zip(g.sort_values("shape_pt_sequence").shape_pt_lon,g.sort_values("shape_pt_sequence").shape_pt_lat))) for sid,g in sh.groupby("shape_id")],columns=["shape_id","route","geometry"],crs="EPSG:4326")
 L["len"]=L.geometry.length; Lr=L.sort_values("len",ascending=False).drop_duplicates("route")
 # ---------------- figure
-fig=plt.figure(figsize=(FULL,114*MM))
-a=axes_mm(fig,10,8,92,101)
+fig=plt.figure(figsize=(FULL,118*MM))
+a=axes_mm(fig,10,11,92,101)
 a.imshow(base,extent=bext,cmap=ListedColormap([WATER,LAND]),interpolation="nearest",rasterized=True)
 a.imshow(np.where(surge>0,surge,np.nan),extent=dext,cmap=ListedColormap([SURGE1000,SURGE100,SURGE10]),vmin=1,vmax=3,interpolation="nearest",rasterized=True)
 a.imshow(np.where(pl_ext,1.0,np.nan),extent=dext,cmap=ListedColormap([RAIN_EXT]),interpolation="nearest",rasterized=True)
@@ -51,41 +51,24 @@ a.imshow(np.where(pl_mod,1.0,np.nan),extent=dext,cmap=ListedColormap([RAIN_MOD])
 a.imshow(np.where(s3new,1.0,np.nan),extent=s3ext,cmap=ListedColormap([TIDE]),interpolation="nearest",rasterized=True)
 Lr.plot(ax=a,color="#8C8C8C",lw=0.4,zorder=4)
 a.plot([-74.12,-74.12],[40.53,40.655],color=INK,ls=(0,(4,2)),lw=0.6,zorder=4.5)   # west edge of the surge model domain, drawn only across Staten Island (the city land west of it)
-a.text(-74.115,40.535,"surge modelled\neast of this line",fontsize=5,color=INK,ha="left",va="bottom",zorder=7)
+a.text(-74.115,40.535,"surge modelled\neast of this line",fontsize=6,color=INK,ha="left",va="bottom",zorder=7)
 from matplotlib.colors import LogNorm
 FD_CMAP="YlOrRd"; FD_NORM=LogNorm(vmin=0.1,vmax=30)
 a.scatter(S0.lon,S0.lat,s=1.2,c="#9A9A9A",lw=0,zorder=5)
 a.scatter(Sf.lon,Sf.lat,s=5,c=Sf.fdpy.clip(0.1,30),cmap=FD_CMAP,norm=FD_NORM,lw=0.2,ec=INK,zorder=6)
 a.scatter(Tt.lon,Tt.lat,s=14,facecolors="none",ec=TIDE,lw=0.6,zorder=7)   # tidal sensors with floods: green ring, as in panel c
-cax=axes_mm(fig,16,66,24,2.0); cb=plt.colorbar(plt.cm.ScalarMappable(cmap=FD_CMAP,norm=FD_NORM),cax=cax,orientation="horizontal",ticks=[0.1,1,10,30]); cb.ax.set_xticklabels(["0.1","1","10","30"]); cb.set_label("Flood days per year at sensor",fontsize=5.5,labelpad=1); cb.ax.tick_params(labelsize=5,length=2,pad=1); cb.outline.set_linewidth(0.4)
+cax=axes_mm(fig,16,69,24,2.0); cb=plt.colorbar(plt.cm.ScalarMappable(cmap=FD_CMAP,norm=FD_NORM),cax=cax,orientation="horizontal",ticks=[0.1,1,10,30]); cb.ax.set_xticklabels(["0.1","1","10","30"]); cb.set_label("Flood days per year at sensor",fontsize=6.5,labelpad=1); cb.ax.tick_params(labelsize=6,length=2,pad=1); cb.outline.set_linewidth(0.4)
 a.set_xlim(-74.19,-73.72); a.set_ylim(40.53,40.92); a.set_aspect(1/np.cos(np.radians(40.7)))
 a.set_xticks([-74.1,-74.0,-73.9,-73.8]); a.set_yticks([40.6,40.7,40.8,40.9]); a.set_xlabel("Longitude (°E)"); a.set_ylabel("Latitude (°N)")
 for s_ in ("top","right"): a.spines[s_].set_visible(True)
 h=[Patch(fc=SURGE10,label="Surge, 1-in-10 yr (2.1 m)"),Patch(fc=SURGE100,label="Surge, 1-in-100 yr (3.2 m)"),Patch(fc=SURGE1000,label="Surge, 1-in-1,000 yr (4.6 m)"),
-   Patch(fc=RAIN_MOD,label="Rain, ≈1-in-18 yr"),Patch(fc=RAIN_EXT,label="Rain, ≈1-in-458 yr"),Patch(fc=TIDE,label="Tide at +3 ft sea level"),
-   Line2D([],[],marker="o",ls="",mfc="#9A9A9A",mec="#9A9A9A",ms=1.8,label=f"FloodNet sensor, no flood (n = {len(S0)})"),Line2D([],[],marker="o",ls="",mfc="#FC8D59",mec=INK,mew=0.2,ms=2.8,label=f"Sensor with floods, by days per year (n = {len(Sf)})"),Line2D([],[],marker="o",ls="",mfc="none",mec=TIDE,ms=4.2,mew=0.6,label=f"Tidal sensor with floods (n = {len(Tt)})"),
+   Patch(fc=RAIN_MOD,label="Rain, moderate scenario (2.13 in h⁻¹)"),Patch(fc=RAIN_EXT,label="Rain, extreme scenario (3.66 in h⁻¹)"),Patch(fc=TIDE,label="Tide at +3 ft sea level"),
+   Line2D([],[],marker="o",ls="",mfc="#9A9A9A",mec="#9A9A9A",ms=1.8,label=f"FloodNet sensor, no flood (n = {len(S0)})"),Line2D([],[],marker="o",ls="",mfc="#FC8D59",mec=INK,mew=0.2,ms=2.8,label=f"Sensor with floods (n = {len(Sf)})"),Line2D([],[],marker="o",ls="",mfc="none",mec=TIDE,ms=4.2,mew=0.6,label=f"Tidal sensor with floods (n = {len(Tt)})"),
    Line2D([],[],color="#8C8C8C",lw=0.6,label="Subway route"),Line2D([],[],color=INK,ls=(0,(4,2)),lw=0.6,label="Surge modelled east of line")]
-a.legend(handles=h,loc="upper left",handlelength=1.0,labelspacing=0.25)
+a.legend(handles=h,loc="upper left",handlelength=1.0,labelspacing=0.25,prop={"family":["Arial","DejaVu Sans"],"size":plt.rcParams["legend.fontsize"]})   # DejaVu Sans supplies the superscript minus, which Arial lacks
 panel(a,"a",dx=-9)
-# ---------------- b: flood probability by rain intensity
-b=axes_mm(fig,117,70,59,36)
-R=N["flood_rate_by_bin"]; keys=["0-0.5","0.5-1.0","1.0-1.75","1.75-2.5"]; vals=[100*R[k] for k in keys]; nb=N["sensor_days_by_bin"]
-b.bar(range(4),vals,color=["#C6DBEF","#6BAED6","#2171B5","#08306B"],width=0.7,label="any depth")
-BD=N["flood_rate_band_by_bin"]["any"]; lo_=[100*BD[k]["p10"] for k in keys]; hi_=[100*BD[k]["p90"] for k in keys]
-b.errorbar(np.arange(4)-0.22,vals,yerr=[np.array(vals)-np.array(lo_),np.array(hi_)-np.array(vals)],fmt="none",ecolor=INK,elinewidth=0.6,capsize=1.5,label="10th–90th percentile\nacross sensors")
-v12=[100*N["flood_rate_by_bin_by_depth"]["12in"][k] for k in keys]
-b.bar(range(4),v12,color="white",ec=INK,lw=0.5,width=0.32,hatch="//////",label="≥1 ft")
-for i,v in enumerate(vals): b.text(i+0.12 if i!=2 else i+0.06,v+1,f"{v:.1f}%",ha="left" if i in (1,3) else "center",va="bottom",fontsize=6)   # bin 3 label kept clear of the design line
-for i in (2,3): b.text(i,v12[i]+0.8,f"{v12[i]:.1f}%",ha="center",va="bottom",fontsize=5.5,color=INK,bbox=dict(fc="white",ec="none",pad=0.4))
-b.axvline(2.5,color=PROT,ls="--",lw=0.7); b.text(2.42,66,"sewer design\nintensity",color=PROT,ha="right",va="top",fontsize=6)
-b.set_xticks(range(4)); b.set_xticklabels(["<0.5","0.5–1","1–1.75","1.75–2.5"]); b.set_ylim(0,86)
-b.set_xlabel("Maximum hourly rain at sensor (in h$^{-1}$)"); b.set_ylabel("Flood probability per rainy day (%)")
-SST=json.load(open("nc_storm_stats.json"))["fixed_network"]
-b.text(0.02,0.98,f"{N['flood_days']} flood days on {N['sensor_days']:,}\nrainy sensor-days; {100*N['flood_days_below_design']:.0f}% below design\nhourly ({100*N['flood_days_ge12in_below_design']:.0f}% of the {N['flood_days_ge12in']} at ≥1 ft);\nfive storms give {100*SST['share_top5']:.0f}% of\nflooding (2024–26)",transform=b.transAxes,ha="left",va="top",fontsize=6)
-b.legend(loc="upper left",bbox_to_anchor=(0.0,0.66),handlelength=1.2,borderaxespad=0.2)
-panel(b,"b",dx=-10)
-# ---------------- c: frequency ladder (one row per layer of panel a, in its colours; Sandy as a reference event)
-c=axes_mm(fig,137.6,8,38.4,44)   # row labels start at b's left edge (y-axis label), right edge with b
+# ---------------- b: frequency ladder (one row per layer of panel a, in its colours; Sandy as a reference event)
+b=axes_mm(fig,137.6,11,38.4,92)   # right column, full height of the map; the flood probability by rain intensity is Extended Data Fig. 1c
 # every row is a frequency at a place; circles = any depth, triangles = at least 1 ft (0.3 m)
 # fill: "full" observed, "left" (half) estimated from observed rates, "none" modelled or statistical
 fd=lambda lab,dk: N[f"flood_days_per_sensor_year_{lab}_{dk}"]
@@ -103,23 +86,34 @@ rows=[("Tidal sensors",fd("tidal","any")["pooled"],fd("tidal","12in")["pooled"],
       ("Surge, 1-in-1,000-yr level",0.001,None,None,SURGE1000,"o","none")]
 rows=sorted(rows,key=lambda r:-r[1])
 XMIN=7e-4
+# flood days per year at each sensor (as nc_data.py section 1): the rates are strongly skewed, so the sensor rows show every sensor as a tick
+Ev=nc_events.load(); Ev["t"]=pd.to_datetime(Ev.flood_start_time).dt.tz_localize("UTC").dt.tz_convert("America/New_York").dt.tz_localize(None); END=Ev.t.max().normalize()
+Sr=nc_events.sensors(); Sr["yrs"]=((pd.to_datetime(Sr.get("date_removed"),errors="coerce").fillna(END).clip(upper=END)-pd.to_datetime(Sr.date_installed,errors="coerce")).dt.days/365.25).clip(lower=0)
+Sr=Sr[Sr.yrs>=0.5]; Sr["nd"]=Sr.sensor_id.map(Ev.groupby("sensor_id").t.apply(lambda t:t.dt.normalize().nunique())).fillna(0); Sr["tidal"]=Sr.tidally_influenced.eq("Yes")
+SENS={}
+for lab,key,m in (("Tidal sensors","tidal",Sr.tidal),("Non-tidal sensors","nontidal",~Sr.tidal)):
+    assert abs(Sr.nd[m].sum()/Sr.yrs[m].sum()-fd(key,"any")["pooled"])<1e-9 and int(m.sum())==fd(key,"any")["n_sensors"]   # same sensors and days as nc_numbers.json
+    r=(Sr.nd[m]/Sr.yrs[m]).to_numpy(); SENS[lab]=(r[r>0],float((r==0).mean())); print(f"{lab}: {len(r)} sensors, {100*(r==0).mean():.0f}% no flood, max {r.max():.1f} flood days per year")
 for i,(lab,x,x12,iqr,col,mk,fill) in enumerate(rows):
     y=len(rows)-1-i
-    if iqr: lo,hi=max(iqr[0],XMIN*1.05),iqr[1]; c.plot([lo,hi],[y,y],color=col,lw=0.8,solid_capstyle="butt",alpha=0.55)
+    if iqr: lo,hi=max(iqr[0],XMIN*1.05),iqr[1]; b.plot([lo,hi],[y,y],color=col,lw=0.8,solid_capstyle="butt",alpha=0.55)
+    if lab in SENS:
+        b.vlines(SENS[lab][0],y-0.24,y+0.24,color=col,lw=0.3,alpha=0.7)
+        b.text(XMIN*1.25,y+0.1,f"{100*SENS[lab][1]:.0f}% with no flood",color=col,fontsize=6,ha="left",va="bottom")
     kw=dict(mfc=col if fill=="full" else "white",mfcalt="white",fillstyle="full" if fill!="left" else "left",mec=col,mew=1.3 if col==SURGE1000 else 0.8,ls="")
     if fill=="left": kw.update(mfc=col)
-    c.plot([x],[y],marker=mk,ms=3.5 if mk=="o" else 3,**kw)
-    if x12: c.plot([x12],[y],marker="^",ms=3.5,**kw)
-c.set_xscale("log"); c.set_xlim(XMIN,60); c.set_ylim(-0.7,len(rows)-0.3)
-c.set_yticks(range(len(rows))); c.set_yticklabels([r[0] for r in rows][::-1]); c.tick_params(axis="y",length=0)
-c.set_xlabel("Floods per year at a place"); c.grid(axis="x",which="major")
-top=c.secondary_xaxis("top",functions=(lambda x:1/np.maximum(x,1e-9),lambda x:1/np.maximum(x,1e-9)))
-top.set_xticks([1000,100,10,1]); top.set_xticklabels(["1,000","100","10","1"]); top.set_xlabel("Return period (yr)",labelpad=2); top.tick_params(labelsize=6)
+    b.plot([x],[y],marker=mk,ms=3.5 if mk=="o" else 3,**kw)
+    if x12: b.plot([x12],[y],marker="^",ms=3.5,**kw)
+b.set_xscale("log"); b.set_xlim(XMIN,120); b.set_ylim(-0.7,len(rows)-0.3)   # the most flooded tidal sensor records about 90 flood days per year
+b.set_yticks(range(len(rows))); b.set_yticklabels([r[0] for r in rows][::-1]); b.tick_params(axis="y",length=0)
+b.set_xlabel("Floods per year at a place"); b.xaxis.set_major_locator(plt.matplotlib.ticker.LogLocator(base=10,numticks=12)); b.grid(axis="x",which="major")   # a label at every decade
+top=b.secondary_xaxis("top",functions=(lambda x:1/np.maximum(x,1e-9),lambda x:1/np.maximum(x,1e-9)))
+top.set_xticks([1000,100,10,1]); top.set_xticklabels(["1,000","100","10","1"]); top.set_xlabel("Return period (yr)",labelpad=2); top.tick_params(labelsize=7)
 ys=[len(rows)-1-i for i,r in enumerate(rows) if r[0].startswith("Surge") or r[0].startswith("Sandy")]
 bm=N["battery_max_since_2020"]
-c.legend(handles=[Line2D([],[],marker="o",ls="",mfc=INK,mec=INK,ms=3,label="any depth"),Line2D([],[],marker="^",ls="",mfc=INK,mec=INK,ms=3,label="≥1 ft"),
-                  Line2D([],[],marker="s",ls="",mfc=INK,mec=INK,ms=2.8,label="observed"),Line2D([],[],marker="s",ls="",mfc=INK,mfcalt="white",fillstyle="left",mec=INK,ms=2.8,mew=0.7,label="estimated"),
-                  Line2D([],[],marker="s",ls="",mfc="white",mec=INK,ms=2.8,mew=0.7,label="modelled")],   # fill keys drawn as squares so they are not read as the circle (any depth) key
-         loc="center right",bbox_to_anchor=(1.0,0.43),ncol=1,handletextpad=0.2,borderaxespad=0.1,labelspacing=0.15,fontsize=5.5)
-panel(c,"c",dx=-30.6)   # same x as the b letter (117 - 10 mm)
+b.legend(handles=[Line2D([],[],marker="o",ls="",mfc=INK,mec=INK,ms=3.8,label="any depth"),Line2D([],[],marker="^",ls="",mfc=INK,mec=INK,ms=3.8,label="≥1 ft"),
+                  Line2D([],[],marker="s",ls="",mfc=INK,mec=INK,ms=3.5,label="observed"),Line2D([],[],marker="s",ls="",mfc=INK,mfcalt="white",fillstyle="left",mec=INK,ms=3.5,mew=0.7,label="estimated"),
+                  Line2D([],[],marker="s",ls="",mfc="white",mec=INK,ms=3.5,mew=0.7,label="modelled")],   # fill keys drawn as squares so they are not read as the circle (any depth) key
+         loc="lower right",ncol=1,handletextpad=0.3,borderaxespad=0.3,labelspacing=0.3,fontsize=8)
+panel(b,"b",dx=-30.6,dy=11)   # level with the a letter, above the return-period axis label
 import os; save(fig,"Fig1",outdirs=tuple(os.environ["FIG_OUTDIR"].split(",")) if os.environ.get("FIG_OUTDIR") else ("figures",))

@@ -16,12 +16,12 @@ fig=plt.figure(figsize=(FULL,56*MM))
 a=axes_mm(fig,14,12,46,38)
 stack(a,xg,[pct(AAIg[g],"neutral") for g in labs],[pct(AAIg[g],"nopolicy") for g in labs],[pct(AAIg[g],"cap") for g in labs],[pct(AAIg[g],"upper") for g in labs])
 a.set_xticks(xg); a.set_xticklabels(qlab); a.set_ylim(0,100); a.set_xlabel("LMI share of tract (%)"); a.set_ylabel("Share of annual surge loss (%)")
-a.legend(handles=LEG_STACK,loc="upper left",bbox_to_anchor=(1.02,1.0),fontsize=5.5); panel(a,"a",dx=-12)
+a.legend(handles=LEG_STACK,loc="upper left",bbox_to_anchor=(1.02,1.0),fontsize=6.5); panel(a,"a",dx=-12)
 b=axes_mm(fig,112,12,64,38)
 for vals,lab,mk,col,mf in (([100*TK_LMI[g] for g in labs],"Take-up in 1-in-100-yr footprint","o",PROT,PROT),
                             ([pct(AAIg[g],"upper") for g in labs],"Insurable share, upper bound","s",PROT,"white"),
                             ([pct(AAIg[g],"full_stat") for g in labs],"Ceiling: full take-up at statutory cap","^",SURGE10,"white")):
     b.plot(xg,vals,"-",color=col,lw=0.6,alpha=0.6); b.plot(xg,vals,mk,ms=3.2,mfc=mf,mec=col,mew=0.8,ls="",label=lab)
-b.set_xticks(xg); b.set_xticklabels(qlab); b.set_ylim(0,100); b.set_xlabel("Low- and moderate-income (LMI) share of tract (%)"); b.set_ylabel("%"); b.grid(axis="y"); b.legend(loc="lower right",fontsize=5.5)
+b.set_xticks(xg); b.set_xticklabels(qlab); b.set_ylim(0,100); b.set_xlabel("Low- and moderate-income (LMI) share of tract (%)"); b.set_ylabel("%"); b.grid(axis="y"); b.legend(loc="lower right",fontsize=6.5)
 panel(b,"b",dx=-12)
 save(fig,"SI_Fig3",outdirs=("figures",))

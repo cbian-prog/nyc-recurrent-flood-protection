@@ -9,7 +9,7 @@ Rain footprint outside the flood zone: area / basement lots / underground statio
 Rain footprint outside the flood zone: area / basement lots / underground stations,2015 preliminary FIRM; rainfall moderate (current sea level),"79% / 85% (2,487 of 2,927) / 12 of 12"
 Rain footprint outside the flood zone: area / basement lots / underground stations,Either map; rainfall moderate (current sea level),"78% / 85% (2,481 of 2,927) / 12 of 12"
 Rain footprint outside the flood zone: area / basement lots / underground stations,Modelled 1-in-100-yr reach; rainfall moderate (current sea level); surge model domain,"80% / 85% (2,127 of 2,493) / 12 of 12"
-Flood days below 1.75 in/h (hourly),"storm-day bootstrap, 95% interval",93% (88–98%); at 1 ft 70% (44–86%)
+Flood days below 1.75 in h⁻¹ (hourly),"storm-day bootstrap, 95% interval",93% (88–98%); at 1 ft 70% (44–86%)
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall extreme (2080 sea level, used); surge-side if ≥25% of value inside the 1-in-100-yr reach",88% / 18%; 1.4% vs 18.3%
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall extreme (2080 sea level, used); surge-side if ≥50% of value inside the 1-in-100-yr reach",90% / 24%; 1.7% vs 20.0%
 Rain-side share of rain loss / of NFIP contracts; expected insurable share rain side vs surge side,"rainfall extreme (2080 sea level, used); surge-side if ≥75% of value inside the 1-in-100-yr reach",92% / 34%; 2.0% vs 20.1%

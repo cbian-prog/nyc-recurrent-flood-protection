@@ -43,7 +43,7 @@ a.scatter(U.lon[up&~us],U.lat[up&~us],s=9,marker="s",c=RAIN_EXT,ec=INK,lw=0.4,zo
 a.scatter(U.lon[us&~up],U.lat[us&~up],s=9,marker="s",c=SURGE100,ec=INK,lw=0.4,zorder=6)
 a.scatter(U.lon[us&up],U.lat[us&up],s=9,marker="s",c=SANDY,ec=INK,lw=0.4,zorder=7)
 a.plot([-74.12,-74.12],[40.53,40.655],color=INK,ls=(0,(4,2)),lw=0.6,zorder=4.5)
-a.text(-74.115,40.535,"surge modelled\neast of this line",fontsize=5,color=INK,ha="left",va="bottom",zorder=8)
+a.text(-74.115,40.535,"surge modelled\neast of this line",fontsize=6,color=INK,ha="left",va="bottom",zorder=8)
 a.set_xlim(-74.19,-73.72); a.set_ylim(40.53,40.92); a.set_aspect(1/np.cos(np.radians(40.7)))
 a.set_xticks([-74.1,-74.0,-73.9,-73.8]); a.set_yticks([40.6,40.7,40.8,40.9]); a.set_xlabel("Longitude (°E)"); a.set_ylabel("Latitude (°N)")
 for s_ in ("top","right"): a.spines[s_].set_visible(True)
@@ -59,9 +59,9 @@ b=axes_mm(fig,117,70,59,36); AC=F["annual_cum"]; rpd=np.array(AC["rp"]); SH=F["a
 for k,col,lab,ls in (("loss",SURGE10,"Structure loss","-"),("basement_lots",RAIN_EXT,"Basement lots","-"),("entrances",PROT,"Station entrances","--")):
     b.plot(rpd,100*np.array(AC[k]),ls,color=col,lw=1.0,label=lab)
 b.set_xscale("log"); b.set_xlim(1,1e4); b.set_ylim(0,100); b.set_xlabel("Surge return period (yr)"); b.set_ylabel("Share of annual average\nfrom more frequent events (%)"); b.grid(which="major")
-b.axvline(50,color="#9A9A9A",lw=0.5,ls=":"); b.text(1.3,97,"events more frequent than\n1-in-50 yr: lots %d%%, loss %d%%,\nentrances %d%%"%(round(100*SH["basement_lots"]["50"]),round(100*SH["loss"]["50"]),round(100*SH["entrances"]["50"])),fontsize=5.5,va="top")
-b.axvline(139,color=SANDY,ls=":",lw=0.7); b.text(150,4,"Sandy",color=SANDY,fontsize=5.5,va="bottom")
-b.legend(loc="lower right",fontsize=5.5)
+b.axvline(50,color="#9A9A9A",lw=0.5,ls=":"); b.text(1.3,97,"events more frequent\nthan 1-in-50 yr:\nlots %d%%, loss %d%%,\nentrances %d%%"%(round(100*SH["basement_lots"]["50"]),round(100*SH["loss"]["50"]),round(100*SH["entrances"]["50"])),fontsize=6.5,va="top")
+b.axvline(139,color=SANDY,ls=":",lw=0.7); b.text(150,4,"Sandy",color=SANDY,fontsize=6.5,va="bottom")
+b.legend(loc="center right",fontsize=6.5)   # clear of the Sandy label
 panel(b,"b",dx=-10)
 # ---- c: model against model, same depth thresholds, where surge is modelled
 c=axes_mm(fig,117,10,59,40); S_=ME["surge"]; R_=ME["rain"]
@@ -69,11 +69,11 @@ c.plot(S_["rp"],np.array(S_["4in"])/1e3,"-",color=SURGE100,lw=1.0,label="Surge, 
 c.plot(S_["rp"],np.array(S_["12in"])/1e3,"--",color=SURGE100,lw=1.0,label="Surge, ≥1 ft")
 for k_,col in (("moderate",RAIN_MOD),("extreme",RAIN_EXT)):
     c.plot([R_[k_]["rp"]],[R_[k_]["4in"]/1e3],"o",color=col,ms=3.5); c.plot([R_[k_]["rp"]],[R_[k_]["12in"]/1e3],"^",mfc="white",mec=col,mew=0.8,ms=3.5)
-c.text(R_["moderate"]["rp"]*1.15,R_["moderate"]["4in"]/1e3+1.2,"Rain, moderate",color=RAIN_MOD,fontsize=5.5,va="bottom")
-c.text(R_["extreme"]["rp"]*0.85,R_["extreme"]["4in"]/1e3+1.5,"Rain, extreme",color=RAIN_EXT,fontsize=5.5,va="bottom",ha="right")
+c.text(R_["moderate"]["rp"]*1.3,0.3,"Rain, moderate",color=RAIN_MOD,fontsize=6.5,va="bottom")   # below the surge curves
+c.text(R_["extreme"]["rp"]*1.25,R_["extreme"]["12in"]/1e3-1.5,"Rain, extreme",color=RAIN_EXT,fontsize=6.5,va="top",ha="right")   # below the markers, clear of the surge curves
 c.legend(handles=[Line2D([],[],color=SURGE100,lw=1.0,label="Surge, ≥4 in"),Line2D([],[],color=SURGE100,lw=1.0,ls="--",label="Surge, ≥1 ft"),
                   Line2D([],[],marker="o",ls="",color=INK,ms=3,label="Rain scenario, ≥4 in"),Line2D([],[],marker="^",ls="",mfc="white",mec=INK,mew=0.8,ms=3,label="Rain scenario, ≥1 ft")],
-         loc="upper left",fontsize=5.5)
+         loc="upper left",fontsize=6.5)
 c.set_xscale("log"); c.set_xlim(2,1000); c.set_ylim(0,45); c.set_xlabel("Return period (yr)"); c.set_ylabel("Basement lots in\nmodelled footprint (thousand)"); c.grid(which="major")
 panel(c,"c",dx=-10)
 save(fig,"Fig2")

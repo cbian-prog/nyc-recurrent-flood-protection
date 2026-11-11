@@ -60,7 +60,7 @@ for _ in range(2000):
     k=g_all.loc[rng.choice(days,len(days))]; bs.append(k.b.sum()/k.n.sum()); bs12.append(k.b12.sum()/max(k.n12.sum(),1))
 _SS=json.load(open("nc_storm_stats.json"))   # one source for these intervals: the storm-day bootstrap in nc_storm_stats.py
 OUT["below_design_ci"]=dict(any=_SS["below_design_ci95"],ge12in=_SS["below_design_1ft_ci95"])
-rows.append(("Flood days below 1.75 in/h (hourly)","storm-day bootstrap, 95% interval",f"{100*(F.pmax<=1.75).mean():.0f}% ({100*OUT['below_design_ci']['any'][0]:.0f}–{100*OUT['below_design_ci']['any'][1]:.0f}%); at 1 ft {100*(F[F.dmax>=12].pmax<=1.75).mean():.0f}% ({100*OUT['below_design_ci']['ge12in'][0]:.0f}–{100*OUT['below_design_ci']['ge12in'][1]:.0f}%)"))
+rows.append(("Flood days below 1.75 in h⁻¹ (hourly)","storm-day bootstrap, 95% interval",f"{100*(F.pmax<=1.75).mean():.0f}% ({100*OUT['below_design_ci']['any'][0]:.0f}–{100*OUT['below_design_ci']['any'][1]:.0f}%); at 1 ft {100*(F[F.dmax>=12].pmax<=1.75).mean():.0f}% ({100*OUT['below_design_ci']['ge12in'][0]:.0f}–{100*OUT['below_design_ci']['ge12in'][1]:.0f}%)"))
 print("bootstrap",OUT["below_design_ci"])
 # ---- 4. rain-side / surge-side split
 bg=s.cbfips.astype(str).str[:12].values

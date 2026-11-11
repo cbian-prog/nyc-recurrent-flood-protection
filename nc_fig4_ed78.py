@@ -15,18 +15,18 @@ LEG_STACK=[Patch(fc=C_PAID,label="Paid (expected)"),Patch(fc=C_NOP,label="Gap: n
 fig=plt.figure(figsize=(FULL,78*MM))
 b=axes_mm(fig,12,14,44,46); x=np.arange(len(RPS)); L=[EV[r]["loss"]/1e9 for r in RPS]; R=[EV[r]["upper"]/1e9 for r in RPS]
 b.bar(x,L,0.62,color=SURGE1000,ec=SURGE100,lw=0.5,label="Modelled loss"); b.bar(x,R,0.62,color=PROT,label="NFIP cover (upper bound)")
-for i in range(len(RPS)): b.text(i,L[i]+0.6,f"{100*R[i]/L[i]:.0f}%",ha="center",va="bottom",fontsize=6)
+for i in range(len(RPS)): b.text(i,L[i]+0.6,f"{100*R[i]/L[i]:.0f}%",ha="center",va="bottom",fontsize=7)
 b.set_xticks(x); b.set_xticklabels([f"{r:,}" for r in RPS]); b.set_ylim(0,max(L)*1.45); b.set_xlabel("Surge return period (yr)"); b.set_ylabel("Event structure loss (USD bn)"); b.legend(loc="upper left")
 panel(b,"a",dx=-10,dy=10)
 c=axes_mm(fig,72,14,44,46); rp_grid=1/aeps; m=(rp_grid>=5)&(rp_grid<=2000); Lg=np.maximum(interp(tot["loss"]),1)
 for k,lab,col,ls in [("upper","Current, upper bound","black","-"),("neutral","Current, expected",PROT,"-"),("full_local","Full take-up, local cover",PROT_LIGHT,"--"),("full_stat","Full take-up, statutory cap",PROT_LIGHT,":")]:
     c.semilogx(rp_grid[m],(100*interp(tot[k])/Lg)[m],ls,color=col,lw=1.0 if col=="black" else 0.9,label=lab)
-c.set_ylim(0,100); c.set_xlim(5,2000); c.set_xlabel("Surge return period (yr)"); c.set_ylabel("Insurable share of loss (%)"); c.grid(which="major"); c.legend(loc="upper right",borderaxespad=0.1)
+c.set_ylim(0,100); c.set_xlim(5,2000); c.set_xlabel("Surge return period (yr)"); c.set_ylabel("Insurable share of loss (%)"); c.grid(which="major"); c.legend(loc="lower left",bbox_to_anchor=(0,1.02),borderaxespad=0)   # above the axes, clear of the curves
 panel(c,"b",dx=-10,dy=10)
 d=axes_mm(fig,132,14,44,46); rows=[EV[rp] for rp in RPS]+[AAI]; xd=np.arange(len(rows))
 stack(d,xd,[pct(r,"neutral") for r in rows],[pct(r,"nopolicy") for r in rows],[pct(r,"cap") for r in rows],[pct(r,"upper") for r in rows])
 d.set_xticks(xd); d.set_xticklabels([f"{r:,}" for r in RPS]+["AAI"]); d.set_ylim(0,100); d.set_ylabel("Share of loss (%)"); d.set_xlabel("Surge return period (yr)")
-d.legend(handles=LEG_STACK,loc="upper left",bbox_to_anchor=(0.0,1.18),ncol=2,columnspacing=0.8)
+d.legend(handles=LEG_STACK,loc="lower left",bbox_to_anchor=(-0.32,1.02),borderaxespad=0,ncol=2,columnspacing=0.8)   # starts left of the axes to stay inside the page
 panel(d,"c",dx=-10,dy=10)
 save(fig,"Fig4")
 # =========================================================== Extended Data Fig. 7
@@ -41,9 +41,9 @@ dext=[Dt.c,Dt.c+Dm.shape[1]*Dt.a,Dt.f+Dm.shape[0]*Dt.e,Dt.f]; base=np.where((Dm=
 # Extended Data Fig. 4: policies and Sandy claims; borough take-up panel dropped 2026-11-04, income panels moved to the SI 2026-11-07, block-group map dropped 2026-11-08 (not discussed in the text)
 fig=plt.figure(figsize=(FULL,56*MM))
 a=axes_mm(fig,13,10,66,40); labs_=list(E7["cover_classes"]); n=np.array([E7["cover_classes"][k] for k in labs_])/1e3; cv=[E7["cover_bn"][k] for k in labs_]
-a.bar(range(5),n,0.62,color=PROT); [a.text(i,n[i]+0.4,f"{cv[i]:.1f} bn",ha="center",va="bottom",fontsize=6) for i in range(5)]
+a.bar(range(5),n,0.62,color=PROT); [a.text(i,n[i]+0.4,f"{cv[i]:.1f} bn",ha="center",va="bottom",fontsize=7) for i in range(5)]
 a.set_xticks(range(5)); a.set_xticklabels(labs_); a.set_xlabel("Building cover per contract (USD)"); a.set_ylabel("Contracts (thousand)"); a.set_ylim(0,n.max()*1.25); panel(a,"a",dx=-10)
 c=axes_mm(fig,104,10,73,40); mb=[E7["sandy_modelled_bn"][k] for k in order]; pb=[E7["sandy_claims_building_bn"][k] for k in order]; pc=[E7["sandy_claims_contents_bn"][k] for k in order]
 xx=np.arange(5); c.bar(xx-0.2,mb,0.4,color=SURGE1000,ec=SURGE100,lw=0.5,label="Modelled structure loss"); c.bar(xx+0.2,pb,0.4,color=PROT,label="NFIP building claims"); c.bar(xx+0.2,pc,0.4,bottom=pb,color=PROT_LIGHT,label="NFIP contents claims")
-c.set_xticks(xx); c.set_xticklabels(order,rotation=30,ha="right",rotation_mode="anchor"); c.set_ylabel("Hurricane Sandy (USD bn)"); c.legend(loc="upper right",fontsize=5.5); panel(c,"b",dx=-10)
+c.set_xticks(xx); c.set_xticklabels(order,rotation=30,ha="right",rotation_mode="anchor"); c.set_ylabel("Hurricane Sandy (USD bn)"); c.legend(loc="upper right",fontsize=6.5); panel(c,"b",dx=-10)
 save(fig,"ED_Fig4",outdirs=("figures",))

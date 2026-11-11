@@ -69,13 +69,13 @@ fig=plt.figure(figsize=(FULL,56*MM)); cols={"random":PROT,"map":"#7F7F7F","ranke
 a=axes_mm(fig,13,7,76,42); x=np.arange(4); labs=["1-in-10","1-in-100","1-in-1,000","AAI"]
 for k_,(name,lab) in enumerate((("random","Random (used)"),("map","Map-informed"),("ranked","Highest loss first"))):
     o=out["surge"][name]; v=[o["event_paid_pct"]["10"],o["event_paid_pct"]["100"],o["event_paid_pct"]["1000"],o["aai_paid_pct"]]
-    a.bar(x+(k_-1)*0.26,v,0.26,color=cols[name],ec=INK,lw=0.3,label=lab); [a.text(x[i]+(k_-1)*0.26,v[i]+1,f"{v[i]:.0f}",ha="center",va="bottom",fontsize=5.5) for i in range(4)]
-a.set_xticks(x); a.set_xticklabels(labs); a.set_ylabel("Expected NFIP payment (% of surge loss)"); a.set_ylim(0,max(60,a.get_ylim()[1])); a.legend(loc="upper right"); a.grid(axis="y")
+    a.bar(x+(k_-1)*0.26,v,0.26,color=cols[name],ec=INK,lw=0.3,label=lab); [a.text(x[i]+(k_-1)*0.26,v[i]+1,f"{v[i]:.0f}",ha="center",va="bottom",fontsize=6.5) for i in range(4)]
+a.set_xticks(x); a.set_xticklabels(labs); a.set_ylabel("Expected NFIP payment\n(% of surge loss)"); a.set_ylim(0,max(60,a.get_ylim()[1])); a.legend(loc="upper right"); a.grid(axis="y")
 panel(a,"a",dx=-11)
 b=axes_mm(fig,106,7,70,42); x=np.arange(2)
 for k_,(name,lab,col) in enumerate((("random","Random (used)",PROT),("map","Map-informed","#7F7F7F"),("ranked_surge","Highest surge loss first","#C9C9C9"),("ranked_rain","Highest rain loss first","white"))):
     v=[out["rain"][name]["rain_side"],out["rain"][name]["surge_side"]]
-    b.bar(x+(k_-1.5)*0.2,v,0.2,color=col,ec=INK,lw=0.3,label=lab); [b.text(x[i]+(k_-1.5)*0.2,v[i]+0.4,f"{v[i]:.1f}",ha="center",va="bottom",fontsize=5) for i in range(2)]
+    b.bar(x+(k_-1.5)*0.2,v,0.2,color=col,ec=INK,lw=0.3,label=lab); [b.text(x[i]+(k_-1.5)*0.2,v[i]+0.4,f"{v[i]:.1f}",ha="center",va="bottom",fontsize=6) for i in range(2)]
 b.set_xticks(x); b.set_xticklabels(["Rain-side block groups","Surge-side block groups"]); b.set_ylabel("Expected payment (% of rain loss)"); b.legend(loc="upper left"); b.grid(axis="y")
 b.set_ylim(0,max(out["rain"][n]["surge_side"] for n in out["rain"])*1.45)
 panel(b,"b",dx=-11)
